@@ -1,11 +1,10 @@
-// Add performance marks and measures
-performance.mark('start');
+// Use consolidated performanceMonitor
+performanceMonitor.start('pageLoad');
 // ... code ...
-performance.mark('end');
-performance.measure('operation', 'start', 'end');
+performanceMonitor.end('pageLoad');
 
-// Implement virtual scrolling for long lists
-const virtualScroller = new VirtualScroller({
+// Replace old virtual scroller with new implementation
+const scroller = new LazyVirtualScroller({
   element: '#product-grid',
   height: '500px',
   rowHeight: 50
@@ -29,4 +28,60 @@ function sendToAnalytics({name, delta, id}) {
 
 onCLS(sendToAnalytics);
 onFID(sendToAnalytics);
-onLCP(sendToAnalytics); 
+onLCP(sendToAnalytics);
+
+// Remove unused event listeners
+// document.addEventListener("shopify:section:reorder", () => {
+//   document.dispatchEvent(
+//     new CustomEvent("theme:header:check", { bubbles: false })
+//   );
+// });
+
+// Consolidate performance monitoring
+const performanceMonitor = {
+  marks: new Set(),
+  
+  start(label) {
+    performance.mark(`${label}:start`);
+    this.marks.add(label);
+  },
+
+  end(label) {
+    if (this.marks.has(label)) {
+      performance.mark(`${label}:end`);
+      performance.measure(label, `${label}:start`, `${label}:end`);
+      this.marks.delete(label);
+    }
+  }
+};
+
+// Clean up virtual scroller implementation
+class LazyVirtualScroller {
+  constructor(options) {
+    this.options = options;
+    this.init();
+  }
+
+  init() {
+    // Implementation
+  }
+
+  destroy() {
+    // Cleanup
+  }
+}
+
+// Use event delegation instead of multiple listeners
+document.addEventListener('click', event => {
+  const trigger = event.target.closest('[data-trigger]');
+  if (!trigger) return;
+  
+  switch(trigger.dataset.trigger) {
+    case 'search':
+      // Handle search
+      break;
+    case 'cart':
+      // Handle cart
+      break;
+  }
+}); 

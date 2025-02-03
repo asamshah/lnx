@@ -112,12 +112,7 @@
 
   <!-- Inline critical CSS -->
   <style>
-    /* Critical CSS for above-the-fold content */
-    .site-header,
-    .hero-section,
-    .main-nav {
-      /* Add critical styles here */
-    }
+    {% render 'critical-css' %}
   </style>
 
   {% render 'css-variables' %}
@@ -130,7 +125,6 @@
     onload="this.media='all'"
   >
 
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
   {{ 'font-settings.css' | asset_url | stylesheet_tag }}
   
   {{ 'radiant.css' | asset_url | stylesheet_tag }}
@@ -357,11 +351,8 @@
 
   {% section 'popups' %}
 
-  <div class="search--popdown">
-    {% render 'search-predictive', version: 'search-popdown' %}
-  </div>
-  <div class="search--popdown">
-    {% render 'search-predictive', version: 'search-popdown-desktop' %}
+  <div class="search--popdown" data-predictive-search>
+    {% render 'search-predictive' %}
   </div>
 
   {% render 'template-swatch' %}

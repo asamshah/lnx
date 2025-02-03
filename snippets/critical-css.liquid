@@ -1,0 +1,23 @@
+/* Critical path CSS */
+.site-header,
+.hero-section,
+.main-nav {
+  contain: layout style;
+}
+
+/* Font declarations */
+@font-face {
+  font-family: 'Aileron';
+  src: url('{{ "Aileron-Light.woff2" | asset_url }}') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+/* Core layout styles */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Remove all non-critical styles */ 
