@@ -1,0 +1,123 @@
+{% assign ss = section.settings %}
+{% assign collection = ss.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if meta_obj.instagram_posts == blank and section.blocks.size == 0 %}
+  <style>
+    #shopify-section-{{ section.id }} {
+      display: none !important;
+    }
+  </style>
+{% else %}
+
+  <div class="product-instagram">
+    
+    {% if ss.title != blank %}
+      <div class="wrapper--full">
+        <h2 class="title">{{ ss.title }}</h2>
+      </div>
+    {% endif %}
+
+    <div class="product-instagram-slider-wrapper">
+      <div class="product-instagram__list" data-keen-slider='{
+        "id": "productInstagramSlider",
+        "slides": {
+          "perView": 4,
+          "spacing": 35
+        },
+        "arrows": false,
+        "loop": true,
+        "responsive": [
+          {
+            "breakpoint": "834px",
+            "settings": {
+              "slides": {
+                "perView": 1.6,
+                "origin": "center",
+                "spacing": 10
+              }
+            }
+          }
+        ]
+      }'>
+
+        {% if meta_obj.instagram_posts != blank %}
+          {% for post in meta_obj.instagram_posts.value %}
+      
+            <div class="product-instagram__item">
+              <div class="image-area">
+                {% render 'picture-element', image: post.image_video, size: '400x', alt: post.insta_handle, extra_class: 'object-fit--cover' %}
+              </div>
+              <div class="info-area flex f-a-center f-j-between">
+                <a href="https://www.instagram.com/{{ post.insta_handle }}" target="_blank">{{ post.insta_handle }}</a>
+                {% render 'icon-instagram' %}
+              </div>
+            </div>
+
+          {% endfor %}
+        {% elsif section.blocks.size != 0 %}
+          {% for block in section.blocks %}
+            {% assign bs = block.settings %}
+
+            <div class="product-instagram__item">
+              <div class="image-area">
+                {% render 'picture-element', image: bs.image, size: '400x', alt: bs.handle, extra_class: 'object-fit--cover' %}
+              </div>
+              <div class="info-area flex f-a-center f-j-between">
+                <a href="https://www.instagram.com/{{ bs.handle }}" target="_blank">{{ bs.handle }}</a>
+                {% render 'icon-instagram' %}
+              </div>
+            </div>
+
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product Instagram",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Product associated collection"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "As worn by you"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "post",
+      "name": "Post",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "handle",
+          "label": "Instagram handle"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product",
+      "name": "Product Instagram"
+    }
+  ]
+}
+
+{% endschema %}

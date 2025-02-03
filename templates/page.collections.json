@@ -1,0 +1,706 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "70a77280-0544-452a-8196-b101fda81a98": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007218414__70a77280-0544-452a-8196-b101fda81a98-168417197791224ddb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>ABOUT COLLECTIONS<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007218414__70a77280-0544-452a-8196-b101fda81a98-168417197791224ddb-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>We are proud to say the majority of our footwear collections are 100% UK made. The aim (in the near future) is to manufacture all our footwear in the UK. Below we detail where each of our collections are made. There are many more UK made collections launching this year, check back soon.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007218414__70a77280-0544-452a-8196-b101fda81a98-168417197791224ddb-1",
+        "template--16790007218414__70a77280-0544-452a-8196-b101fda81a98-168417197791224ddb-2"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-about-collections-page_ef377ee9-fd71-4f16-a5d3-27d621428b90.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3ba4c867-145a-4efc-9a6b-8a0e820bbfe7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "255e6157-7405-46b5-a454-ac7348a1d533": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-uk-city-collection-boots-shoes-sneakers.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "CITY",
+            "richtext": "<p>Blake stitched. Made in England. Hi-shine leather.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-city",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "fb5b86d9-c3e9-46ca-be1f-61a52e8eb5f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-mens-chelsea-boots_55305df6-e3ff-4a9f-a1fa-16590b97848e.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "ARTISAN",
+            "richtext": "<p>Blake stitched. Made in England.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-artisan",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "19c440cf-9cbc-4225-bf8b-47b70bb6e521": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-uk-popular-leather-boots-shoes-brogues.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "CHARLES F. STEAD",
+            "richtext": "<p>Blake stitched. Made in England. Charles F Stead leather.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-steads",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "255e6157-7405-46b5-a454-ac7348a1d533",
+        "fb5b86d9-c3e9-46ca-be1f-61a52e8eb5f3",
+        "19c440cf-9cbc-4225-bf8b-47b70bb6e521"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "5591d96a-3cab-450d-8990-0c80808b4843": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1d91948c-0d19-48fa-9a68-4a74eac28c4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-womens-sneakers_cc62873c-79c7-4a39-aae7-7a4bd2830587.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "WOMEN'S",
+            "title": "SNEAKERS",
+            "richtext": "<p>Sidewall stitched. Made in England.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/womens-sneakers",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "43ed4ecf-81fe-4bb2-9587-548cbeea86b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_socks_made_in_england_9_af3ae86f-5391-4f14-8465-fe1bf282c02a.jpg",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "UNISEX",
+            "title": "SOCKS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/socks",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "ac7187d5-6d1e-4d96-9c2c-6eae5cc8fbf6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX-Clothing-Sweaters-T-Shirts-Gifts_e3ce2eb3-1bbd-4efb-a098-5d5cb721ff09.jpg",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "UNISEX",
+            "title": "SWEATSHIRTS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/clothing",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1d91948c-0d19-48fa-9a68-4a74eac28c4f",
+        "43ed4ecf-81fe-4bb2-9587-548cbeea86b8",
+        "ac7187d5-6d1e-4d96-9c2c-6eae5cc8fbf6"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "f17c8cd6-8197-4a2f-9e01-7661b1604728": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1373376c-9e95-4d95-be2d-4795d26c42e8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-uk-craftsman-collection-boots-shoes.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "CRAFTSMAN",
+            "richtext": "<p>Goodyear welted. Made in England.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-craftsman",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "9ddeb6de-de95-454a-9e48-671db65366de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-spring-summer-24-mens_9aafea55-0367-4b03-ad8f-466d68a0d29c.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "CASUAL",
+            "richtext": "<p>Mixture of moccasin and cement lasted. Made in Portugal.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-casual",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "e3524944-ee01-410d-b09d-8356821a3828": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-weekend-collection-boots-shoes.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "WEEKEND",
+            "richtext": "<p>Goodyear welted. Made in India.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-weekend",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1373376c-9e95-4d95-be2d-4795d26c42e8",
+        "9ddeb6de-de95-454a-9e48-671db65366de",
+        "e3524944-ee01-410d-b09d-8356821a3828"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "b985f712-4da7-4634-a978-1165e294a49b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "c38eecba-6f93-4001-b1fa-1c170361002c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-spring-summer-24-womens_bf09e42c-aec1-48fc-84ae-93b89a3cb0bd.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "WOMEN'S",
+            "title": "CASUAL",
+            "richtext": "<p>Mixture of moccasin and cement lasted. Made in Portugal.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/womens-casual",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "f4592c11-b9fc-4cdb-a6db-79835dd2b769": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/edgeworth-conker-distressed-leather-vibram-outdoor-boot-8.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "WOMEN'S",
+            "title": "ARTISAN",
+            "richtext": "<p>Blake stitched. Made in England. <\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "COMING SOON",
+            "link": "#",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "eb93b63a-4c47-4eba-8acd-2ddc5beb201f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLES_F_STEAD_LANX_54_849a48f8-28ca-49de-9e7b-7eefc91adb4b.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "WOMEN'S",
+            "title": "CHARLES F STEAD",
+            "richtext": "<p>Blake stitched. Made in England. Charles F Stead leather.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "COMING SOON",
+            "link": "#",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "c38eecba-6f93-4001-b1fa-1c170361002c",
+        "f4592c11-b9fc-4cdb-a6db-79835dd2b769",
+        "eb93b63a-4c47-4eba-8acd-2ddc5beb201f"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "section_custom_content_hWj9nh": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_jBMiVa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shireburn-brown-distressed-oxford-brogues-2_68fcc0ab-7641-4962-a733-8e53441537aa.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "1985",
+            "richtext": "<p>Cement lasted. Made in India. High-grade leather, nubuck and suedes.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-1985",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_C3nPfD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-mens-sneakers_a7faf1fb-8987-414e-aae1-f7d2c79aee98.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "SNEAKERS",
+            "richtext": "<p>Sidewall stitched. Made in England.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-sneakers",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_yLpekX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX-Boots-Shoes-Womens-All_9cec03a8-e783-4962-a34a-f43c1648eefc.jpg",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "WOMEN'S",
+            "title": "1992",
+            "richtext": "<p>Cement lasted. Made in India. High-grade leather, nubuck and suedes.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/womens-1992",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_jBMiVa",
+        "image_C3nPfD",
+        "image_yLpekX"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "18bae1f4-4231-4beb-a742-b6ed8a8b8933": {
+      "type": "section-custom-content",
+      "blocks": {
+        "c2771505-0271-44d5-8688-2b5af222a1e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-365-mens-rugged-walking-shoes.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "MEN'S",
+            "title": "365",
+            "richtext": "<p>Cement lasted. Vibram sole unit. Made in India. Water-resistant leather.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/mens-365-collection",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "7a04763b-16f8-482b-9271-01f7fcb76854": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-wool-hats-made-in-england-blog-9.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "HATS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop",
+            "link": "shopify:\/\/collections\/hats",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "11840d94-a3e0-4803-b86e-36f95c53eca5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-365-womens-rugged-walking-boots.png",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "WOMEN'S",
+            "title": "365",
+            "richtext": "<p>Cement lasted. Vibram sole unit. Made in India. Water-resistant leather.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP",
+            "link": "shopify:\/\/collections\/womens-365-collection",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "c2771505-0271-44d5-8688-2b5af222a1e4",
+        "7a04763b-16f8-482b-9271-01f7fcb76854",
+        "11840d94-a3e0-4803-b86e-36f95c53eca5"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "section_custom_content_jAALtd": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_UMciy9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-traders-rugby-shirt-lancashire-england-uk-3.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "RUGBY SHIRT",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/blogs\/news\/made-in-england-rugby-shirts",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_ajrp44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog-made-in-lancashire-leather-belts-handmade.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "LEATHER BELTS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/belts",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_Pei4Td": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-hats-made-in-england-gift-guide.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "HATS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/hats",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_UMciy9",
+        "image_ajrp44",
+        "image_Pei4Td"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "section_custom_content_X7ePPy": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Mdpf3H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/salterforth-grey-wool-scarf-made-in-england-7.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "SCARVES",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/scarves",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_yAFXgx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/made-in-england-leather-wallet-2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "WALLETS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/wallets",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "image_9KALty": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/langden-khaki-made-in-england-rucksack-backpack-2_c43bde01-9893-412f-a8b2-92697dc7a3d8.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "UNISEX",
+            "title": "BAGS",
+            "richtext": "<p>Made in England<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/bags",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_Mdpf3H",
+        "image_yAFXgx",
+        "image_9KALty"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 28,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "1b620383-7638-4919-b94a-e102f8d517c8": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16806137692398__1b620383-7638-4919-b94a-e102f8d517c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To learn more about our partners and where our shoes are made, use the link below.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "template--16806137692398__1b620383-7638-4919-b94a-e102f8d517c8-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "PARTNERS",
+            "link_1": "shopify:\/\/pages\/manufacturing",
+            "button_size_1": "btn--large btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16806137692398__1b620383-7638-4919-b94a-e102f8d517c8-text-1",
+        "template--16806137692398__1b620383-7638-4919-b94a-e102f8d517c8-button-1"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 58
+      }
+    }
+  },
+  "order": [
+    "main",
+    "70a77280-0544-452a-8196-b101fda81a98",
+    "3ba4c867-145a-4efc-9a6b-8a0e820bbfe7",
+    "5591d96a-3cab-450d-8990-0c80808b4843",
+    "f17c8cd6-8197-4a2f-9e01-7661b1604728",
+    "b985f712-4da7-4634-a978-1165e294a49b",
+    "section_custom_content_hWj9nh",
+    "18bae1f4-4231-4beb-a742-b6ed8a8b8933",
+    "section_custom_content_jAALtd",
+    "section_custom_content_X7ePPy",
+    "1b620383-7638-4919-b94a-e102f8d517c8"
+  ]
+}

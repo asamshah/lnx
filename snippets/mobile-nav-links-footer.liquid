@@ -1,0 +1,17 @@
+<ul class="bottom-menu flex f-a-center f-j-between">
+
+  {% if secondary_menu.links != blank %}
+    {% for link in secondary_menu.links %}
+      <li>
+        <a href="{{ link.url }}" class="nav-item">
+          <span>{{ link.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  {% endif %}
+
+  <li class="">
+    <a href="/account">{% render 'icon-account' %}</a>
+  </li>
+
+</ul>

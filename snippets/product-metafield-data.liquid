@@ -1,0 +1,38 @@
+<!-- /snippets/product-metafield-data.liquid -->
+{% liquid
+    assign metafields = product.metafields.footwear
+%}
+{% if metafields.material or metafields.construction or metafields.last or metafields.sole %}
+
+<div class="product__metafields">
+    {% if metafields.material %}
+    <div class="product__meta__info">
+        <span>Material</span>
+        <span>:</span>
+        <span>{{ metafields.material.value }}</span>
+    </div>
+    {% endif %}
+    {% if metafields.construction %}
+    <div class="product__meta__info">
+        <span>Construction</span>
+        <span>:</span>
+        <span>{{ metafields.construction.value }}</span>
+    </div>
+    {% endif %}
+    {% if metafields.last %}
+    <div class="product__meta__info">
+        <span>Last</span>
+        <span>:</span>
+        <span>{{ metafields.last.value }}</span>
+    </div>
+    {% endif %}
+    {% if metafields.sole %}
+    <div class="product__meta__info">
+        <span>Sole</span>
+        <span>:</span>
+        <span>{{ metafields.sole.value }}</span>
+    </div>
+    {% endif %}
+    <div></div>
+</div>
+{% endif %}

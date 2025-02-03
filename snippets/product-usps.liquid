@@ -1,0 +1,39 @@
+{% assign collection = ss.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if bs.display_on == 'desktop-only' %}
+  <style>
+    @media screen and (max-width: 834px) {
+      .product-usps--product-block {
+        display: none !important;
+      }
+    }
+  </style>
+{% endif %}
+{% if bs.display_on == 'tablet-only' %}
+  <style>
+    @media screen and (min-width: 835px) {
+      .product-usps--product-block {
+        display: none !important;
+      }
+    }
+  </style>
+{% endif %}
+
+<div class="product-usps product-usps--product-block">
+  <div class="wrapper--full">
+    
+    {% if meta_obj.usps != blank %}
+      <ul class="product-usps__list">
+        {% for product_usp in meta_obj.usps.value %}
+          <li class="product-usps__item">
+            {{ product_usp.usp_icon.value | image_url: width: 70 | image_tag: loading: 'lazy', alt: product_usp.usp_text }}
+            <span>{{ product_usp.usp_text }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+
+    {% endif %}
+
+  </div>
+</div>

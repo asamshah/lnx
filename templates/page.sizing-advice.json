@@ -1,0 +1,1114 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "05f74876-ddc9-4587-a9e6-ad0c82e8aa42": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007382254__05f74876-ddc9-4587-a9e6-ad0c82e8aa42-1684340757f8fed7eb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>SIZING ADVICE<\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007382254__05f74876-ddc9-4587-a9e6-ad0c82e8aa42-1684340757f8fed7eb-1"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-about-us-page_ae0a6583-8aad-423b-87ce-c4a353348810.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4e63657d-a3f5-47d7-bffc-1ac5e6e069d5": {
+      "type": "section-richtext",
+      "blocks": {
+        "089d7f6a-49cf-46e1-87aa-29429bd744fa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The information below has been created to help customers find the perfect fitting shoe. We encourage you to spend 5-10 minutes reading this page to learn how LANX shoes fit. If after reading the below advice you still need more assistance please don't hesitate to  contact us.  You can email sizing questions to hello@lanxshoes.com, or if you would prefer a call with a member of our team to chat about sizing please email us to request a suitable day\/time.<\/p><p><\/p><p>It is worth noting the sizing advice below is also on each individual product page. When you find a shoe you like scroll down the same product page to read the 'Sizing Advice' section under the product images.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "089d7f6a-49cf-46e1-87aa-29429bd744fa"
+      ],
+      "custom_css": [],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "d5765c48-c494-4786-a5df-9766898af420": {
+      "type": "section-html",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "html": "<style>\n  .custom-container {\n    display: flex;\n    flex-direction: column;\n    font-size: 1rem;\n  }\n\n  .heading-container {\n    margin: 1rem 0 0 0;\ntext-align: center;\n  }\n\nh5{font-family: var(--FONT-STACK-ACCENT);\nfont-weight: var(--FONT-WEIGHT-ACCENT);\nfont-size: 1.2rem;}\n\n  td{\n    border: 1px dashed #b2b2b2;\n    text-align: center;\nwidth: 33.3%;\n  }\n\n<\/style>\n\n<div class=\"custom-container\">\n  <div>\n    <div class=\"heading-container\"><h5>MEN'S SIZE CHART<\/h5><\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7<\/td>\n          <td>40<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8<\/td>\n          <td>41<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9<\/td>\n          <td>42<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10<\/td>\n          <td>43<\/td>\n        <\/tr>\n        <tr>\n          <td>10<\/td>\n          <td>11<\/td>\n          <td>44<\/td>\n        <\/tr>\n        <tr>\n          <td>11<\/td>\n          <td>12<\/td>\n          <td>45<\/td>\n        <\/tr>\n        <tr>\n          <td>12<\/td>\n          <td>13<\/td>\n          <td>46<\/td>\n        <\/tr>\n        <tr>\n          <td>13<\/td>\n          <td>14<\/td>\n          <td>47<\/td>\n        <\/tr>\n        <tr>\n          <td>14<\/td>\n          <td>15<\/td>\n          <td>48<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n\n  <div>\n    <div class=\"heading-container\">\n      <h5>WOMEN'S SHOES &amp; BOOT SIZE CHART<\/h5>\n    <\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>3<\/td>\n          <td>4<\/td>\n          <td>36<\/td>\n        <\/tr>\n        <tr>\n          <td>4<\/td>\n          <td>5.5<\/td>\n          <td>37<\/td>\n        <\/tr>\n        <tr>\n          <td>5<\/td>\n          <td>6.5<\/td>\n          <td>38<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7.5<\/td>\n          <td>39<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8.5<\/td>\n          <td>40.5<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9.5<\/td>\n          <td>42<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10.5<\/td>\n          <td>43<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n\n  <div>\n    <div class=\"heading-container\"><h5>WOMEN'S SNEAKER SIZE CHART<\/h5><\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>3<\/td>\n          <td>4<\/td>\n          <td>36<\/td>\n        <\/tr>\n        <tr>\n          <td>4<\/td>\n          <td>5<\/td>\n          <td>37<\/td>\n        <\/tr>\n        <tr>\n          <td>5<\/td>\n          <td>6<\/td>\n          <td>38<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7<\/td>\n          <td>39<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8<\/td>\n          <td>40<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9<\/td>\n          <td>41<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10<\/td>\n          <td>42<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n<\/div>",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1e30f6d5-b69d-4ee0-94da-1b2e8c21a131": {
+      "type": "section-richtext",
+      "blocks": {
+        "aaac4257-71fa-40ae-b43b-172d3448add0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SIZING FAQS<\/p>",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "aaac4257-71fa-40ae-b43b-172d3448add0"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--secondary",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 60,
+        "padding_bottom": 18
+      }
+    },
+    "527d6075-9794-4f41-a79a-e437ae68b9da": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "template--16792189829358__527d6075-9794-4f41-a79a-e437ae68b9da-1683713542231b8cdb-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>If you are not familiar with UK sizes please use the conversion chart below to discover which UK size matches your EU or US shoe size.<\/p>",
+            "text_size": 3
+          }
+        },
+        "d386032f-cf6b-4435-92e7-c6e15b17030b": {
+          "type": "html",
+          "settings": {
+            "html": "<style>\n  .custom-container {\n    display: flex;\n    flex-direction: column;\n    font-size: 1rem;\n  }\n\n  .heading-container {\n    margin: 2rem 0 1rem 0;\ntext-align: center;\n  }\n\nh5{font-family: var(--FONT-STACK-ACCENT);\nfont-weight: var(--FONT-WEIGHT-ACCENT);\nfont-size: calc(var(--font-4) * var(--FONT-ADJUST-ACCENT));\nletter-spacing: var(--FONT-SPACING-ACCENT)}\n\n  td{\n    border: 1px dashed #b2b2b2;\n    text-align: center;\nwidth: 33.3%;\n  }\n\n<\/style>\n\n<div class=\"custom-container\">\n  <div>\n    <div class=\"heading-container\"><h5>MEN'S SIZE CHART<\/h5><\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7<\/td>\n          <td>40<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8<\/td>\n          <td>41<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9<\/td>\n          <td>42<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10<\/td>\n          <td>43<\/td>\n        <\/tr>\n        <tr>\n          <td>10<\/td>\n          <td>11<\/td>\n          <td>44<\/td>\n        <\/tr>\n        <tr>\n          <td>11<\/td>\n          <td>12<\/td>\n          <td>45<\/td>\n        <\/tr>\n        <tr>\n          <td>12<\/td>\n          <td>13<\/td>\n          <td>46<\/td>\n        <\/tr>\n        <tr>\n          <td>13<\/td>\n          <td>14<\/td>\n          <td>47<\/td>\n        <\/tr>\n        <tr>\n          <td>14<\/td>\n          <td>15<\/td>\n          <td>48<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n\n  <div>\n    <div class=\"heading-container\">\n      <h5>WOMEN'S SHOES &amp; BOOT SIZE CHART<\/h5>\n    <\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>3<\/td>\n          <td>4<\/td>\n          <td>36<\/td>\n        <\/tr>\n        <tr>\n          <td>4<\/td>\n          <td>5.5<\/td>\n          <td>37<\/td>\n        <\/tr>\n        <tr>\n          <td>5<\/td>\n          <td>6.5<\/td>\n          <td>38<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7.5<\/td>\n          <td>39<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8.5<\/td>\n          <td>40.5<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9.5<\/td>\n          <td>42<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10.5<\/td>\n          <td>43<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n\n  <div>\n    <div class=\"heading-container\"><h5>WOMEN'S SNEAKER SIZE CHART<\/h5><\/div>\n    <table>\n        <tr>\n          <td>UK<\/td>\n          <td>US<\/td>\n          <td>EU<\/td>\n        <\/tr>\n        <tr>\n          <td>3<\/td>\n          <td>4<\/td>\n          <td>36<\/td>\n        <\/tr>\n        <tr>\n          <td>4<\/td>\n          <td>5<\/td>\n          <td>37<\/td>\n        <\/tr>\n        <tr>\n          <td>5<\/td>\n          <td>6<\/td>\n          <td>38<\/td>\n        <\/tr>\n        <tr>\n          <td>6<\/td>\n          <td>7<\/td>\n          <td>39<\/td>\n        <\/tr>\n        <tr>\n          <td>7<\/td>\n          <td>8<\/td>\n          <td>40<\/td>\n        <\/tr>\n        <tr>\n          <td>8<\/td>\n          <td>9<\/td>\n          <td>41<\/td>\n        <\/tr>\n        <tr>\n          <td>9<\/td>\n          <td>10<\/td>\n          <td>42<\/td>\n        <\/tr>\n    <\/table>\n  <\/div>\n<\/div>"
+          }
+        },
+        "172cbc22-a84f-40df-b047-762bf4037821": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "html": "<style>\n\n.custom-container { \ndisplay: grid;\ngrid-template-columns: flex flex;\ngrid-template-rows: flex flex;\n\n\n.container-elements-wide { \ngrid-column: 1 \/ 3;\npadding: 2rem 0\n}\n\n.heading-container{\nheight: 3rem;\n}\n\n<\/style>\n\n<div class=\"custom-container\">\n\n<div class=\"container-elements-wide\">\n<div class=\"heading-container\"><h6>MEN'S SIZE CHART<\/h6><\/div>\n<table>\n<tbody>\n<tr>\n<td>UK<\/td>\n<td>US<\/td>\n<td>EU<\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>7<\/td>\n<td>40<\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>8<\/td>\n<td>41<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>9<\/td>\n<td>42<\/td>\n<\/tr>\n<tr>\n<td>9<\/td>\n<td>10<\/td>\n<td>43<\/td>\n<\/tr>\n<tr>\n<td>10<\/td>\n<td>11<\/td>\n<td>44<\/td>\n<\/tr>\n<tr>\n<td>11<\/td>\n<td>12<\/td>\n<td>45<\/td>\n<\/tr>\n<tr>\n<td>12<\/td>\n<td>13<\/td>\n<td>46<\/td>\n<\/tr>\n<tr>\n<td>13<\/td>\n<td>14<\/td>\n<td>47<\/td>\n<\/tr>\n<tr>\n<td>14<\/td>\n<td>15<\/td>\n<td>48<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n\n<div style=padding-right:0.5rem;>\n<div class=\"heading-container\"><h6>WOMEN'S SHOES &amp; BOOT SIZE CHART<\/h6><\/div>\n<table>\n<tbody>\n<tr>\n<td>UK<\/td>\n<td>US<\/td>\n<td>EU<\/td>\n<\/tr>\n<tr>\n<td>3<\/td>\n<td>4<\/td>\n<td>36<\/td>\n<\/tr>\n<tr>\n<td>4<\/td>\n<td>5.5<\/td>\n<td>37<\/td>\n<\/tr>\n<tr>\n<td>5<\/td>\n<td>6.5<\/td>\n<td>38<\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>7.5<\/td>\n<td>39<\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>8.5<\/td>\n<td>40.5<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>9.5<\/td>\n<td>42<\/td>\n<\/tr>\n<tr>\n<td>9<\/td>\n<td>10.5<\/td>\n<td>43<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n\n<div style=padding-left:0.5rem;>\n<div class=\"heading-container\"><h6>WOMEN'S SNEAKER SIZE CHART<\/h6><\/div>\n<table>\n<tbody>\n<tr>\n<td>UK<\/td>\n<td>US<\/td>\n<td>EU<\/td>\n<\/tr>\n<tr>\n<td>3<\/td>\n<td>4<\/td>\n<td>36<\/td>\n<\/tr>\n<tr>\n<td>4<\/td>\n<td>5<\/td>\n<td>37<\/td>\n<\/tr>\n<tr>\n<td>5<\/td>\n<td>6<\/td>\n<td>38<\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>7<\/td>\n<td>39<\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>8<\/td>\n<td>40<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>9<\/td>\n<td>41<\/td>\n<\/tr>\n<tr>\n<td>9<\/td>\n<td>10<\/td>\n<td>42<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16792189829358__527d6075-9794-4f41-a79a-e437ae68b9da-1683713542231b8cdb-0",
+        "d386032f-cf6b-4435-92e7-c6e15b17030b",
+        "172cbc22-a84f-40df-b047-762bf4037821"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: calc(var(--font-3) * var(--FONT-ADJUST-ACCENT));}",
+        ".accordion__wrapper {border: none;}"
+      ],
+      "settings": {
+        "title": "UK \/ EU \/ US Size Conversion Chart",
+        "heading_size": 4,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4176a810-4ff5-4eab-ae7b-c67ac0e54dc0": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-1": {
+          "type": "text",
+          "settings": {
+            "title": "I am a “D\/E\/F\/G\/H” fit in other British shoe brands, which LANX shoes should I buy?",
+            "content": "<p>These industry standard letters, which indicate shoe fittings, are commonly used by many British footwear brands. The meaning for each letter is as follows...<br\/><br\/><strong>MEN<\/strong><br\/>'E' - narrow<br\/>'F' - considered average<br\/>'G' - wide<br\/>'H' - extra wide<br\/><br\/><strong>WOMEN<\/strong><br\/>‘D' - standard<br\/>'E' wide<br\/>'F' extra wide.<br\/><br\/>On every individual product page we confirm the fitting in the Information section. Also further down this page we include sizing notes for each of the LANX shoe lasts, and how they compare to these industry standard letters which indicate shoe fittings.<\/p>"
+          }
+        },
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-2": {
+          "type": "text",
+          "settings": {
+            "title": "I am usually a size XYZ in another brands shoes, will I be the same XYZ size in LANX shoes?",
+            "content": "<p><em>We have used a size 9UK as an example...<\/em><\/p><p>The answer to this question depends on the fit of the 9UK shoe you are wearing from the other brand, and also the fit of the LANX shoes you intend to purchase. All brands have unique shoe fittings. For example, some brands have a slim fit and their 9UK may be closer to a 8.5UK in another brand. Or, some brands have a spacious fit and their 9UK may be closer to a 9.5UK in another brand. With regards to LANX shoes, please go to the product page of the shoes you like and then please read the notes on the same product page in the 'Sizing Advice' section. In this section we give you as much advice as possible which should assist you in finding the correct size.<\/p><p>We do encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our simple returns service.<\/p>"
+          }
+        },
+        "d6222f7e-a92a-44d1-903d-5ef1315f7bde": {
+          "type": "text",
+          "settings": {
+            "title": "Do LANX do wide fitting footwear?",
+            "content": "<p>At LANX we use many shoe lasts which have different fittings. For people with wider feet we would suggest the below...<\/p><p>Women's F fitting (extra wide) - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.width=F+-+Women%E2%80%99s&filter.v.availability=1&sort_by=manual\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.width=F+-+Women%E2%80%99s&filter.v.availability=1&sort_by=manual\">click here<\/a><\/p><p>Women's E fitting (wide) - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.width=E+-+Women%E2%80%99s&filter.v.availability=1&sort_by=manual\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.width=E+-+Women%E2%80%99s&filter.v.availability=1&sort_by=manual\">click here<\/a><\/p><p>Men's G fitting (wide) - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.width=G+-+Men%E2%80%99s&filter.v.availability=1&sort_by=manual\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.width=G+-+Men%E2%80%99s&filter.v.availability=1&sort_by=manual\">click here<\/a><\/p><p>Alternatively please purchase a full size up or half size up in the style you like and try these sizes out for fitting. In case the fit isn’t quite correct just send your shoes back and we will post you an exchange pair or process a refund. Worth noting that we offer free UK shipping and exchanges.<\/p>"
+          }
+        },
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-0": {
+          "type": "text",
+          "settings": {
+            "title": "My new LANX shoes are a bit snug, might they stretch and fit better?",
+            "content": "<p>We use excellent leather in all our footwear and more often than not our shoes will need to be broken in. Shoes that may feel snug at first will soften over time and you will get a better fit to the shape of your foot. If your new LANX shoes are only nipping a bit then it is likely you have a well fitted shoe and you should persevere breaking them in.<br\/><br\/>Your friendly and often very helpful local cobblers shop should also be able to stretch your shoes, to allow for a little extra room. This will help make them fit better. To find your local cobblers please visit the Society of Master Shoe Repairers website: <a href=\"https:\/\/www.somsr.com\/home\" target=\"_blank\"><strong>www.somsr.com\/home<\/strong><\/a><br\/><br\/>Shoe String will also be able to assist and advise. We divert all our shoe care enquiries to Shoe String, who are an independent UK business located in Market Harborough, England. They are experts in this field and best equipped to answer all shoe care questions. They can be contacted Monday-Friday, 9am-5pm, on either sales@shoestringuk.com or via 01858 467467. You can also visit their website  <a href=\"http:\/\/www.shoestringuk.com\/\" target=\"_blank\"><strong>www.shoestringuk.com<\/strong><\/a><\/p><p>When you do contact them please make them aware of the style of LANX shoes you have and the leather the shoe is made from, details of which can be found on the specific product page.<\/p>"
+          }
+        },
+        "d73906f7-fbd8-4583-9c2c-160495ddceb1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer free exchanges shipping?",
+            "content": "<p>Yes we do for UK customers. In case the fit isn’t quite correct just send your shoes back and we will post you an exchange pair free of charge. We also encourage customers that are undecided on size to purchase 2 pairs in different sizes and send 1 pair back using our <a href=\"https:\/\/lanxshoes.com\/pages\/returns-exchanges\"><strong>free UK exchanges service.<\/strong><\/a><\/p>"
+          }
+        },
+        "c5d10947-27e3-41aa-a34c-ef0ec224849b": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer half sizes?",
+            "content": "<p>Yes we do in some styles and sizes. <\/p><p>For men's footwear <a href=\"https:\/\/lanxshoes.com\/pages\/mens-sizes\"><strong>click here<\/strong><\/a><strong>.<\/strong><\/p><p>For women's footwear <a href=\"https:\/\/lanxshoes.com\/pages\/womens-sizes\"><strong>click here<\/strong><\/a><strong>.<\/strong><\/p>"
+          }
+        },
+        "6aac41fe-d0b7-4644-9244-b04a65f173f3": {
+          "type": "text",
+          "settings": {
+            "title": "Is it possible to shop by size?",
+            "content": "<p>Yes you can...<\/p><p>For men's footwear <a href=\"https:\/\/lanxshoes.com\/pages\/mens-sizes\"><strong>click here<\/strong><\/a><strong>.<\/strong><\/p><p>For women's footwear <a href=\"https:\/\/lanxshoes.com\/pages\/womens-sizes\"><strong>click here<\/strong><\/a><strong>.<\/strong><\/p>"
+          }
+        },
+        "44379d84-9c13-41bc-be41-249c7a328384": {
+          "type": "text",
+          "settings": {
+            "title": "What shoe last are the shoes I like built on?",
+            "content": "<p>On each product page (and further down this page) we list the shoe last each individual shoe is built on, plus the sizing guide for that particular shoe. All LANX shoes are built on a shoe last which gives shoes a distinctive shape, width and fit. For more information about shoe lasts please scroll down this page.<\/p>"
+          }
+        },
+        "9ff3f770-b616-4dea-a994-615c36ec106b": {
+          "type": "text",
+          "settings": {
+            "title": "I have plantar fasciitis so I need a pair of boots with good arch support. Do your boots have a curve in the sole for arch support?",
+            "content": "<p>Our shoes & boots are all made on an industry standard sole profile - this means that the footbed is not completely flat, it is slightly curved to ergonomically fit the profile of a standard foot. So, essentially there is a small amount of arch support, but if more support is needed then perhaps an orthotic insole would be needed. Our insoles technically can be removed from the shoes, however it is not advised. The insoles are glued onto the hard under layer, so removing them will leave this exposed for you to put your orthotics on top of, so comfort may well be compromised. It is also worth mentioning that once they have been removed they are not in a resalable condition and therefore cannot be returned. We have found that with some of our customers that wear orthotic insoles, because our shoes have a little bit of extra room sometimes orthotics can be placed on top of our existing insoles.<\/p>"
+          }
+        },
+        "eb106c96-c6ff-42a1-80cd-2fdd35578892": {
+          "type": "text",
+          "settings": {
+            "title": "Will I have enough space to put my orthotic insole in LANX shoes?",
+            "content": "<p>With regards to our leather brogues and boots - their insoles technically can be removed from the shoes, however it is not advised. The insoles are glued onto the hard under layer, so removing them will leave this exposed for you to put your orthotics on top of, so comfort may well be compromised.<\/p><p>It is also worth mentioning that once they have been removed they are not in a resalable condition and therefore cannot be returned.<\/p><p>We have found that with some of our customers that wear orthotic insoles, because our shoes have a little bit of extra room sometimes orthotics can be placed on top of our existing insoles.<\/p>"
+          }
+        },
+        "c7dc3863-ea87-4da0-b9e1-47de803aadcf": {
+          "type": "text",
+          "settings": {
+            "title": "Why do you have 'Mens' and 'Womens' shoes? Why not just Unisex shoes?",
+            "content": "<p>This topic is something that we have discussed at great length. Obviously our Men's and Women's shoes can be worn by anybody - they are timeless styles.<br\/><br\/>The biggest stumbling block is sizing, the structure for mens and womens shoe sizes are quite different. For example a womens size 6UK is different to a size 6uk mens (somewhere between a half and a full size difference.) Both sizes are globally accepted within their own sizing structure (Mens & Womens). but when you start to combine them (unisex sizing), that's where things start to get difficult.<br\/><br\/>We say this from experience, as we did for a while have combined unisex styles for men and women. We labelled the shoes as accurately as we could, to cater for both size structures, along with an explanation as to how they can expect the shoes to fit against their more familiar Men's or Women's sizing. Unfortunately the whole thing was a disaster and we had to revert back to the previous sizing structure, because it was much more widely recognized and accurate.<br\/><br\/>We also had to factor in international sizing too which adds a whole other realm. If we were to keep the unisex sizing structure, it's highly likely we’d hit a brick wall of never ending returns and exchanges, even with all the info on sizing in the description. We’ve noticed over the years that customers tend not to read this and opt for their usual size regardless.<br\/><br\/>To put it plainly, the only reason why we follow this sizing structure is that we want to give our online customers the best chance of receiving shoes that fit correctly and comfortably the first time round. The best chance we have to do this, is to follow the already recognised sizing structures. We are still a young company (circa 4 years old) so the risk of many returns\/exchanges because the sizes are not what people are used to, is a risk too great for us at this stage.<br\/><br\/>If you are looking at purchasing some shoes from a different sizing structure that you are used to, our advice is that:<br\/>• If you are familiar with the Women's size structure but you are looking at buying a shoe in the Men's section, we suggest that you purchase the size down.<br\/>• If you are familiar with the Men's size structure but you are looking at buying a shoe in the Women's section, we suggest that you purchase the size up.<br\/><br\/>Rest assured, we do have a free returns policy though if your shoes aren't quite the right size. Please see all info<a href=\"https:\/\/lanxshoes.com\/pages\/returns-exchanges\">here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-1",
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-2",
+        "d6222f7e-a92a-44d1-903d-5ef1315f7bde",
+        "template--16792189829358__4176a810-4ff5-4eab-ae7b-c67ac0e54dc0-1683719428426d5235-0",
+        "d73906f7-fbd8-4583-9c2c-160495ddceb1",
+        "c5d10947-27e3-41aa-a34c-ef0ec224849b",
+        "6aac41fe-d0b7-4644-9244-b04a65f173f3",
+        "44379d84-9c13-41bc-be41-249c7a328384",
+        "9ff3f770-b616-4dea-a994-615c36ec106b",
+        "eb106c96-c6ff-42a1-80cd-2fdd35578892",
+        "c7dc3863-ea87-4da0-b9e1-47de803aadcf"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 3,
+        "heading_size": 3,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "c11056df-fb79-4076-8c9a-23ba76f1eac9": {
+      "type": "section-richtext",
+      "blocks": {
+        "b71b413d-b1ed-4254-96c2-a54bb6b39307": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHOE LAST INFORMATION<\/p>",
+            "text_size": 7
+          }
+        },
+        "39e2ee80-0792-4b16-b9d1-4adc7c3ca57c": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 30,
+            "spacer_line_height": 1,
+            "show_line": false
+          }
+        },
+        "ce4ea654-3bcc-4c05-b4af-229ab2c8cf04": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below we talk about each of our shoe lasts and it’s probably worth us letting you know what a shoe last is before you read on. A shoe last is a 3-dimensional wooden or plastic mold. Every pair of LANX shoes is manufactured on a shoe last which gives it its distinctive shape, width and fit. All shoe lasts include the following dimensions; heel width, instep height and forefoot width. All shoes constructed on the same shoe last will be similar in shape and therefore fit. The various shoe lasts we use are listed below along with sizing advice for each. The shoe last used on each style of LANX shoe is stated on each individual product page, located in the 'Information & Sizing Advice' section.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "b71b413d-b1ed-4254-96c2-a54bb6b39307",
+        "39e2ee80-0792-4b16-b9d1-4adc7c3ca57c",
+        "ce4ea654-3bcc-4c05-b4af-229ab2c8cf04"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "07d65643-2e82-4844-882d-42931421da42": {
+      "type": "section-faq",
+      "blocks": {
+        "0646f97e-07cd-4017-b85b-5c17af3a9fa8": {
+          "type": "text",
+          "settings": {
+            "title": "LX-T | Tasker, Dutton, Mellor, Garstang, Alston",
+            "content": "<p>{{ page.metafields.last.lxt | metafield_tag }}<\/p><p>To see all styles built on the LX-T shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-T\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-T\">click here<\/a>.<\/p>"
+          }
+        },
+        "61525d07-8cc4-4e18-86fc-f251f1b53390": {
+          "type": "text",
+          "settings": {
+            "title": "LX-Y | Dinckley, Langho, Whalley",
+            "content": "<p>{{ page.metafields.last.lxy | metafield_tag }}<\/p><p>To see all styles built on the LX-Y shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-Y\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-Y\">click here<\/a>.<\/p>"
+          }
+        },
+        "8aec1b41-a092-42a3-8fc3-d81c403eaed0": {
+          "type": "text",
+          "settings": {
+            "title": "LX-A | Maudsley, Shireburn, Medley, Sabden",
+            "content": "<p>{{ page.metafields.last.lxa | metafield_tag }}<\/p><p>To see all styles built on the LX-A shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-A\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-A\">click here<\/a>.<\/p>"
+          }
+        },
+        "0b67d166-fc00-4a88-8ce1-b685a47f6bca": {
+          "type": "text",
+          "settings": {
+            "title": "LX-V | Ancoats",
+            "content": "<p>{{ page.metafields.last.lxv | metafield_tag }}<\/p><p>To see all styles built on the LX-V shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-V\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-V\">click here<\/a>.<\/p>"
+          }
+        },
+        "a49d59bb-bd16-43a8-8f07-ee5ac9e28167": {
+          "type": "text",
+          "settings": {
+            "title": "LX-W | Horwich",
+            "content": "<p>{{ page.metafields.last.lxw | metafield_tag }}<\/p><p>To see all styles built on the LX-W shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-W\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-W\">click here<\/a>.<\/p>"
+          }
+        },
+        "219e78c9-1b60-4103-894a-149732e729d9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-S | Mitton, Dibnah",
+            "content": "<p>{{ page.metafields.last.lxs | metafield_tag }}<\/p><p>To see all styles built on the LX-S shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-S\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-S\">click here<\/a>.<\/p>"
+          }
+        },
+        "d7ef0f86-7e66-4927-b6c0-8b0f009ccfea": {
+          "type": "text",
+          "settings": {
+            "title": "LX-B | Aspinall, Sawley, Hayhurst, Beaumont",
+            "content": "<p>{{ page.metafields.last.lxb | metafield_tag }}<\/p><p>To see all styles built on the LX-B shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-B\">click here<\/a>.<\/p>"
+          }
+        },
+        "f38b8bc6-f625-4b52-95af-c180f6b67138": {
+          "type": "text",
+          "settings": {
+            "title": "LX-K | Whitewell",
+            "content": "<p>{{ page.metafields.last.lxk | metafield_tag }}<\/p><p>To see all styles built on the LX-K shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-K\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-K\">click here<\/a>.<\/p>"
+          }
+        },
+        "69de97c9-2954-4df0-8c8c-3285499cebc9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-Z | Reed",
+            "content": "<p>{{ page.metafields.last.lxz | metafield_tag }}<\/p><p>To see all styles built on the LX-Z shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-Z\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-Z\">click here<\/a>.<\/p>"
+          }
+        },
+        "f6f9bbd2-6e8d-4175-a0b5-613c0f64e911": {
+          "type": "text",
+          "settings": {
+            "title": "LX-U | Chipping",
+            "content": "<p>{{ page.metafields.last.lxu | metafield_tag }}<\/p><p>To see all styles built on the LX-U shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-U\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-U\">click here<\/a>.<\/p>"
+          }
+        },
+        "721955c4-e650-4696-b041-634ea9508abe": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2N | Brinscall",
+            "content": "<p>{{ page.metafields.last.lx2n | metafield_tag }}<\/p><p>To see all styles built on the LX-2N shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2N\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2N\">click here<\/a>.<\/p>"
+          }
+        },
+        "b73c22ad-3760-4071-a93c-33f83eebc4b7": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2G | Grindleton, Timperley",
+            "content": "<p>{{ page.metafields.last.lx2g | metafield_tag }}<\/p><p>To see all styles built on the LX-2G shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2G\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2G\">click here<\/a>.<\/p>"
+          }
+        },
+        "2ff75d2e-3f9e-462e-b72c-beaa7fc72b67": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2K | Fence, Howgill",
+            "content": "<p>{{ page.metafields.last.lx2k | metafield_tag }}<\/p><p>To see all styles built on the LX-2K shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2K\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2K\">click here<\/a>.<\/p>"
+          }
+        },
+        "52ee6846-e5e3-4031-ad54-843b2d34df8e": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2O | Withnell",
+            "content": "<p>{{ page.metafields.last.lx2o | metafield_tag }}<\/p><p>To see all styles built on the LX-2O shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2O\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2O\">click here<\/a>.<\/p>"
+          }
+        },
+        "e0f88122-3419-47c4-a303-412b3918af32": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "LX-2B | Harwood",
+            "content": "<p>The feedback from our customers regarding this style is that the majority are purchasing a half or full size up (especially if intending to wear with thicker socks). In industry terms this style has a women’s D fitting. If you're unsure about which size is best for you, we suggest buying two pairs in different sizes and return the shoes you don't wish to keep using our very simple returns service. To see all styles built on the LX-2B shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2B\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2B\">click here<\/a>.<\/p>"
+          }
+        },
+        "bbea57c6-106e-4f94-abbc-562422d2b10d": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2H | Rishton, Hale",
+            "content": "<p>{{ page.metafields.last.lx2h | metafield_tag }}<\/p><p>To see all styles built on the LX-2H shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2H\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2H\">click here<\/a>.<\/p>"
+          }
+        },
+        "370f120a-0cba-44b3-b401-027951aaa6cd": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2C | Calder",
+            "content": "<p>{{ page.metafields.last.lx2c | metafield_tag }}<\/p><p>To see all styles built on the LX-2C shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2C\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2C\">click here<\/a>.<\/p>"
+          }
+        },
+        "c7fd0dbd-7e09-4c56-ab05-d85aab57b645": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2J | Bamber, Barley, Pike",
+            "content": "<p>{{ page.metafields.last.lx2j | metafield_tag }}<\/p><p>To see all styles built on the LX-2J shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2J\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2J\">click here<\/a>.<\/p>"
+          }
+        },
+        "b4098135-1fef-4a92-8ae9-b4516c6eb3df": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2F | Farndon",
+            "content": "<p>{{ page.metafields.last.lx2f | metafield_tag }}<\/p><p>To see all styles built on the LX-2F shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2F\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2F\">click here<\/a>.<\/p>"
+          }
+        },
+        "75bf7401-2aa9-4f10-9694-3f44c08d6dbc": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2I | Wiswell",
+            "content": "<p>{{ page.metafields.last.lx2i | metafield_tag }}<\/p><p>To see all styles built on the LX-2I shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2I\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2I\">click here<\/a>.<\/p>"
+          }
+        },
+        "8d7184e1-39a0-4162-aa5c-9d332484d2a9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2Y | Harwood",
+            "content": "<p>{{ page.metafields.last.lx2y | metafield_tag }}<\/p><p>To see all styles built on the LX-2Y shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2Y\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2Y\">click here<\/a>.<\/p>"
+          }
+        },
+        "cdd32d25-c681-48ad-855e-bc15f5c254fb": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2V | Ribchester, Malham, Pendle",
+            "content": "<p>{{ page.metafields.last.lx2v | metafield_tag }}<\/p><p>To see all styles built on the LX-2V shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2V\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2V\">click here<\/a>.<\/p>"
+          }
+        },
+        "69154b7f-7037-498b-81e9-6454c6b675e1": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2W | Edgworth, Hothersall",
+            "content": "<p>{{ page.metafields.last.lx2w | metafield_tag }}<\/p><p>To see all styles built on the LX-2W shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2W\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2W\">click here<\/a>.<\/p>"
+          }
+        },
+        "text_gzR7K9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2T | Bayley, Newton, Settle, Hoghton",
+            "content": "<p>{{ page.metafields.last.lx2t | metafield_tag }}<\/p><p>To see all styles built on the LX-2T shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2T\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.p.m.footwear.last=LX-2T\">click here<\/a>.<\/p>"
+          }
+        },
+        "text_6KUGr3": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2X | Brockhall",
+            "content": "<p>The feedback from our customers regarding this style is that they fit very spacious and therefore the majority of people are dropping a full size. In industry terms this style has a women’s E fitting. If you're unsure about which size is best for you, we suggest buying two pairs in different sizes and return the shoes you don't wish to keep using our very simple returns service.<\/p><p>To see all styles built on the LX-2T shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2T\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2T\">click here<\/a>.<\/p>"
+          }
+        },
+        "text_UYHYdY": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2Z | Lytham",
+            "content": "<p>We believe this style fits true to size, however if you are inbetween sizes we suggest buying a size down. We suggest this because generally people would prefer a loafer\/boat shoe to be fit snug to start with, so as\/when it does give a little through general wear it is less likely to slip off. In industry terms this style has a women’s D fitting. If you're unsure about which size is best for you, we suggest buying two pairs in different sizes and return the shoes you don't wish to keep using our very simple returns service.<\/p><p>To see all styles built on the LX-2T shoe last - <a href=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2Z\" title=\"https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.p.m.footwear.last=LX-2Z\">click here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0646f97e-07cd-4017-b85b-5c17af3a9fa8",
+        "61525d07-8cc4-4e18-86fc-f251f1b53390",
+        "8aec1b41-a092-42a3-8fc3-d81c403eaed0",
+        "0b67d166-fc00-4a88-8ce1-b685a47f6bca",
+        "a49d59bb-bd16-43a8-8f07-ee5ac9e28167",
+        "219e78c9-1b60-4103-894a-149732e729d9",
+        "d7ef0f86-7e66-4927-b6c0-8b0f009ccfea",
+        "f38b8bc6-f625-4b52-95af-c180f6b67138",
+        "69de97c9-2954-4df0-8c8c-3285499cebc9",
+        "f6f9bbd2-6e8d-4175-a0b5-613c0f64e911",
+        "721955c4-e650-4696-b041-634ea9508abe",
+        "b73c22ad-3760-4071-a93c-33f83eebc4b7",
+        "2ff75d2e-3f9e-462e-b72c-beaa7fc72b67",
+        "52ee6846-e5e3-4031-ad54-843b2d34df8e",
+        "e0f88122-3419-47c4-a303-412b3918af32",
+        "bbea57c6-106e-4f94-abbc-562422d2b10d",
+        "370f120a-0cba-44b3-b401-027951aaa6cd",
+        "c7fd0dbd-7e09-4c56-ab05-d85aab57b645",
+        "b4098135-1fef-4a92-8ae9-b4516c6eb3df",
+        "75bf7401-2aa9-4f10-9694-3f44c08d6dbc",
+        "8d7184e1-39a0-4162-aa5c-9d332484d2a9",
+        "cdd32d25-c681-48ad-855e-bc15f5c254fb",
+        "69154b7f-7037-498b-81e9-6454c6b675e1",
+        "text_gzR7K9",
+        "text_6KUGr3",
+        "text_UYHYdY"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 3,
+        "heading_size": 3,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "a08934ad-7228-446e-b1d8-7eec24b0c6cb": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "484bf686-7f0c-4a35-9973-48dab0078170": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>The feedback from our customers on this style is that they are a little bit spacious, so we recommend that you drop half a size. In industry terms LX-A shoe last has a ‘G’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. For further shape and fit advice please watch the below video.. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxa-last\"><strong>LX-A last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "7bbf72a3-9935-4053-b594-19eb5a5af026": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/tPjj7s8qSm0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "484bf686-7f0c-4a35-9973-48dab0078170",
+        "7bbf72a3-9935-4053-b594-19eb5a5af026"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-A | Maudsley, Shireburn, Simpson, Medley, Sabden",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "6348c980-0778-45a9-99c6-30a51d1d1020": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "1c640d3e-607c-4a73-8cb6-a0d1c6f51243": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>The feedback from our customers on this style is that they are a little bit spacious, so we recommend that you drop half a size. In industry terms LX-B shoe last has a ‘G’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. For further shape and fit advice please watch the below video. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxb-last\"><strong>LX-B last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "7c8dfd80-bf19-40a1-80c4-30a2dec38db9": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/dYyHYu9_NRo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1c640d3e-607c-4a73-8cb6-a0d1c6f51243",
+        "7c8dfd80-bf19-40a1-80c4-30a2dec38db9"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-B | Aspinall, Sawley, Hayhurst, Beaumont",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "865ca8fd-16a7-487f-891f-379ae93e55f0": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "bf9c15dc-214f-4996-88c2-82f51d185a1e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>We believe that this style fits true to size. In industry terms LX-K shoe last has an ‘E’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service.<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lxk-last\"><strong>LX-K last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "bf9c15dc-214f-4996-88c2-82f51d185a1e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-K | Whitewell",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "53b95e33-9f7c-4ad8-8475-4003553208a5": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "f4ecd8a9-eb61-456b-895a-5da4566b3a6e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>The feedback from our customers on this style is that they are a little bit spacious, so we recommend that you drop half a size. In industry terms LX-S shoe last has a ‘G’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. For further shape and fit advice please watch the below video. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxs-last\"><strong>LX-S last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "ec561358-1069-42c4-b54b-72efeded12d8": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Sx_ccQnjmYE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "f4ecd8a9-eb61-456b-895a-5da4566b3a6e",
+        "ec561358-1069-42c4-b54b-72efeded12d8"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-S | Mitton, Dibnah",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a1b7d902-97a2-4933-8ecd-b6e4bd1083e8": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "1742110e-042a-43a9-9b0a-702f6d9b2bb3": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>The feedback from our customers on this style is that they are a little bit spacious, so we recommend that you drop half a size. In industry terms LX-T shoe last has a ‘G’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. For further shape and fit advice please watch the below video.To view all our footwear built on<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lxt-last\"><strong>LX-T last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "d6cfb100-b665-42fa-9060-1da12d8bc0c1": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/UJficZTiuOc\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1742110e-042a-43a9-9b0a-702f6d9b2bb3",
+        "d6cfb100-b665-42fa-9060-1da12d8bc0c1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-T | Bayley, Tasker, Newton, Dutton, Mellor, Garstang, Alston",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "34174461-978b-46e0-89c0-82d616a410c0": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "adc3788f-8496-465f-944c-94c678151d45": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>We believe that this style fits true to size. In industry terms LX-U shoe last has an ‘E’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. <a href=\"https:\/\/lanxshoes.com\/collections\/lxu-last\"><strong>LX-U last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "adc3788f-8496-465f-944c-94c678151d45"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-U | Chipping",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "436ee329-f132-4949-943e-5b3114cd8375": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "358b1e57-9b6e-4881-8129-b4607e532e3b": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>The feedback from our customers on this style is that they are a little bit spacious, so we recommend that you drop half a size. In industry terms LX-V shoe last has a ‘G’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. For further shape and fit advice please watch the below video. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxv-last\"><strong>LX-V last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "24e2ae42-354c-48c0-955d-e50e83702161": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Q1PBLOFf7BY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "358b1e57-9b6e-4881-8129-b4607e532e3b",
+        "24e2ae42-354c-48c0-955d-e50e83702161"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-V | Ancoats, Sankey, Charlie",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "19576b83-7a13-4514-950b-122bcdfc6371": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-0": {
+          "type": "text",
+          "settings": {
+            "title": "LX-W | Horwich",
+            "content": "<p>Fits true to size but if you are between sizes, we suggest purchasing a size down.To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxw-last\"><strong>LX-W last click here<\/strong><\/a><strong>.<\/strong><\/p>"
+          }
+        },
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-1": {
+          "type": "text",
+          "settings": {
+            "title": "LX-Y | Dinckley, Langho, Whalley",
+            "content": "<p>We believe that this style fits true to size. In industry terms LX-Y shoe last has a ‘D’ fitting. We encourage customers that are undecided to purchase two pairs, one in their regular size and another a half size up. You can send the extra pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lxy-last\"><strong>LX-Y last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-2": {
+          "type": "text",
+          "settings": {
+            "title": "LX-Z | Reed",
+            "content": "<p>We believe that this style is true to size. In industry terms LX-X shoe last has a ‘D’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lxz-last\"><strong>LX-Z last click here.<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-0",
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-1",
+        "template--16792189829358__19576b83-7a13-4514-950b-122bcdfc6371-1683721762455d7ef8-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "11ee21d8-8154-4a26-bb45-ee9e63cd51db": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "template--16792189829358__11ee21d8-8154-4a26-bb45-ee9e63cd51db-1683721618bc9f74b4-1": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2B shoe last has a ‘E’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2b-last\"><strong>LX-2B last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "a125a29c-6f81-4407-b207-6e03cd481425": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/8fCQM6qRJL4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16792189829358__11ee21d8-8154-4a26-bb45-ee9e63cd51db-1683721618bc9f74b4-1",
+        "a125a29c-6f81-4407-b207-6e03cd481425"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2B | Harwood",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "458f0fe8-e2e0-44b5-905f-544686a0117f": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "ea78c268-f523-4873-8d3a-538b218cdf1c": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go up rather than down. In industry terms LX-2C shoe last has a ‘D’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2c-last\"><strong>LX-2C last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "64633369-379b-4cb2-a425-eb5f5c9c3f4a": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/e5_Iz90D7-0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "ea78c268-f523-4873-8d3a-538b218cdf1c",
+        "64633369-379b-4cb2-a425-eb5f5c9c3f4a"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2C | Wilpshire",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "182f9f42-cc8f-40bf-8efe-62c54ccc6f27": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "845892e5-3731-4a82-9ed8-249b138f55b0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2F shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2f-last\"><strong>LX-2F last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "7ed5c5da-f7d0-4f86-953e-df2c7d59cab1": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe title=\"YouTube video player\" src=\"https:\/\/www.youtube.com\/embed\/NcXvNUruyYY\" height=\"315\" width=\"560\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "845892e5-3731-4a82-9ed8-249b138f55b0",
+        "7ed5c5da-f7d0-4f86-953e-df2c7d59cab1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2F | Farndon",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9ee08c54-5d74-4578-9243-75aa919db576": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "95db4854-c5c8-4398-9903-7a1f2f104b07": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2G shoe last has a ‘G’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service.To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2g-last\"><strong>LX-2G last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "39f0ec69-d683-4642-a533-7f6d9ca0750f": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/DWOm1OiXH2s\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "95db4854-c5c8-4398-9903-7a1f2f104b07",
+        "39f0ec69-d683-4642-a533-7f6d9ca0750f"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2G | Grindleton, Timperley",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a4d5af4a-d3df-4a01-9c53-25f1cbb38e3d": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "428d9fee-f63d-4b9b-94f9-807251403f0a": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2H shoe last has a ‘G’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service.To view all our footwear built on<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lx2h-last\"><strong>LX-2H last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "4e0a2e3c-d500-49b8-8e1c-fc69c3a3c086": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Ow_Vs6pqfMQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "428d9fee-f63d-4b9b-94f9-807251403f0a",
+        "4e0a2e3c-d500-49b8-8e1c-fc69c3a3c086"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2H | Rishton, Hale",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab3e1e21-2b00-489c-abc0-b7af7cd06d27": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "73f7b185-f32c-40ec-b8c3-d742616d5893": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go up rather than down. In industry terms LX-2I shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2i-last\"><strong>LX-2I last click here.<\/strong><\/a><\/p>",
+            "text_size": 5
+          }
+        },
+        "1e6640cb-0375-4c37-9e87-ba91eee09f65": {
+          "type": "html",
+          "settings": {
+            "html": "<div><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/hTbHLdMTBtk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "73f7b185-f32c-40ec-b8c3-d742616d5893",
+        "1e6640cb-0375-4c37-9e87-ba91eee09f65"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "LX-2I | Wiswell",
+        "heading_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a7c4e3e1-5b9a-4b09-a05b-27bb4e9b9ee2": {
+      "type": "section-faq",
+      "blocks": {
+        "1f9a48a6-f04a-4185-9fd2-d754a959d00c": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2E | Calder",
+            "content": "<p>We believe that this style fits true to size. In industry terms LX-2E shoe last has a ‘E’ fitting. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2e-last\"><strong>LX-2E last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "80e87e56-bcbd-4ff4-b47c-5f3a6ca9ede9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2J | Bamber, Barley, Pike",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2J shoe last has a ‘G’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2j-last\"><strong>LX-2J last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "0febcf1d-2e46-4637-8358-b2c8e06e25d9": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2K | Fence, Howgill",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2K shoe last has a ‘G’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2k-last\"><strong>LX-2K last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "105ae695-72ce-4e22-a553-021d59bf9387": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2L | Astley",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2L shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lx2l-last\"><strong>LX-2L last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "9911dcc8-59b8-49c7-8989-589f48f8cd0e": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2M | Belgrave",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2M shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on<strong> <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/lx2m-last\"><strong>LX-2M last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "6684dc9d-a524-4a99-ad66-bde1bace9b02": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2N | Brinscall",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2N shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2n-last\"><strong>LX-2N last click here.<\/strong><\/a><\/p>"
+          }
+        },
+        "b2c91428-218b-43d9-8634-e723ee3644e3": {
+          "type": "text",
+          "settings": {
+            "title": "LX-2O | Withnell",
+            "content": "<p>If you are usually a full size please purchase this style in your regular size. If you are sometimes in-between sizes we recommend you go down rather than up. In industry terms LX-2O shoe last has a ‘F’ fitting. For further shape and fit advice please watch the below video. We encourage customers that are undecided to purchase 2 pairs in different sizes and send 1 pair back using our free UK returns service. To view all our footwear built on <a href=\"https:\/\/lanxshoes.com\/collections\/lx2o-last\"><strong>LX-2O last click here.<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1f9a48a6-f04a-4185-9fd2-d754a959d00c",
+        "80e87e56-bcbd-4ff4-b47c-5f3a6ca9ede9",
+        "0febcf1d-2e46-4637-8358-b2c8e06e25d9",
+        "105ae695-72ce-4e22-a553-021d59bf9387",
+        "9911dcc8-59b8-49c7-8989-589f48f8cd0e",
+        "6684dc9d-a524-4a99-ad66-bde1bace9b02",
+        "b2c91428-218b-43d9-8634-e723ee3644e3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "05f74876-ddc9-4587-a9e6-ad0c82e8aa42",
+    "4e63657d-a3f5-47d7-bffc-1ac5e6e069d5",
+    "d5765c48-c494-4786-a5df-9766898af420",
+    "1e30f6d5-b69d-4ee0-94da-1b2e8c21a131",
+    "527d6075-9794-4f41-a79a-e437ae68b9da",
+    "4176a810-4ff5-4eab-ae7b-c67ac0e54dc0",
+    "c11056df-fb79-4076-8c9a-23ba76f1eac9",
+    "07d65643-2e82-4844-882d-42931421da42",
+    "a08934ad-7228-446e-b1d8-7eec24b0c6cb",
+    "6348c980-0778-45a9-99c6-30a51d1d1020",
+    "865ca8fd-16a7-487f-891f-379ae93e55f0",
+    "53b95e33-9f7c-4ad8-8475-4003553208a5",
+    "a1b7d902-97a2-4933-8ecd-b6e4bd1083e8",
+    "34174461-978b-46e0-89c0-82d616a410c0",
+    "436ee329-f132-4949-943e-5b3114cd8375",
+    "19576b83-7a13-4514-950b-122bcdfc6371",
+    "11ee21d8-8154-4a26-bb45-ee9e63cd51db",
+    "458f0fe8-e2e0-44b5-905f-544686a0117f",
+    "182f9f42-cc8f-40bf-8efe-62c54ccc6f27",
+    "9ee08c54-5d74-4578-9243-75aa919db576",
+    "a4d5af4a-d3df-4a01-9c53-25f1cbb38e3d",
+    "ab3e1e21-2b00-489c-abc0-b7af7cd06d27",
+    "a7c4e3e1-5b9a-4b09-a05b-27bb4e9b9ee2"
+  ]
+}

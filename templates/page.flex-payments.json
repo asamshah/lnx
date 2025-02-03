@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_ncJnkA": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>FLEXIBLE PAYMENT OPTIONS<\/p>",
+            "text_size": 8
+          }
+        },
+        "text_K3CnyV": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Klarna & Clearpay<\/p>",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_ncJnkA",
+        "text_K3CnyV"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/whalley-shop-lanx-visit_9da92cfb-a938-41e0-92be-54a148d559d5.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17237986052913c4fb": {
+      "type": "apps",
+      "blocks": {
+        "klarna_on_site_messaging_app_block_rh9DA6": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "info-page",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        }
+      },
+      "block_order": [
+        "klarna_on_site_messaging_app_block_rh9DA6"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_gdhiHD": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_HJYK89": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CLEARPAY<\/p>",
+            "text_size": 7
+          }
+        },
+        "kicker_8jfTMU": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Shop now, pay in 4<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 3
+          }
+        },
+        "spacer_KA7GgL": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": false
+          }
+        },
+        "text_LXtEzL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop now, pay in 4 interest-free instalments over six weeks. To pay with Clearpay, simply select it at checkout. After that you'll be able to track your payments using the ClearPay app or website.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_HJYK89",
+        "kicker_8jfTMU",
+        "spacer_KA7GgL",
+        "text_LXtEzL"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "d2047e7d-0649-4e8d-b552-4c2bf4457798": {
+      "type": "section-double",
+      "blocks": {
+        "86c8fd51-c840-4d47-855e-524ffd6da379": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-clearpay_a882dad1-a19b-4ce2-8d52-883a80aa68b4.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "4dd220b6-f06c-4270-a90e-3a01e988e552": {
+          "type": "text",
+          "settings": {
+            "kicker": "DISCLAIMER",
+            "title": "",
+            "text": "<p>Please use Clearpay responsibly. Clearpay lends you a fixed amount of credit so you can pay for your purchase over 4 instalments, due every 2 weeks. You must be 18+ and a permanent UK resident (excl Channel Islands).<a href=\"http:\/\/clearpay.co.uk\/terms\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>T&Cs<\/strong><\/span><\/a>and other eligibility criteria apply. Ensure you can make repayments on time. Clearpay charges a £6 late fee for each late instalment and a further £6 if it’s still unpaid 7 days later. Late fees are capped at £6 for orders under £24 and the lower of £24 or 25% of the order value for orders over £24. Missed payments may affect your ability to use Clearpay in the future and they may pass unpaid debt to a debt collection agency. Clearpay is credit that is not regulated by the Financial Conduct Authority.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "86c8fd51-c840-4d47-855e-524ffd6da379",
+        "4dd220b6-f06c-4270-a90e-3a01e988e552"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 16,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b",
+    "17237986052913c4fb",
+    "section_richtext_gdhiHD",
+    "d2047e7d-0649-4e8d-b552-4c2bf4457798"
+  ]
+}

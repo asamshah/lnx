@@ -1,0 +1,443 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "66d6cc6b-8501-42b1-a9ff-631a1e2f8f20": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007349486__66d6cc6b-8501-42b1-a9ff-631a1e2f8f20-16842256399cadbb32-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>DESIGN DNA<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007349486__66d6cc6b-8501-42b1-a9ff-631a1e2f8f20-16842256399cadbb32-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>What makes a LANX shoe?<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007349486__66d6cc6b-8501-42b1-a9ff-631a1e2f8f20-16842256399cadbb32-1",
+        "template--16790007349486__66d6cc6b-8501-42b1-a9ff-631a1e2f8f20-16842256399cadbb32-2"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/LANX_25of28.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a5f51a72-9c01-4b7d-bff2-5da7c4b74263": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790007349486__a5f51a72-9c01-4b7d-bff2-5da7c4b74263-16842307271446c239-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-collabs-charles-f-stead.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790007349486__a5f51a72-9c01-4b7d-bff2-5da7c4b74263-16842307271446c239-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "WE ASPIRE TO CREATE...",
+            "text": "<p>unique shoe styles, which display influences from the place we come from (Lancashire, England) and the countries we visit on our shoe research adventures. You will instantly recognise a LANX shoe for the unique blend of design features listed below.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007349486__a5f51a72-9c01-4b7d-bff2-5da7c4b74263-16842307271446c239-1",
+        "template--16790007349486__a5f51a72-9c01-4b7d-bff2-5da7c4b74263-16842307271446c239-0"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d3bafb4f-e1b2-4957-bfef-10ea71610b31": {
+      "type": "section-double",
+      "blocks": {
+        "8a3abe08-1d00-4f8a-9611-8065e4ac8de0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "ROSE PERFORATION",
+            "text": "<p>Most of our styles include a rose perforation on the toe and heel. Lancashire adopted a rose as its county emblem following the Battle of Bosworth in 1485.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "c3d70cf8-1c1b-481e-8485-3fff457b679a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-dna-rose.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "8a3abe08-1d00-4f8a-9611-8065e4ac8de0",
+        "c3d70cf8-1c1b-481e-8485-3fff457b679a"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "89df28c1-918d-403b-9a74-2d908689efdb": {
+      "type": "section-double",
+      "blocks": {
+        "943faa9f-f1c3-48c5-9358-701b0fce16a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-mens-shoes-brogues_fa9836c1-c14c-4981-9f8b-d15e4f3ac938.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "41159177-532a-45f6-b5d8-27064eec3530": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "MATERIAL",
+            "text": "<p>Certain leather and tweed we use in the construction of our shoes is sourced from local English suppliers and is exclusively used on footwear by LANX. We also source some of the finest leather from around the world.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "943faa9f-f1c3-48c5-9358-701b0fce16a2",
+        "41159177-532a-45f6-b5d8-27064eec3530"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "03d271d2-58dd-472d-83df-5a8ba0a8562e": {
+      "type": "section-double",
+      "blocks": {
+        "86c08a99-35d3-4b0e-9ae3-19b8c817a9b5": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "ORANGE INSOLE",
+            "text": "<p>The colour is inspired by a chatty monk Marv met in a Cambodian temple, who wished him good luck when developing the idea for LANX. True story!<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "5d04fa20-779b-4720-a67a-b820b17340f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-design-dna.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "86c08a99-35d3-4b0e-9ae3-19b8c817a9b5",
+        "5d04fa20-779b-4720-a67a-b820b17340f0"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "71608a51-7eb6-4f0d-8fad-8326506cf5a4": {
+      "type": "section-double",
+      "blocks": {
+        "0ed856b1-d70c-4dbe-b7e6-6ac9dfee36b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-dna-bull.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "da7379fe-4ce7-4f13-84d8-d8a998166943": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "BRITISH WHITE BULL",
+            "text": "<p>The bull appears on the sole of all our men's shoes. Like LANX the British White breed originates from Whalley in Lancashire, England.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "0ed856b1-d70c-4dbe-b7e6-6ac9dfee36b8",
+        "da7379fe-4ce7-4f13-84d8-d8a998166943"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c37904af-ff10-446d-addc-b34dbc89b0f1": {
+      "type": "section-double",
+      "blocks": {
+        "9d5360d3-4a42-4441-9f8f-d3ae546abf40": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "LANX HEEL TAB",
+            "text": "<p>Our new heel tabs are not only robust but very useful also!<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "487ca22f-2f51-475b-bb19-63de7b9522e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-dna-heel-tab.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "9d5360d3-4a42-4441-9f8f-d3ae546abf40",
+        "487ca22f-2f51-475b-bb19-63de7b9522e3"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b4bb18a0-bb4e-4599-bdfa-a707abeda89e": {
+      "type": "section-double",
+      "blocks": {
+        "7ae8337b-119a-4ced-ae7a-d4872f3708a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-dna-heel-rose.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "5b4335b9-1fde-4509-99e5-45554c938a77": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "LANCASHIRE ROSE",
+            "text": "<p>Most of our styles include a rose perforation on the toe. Lancashire adopted a rose as its county emblem following the Battle of Bosworth in 1485.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7ae8337b-119a-4ced-ae7a-d4872f3708a1",
+        "5b4335b9-1fde-4509-99e5-45554c938a77"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "66d6cc6b-8501-42b1-a9ff-631a1e2f8f20",
+    "a5f51a72-9c01-4b7d-bff2-5da7c4b74263",
+    "d3bafb4f-e1b2-4957-bfef-10ea71610b31",
+    "89df28c1-918d-403b-9a74-2d908689efdb",
+    "03d271d2-58dd-472d-83df-5a8ba0a8562e",
+    "71608a51-7eb6-4f0d-8fad-8326506cf5a4",
+    "c37904af-ff10-446d-addc-b34dbc89b0f1",
+    "b4bb18a0-bb4e-4599-bdfa-a707abeda89e"
+  ]
+}

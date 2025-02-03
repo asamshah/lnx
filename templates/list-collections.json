@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "149711b4-c215-47f9-9be6-8a1a855312e5": {
+      "type": "section-mosaic",
+      "blocks": {
+        "5c4265c9-602a-492d-b885-3dc2dff51c8c": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-footwear",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "",
+            "title_size": 7,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 10
+          }
+        },
+        "43dfafee-a5e2-4610-8bff-6ec1532057e3": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-footwear",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "",
+            "title_size": 7,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 10
+          }
+        },
+        "9452d32e-df16-4752-9cc5-3f11cd42dc0c": {
+          "type": "collection",
+          "settings": {
+            "collection": "socks",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "",
+            "title_size": 7,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "5c4265c9-602a-492d-b885-3dc2dff51c8c",
+        "43dfafee-a5e2-4610-8bff-6ec1532057e3",
+        "9452d32e-df16-4752-9cc5-3f11cd42dc0c"
+      ],
+      "settings": {
+        "first_block_height": "tall",
+        "aspect_ratio": 1,
+        "split": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "0a2642a0-c33a-4820-bc8c-9726542fab84": {
+      "type": "section-mosaic",
+      "blocks": {
+        "a9e667c2-3ed6-4977-b411-f2ed1f433db5": {
+          "type": "collection",
+          "settings": {
+            "collection": "clothing",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "CLOTHING",
+            "title_size": 7,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 10
+          }
+        },
+        "e1a064ec-f63b-4bb6-8060-d5c69d97db0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "laces",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "",
+            "title_size": 7,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "a9e667c2-3ed6-4977-b411-f2ed1f433db5",
+        "e1a064ec-f63b-4bb6-8060-d5c69d97db0d"
+      ],
+      "settings": {
+        "first_block_height": "short",
+        "aspect_ratio": 1,
+        "split": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e98522f9-c4c4-41f4-8202-64b927e05350": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16806136807662__e98522f9-c4c4-41f4-8202-64b927e05350-16861398419a9f9ef0-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>POPULAR<\/p>",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--16806136807662__e98522f9-c4c4-41f4-8202-64b927e05350-16861398419a9f9ef0-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "6b232200-d30c-4c95-b458-3ee55946c780": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "template--16806136807662__6b232200-d30c-4c95-b458-3ee55946c780-168614057460119297-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-popular",
+            "title": "Men's"
+          }
+        },
+        "template--16806136807662__6b232200-d30c-4c95-b458-3ee55946c780-168614057460119297-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-popular",
+            "title": "Women's"
+          }
+        }
+      },
+      "block_order": [
+        "template--16806136807662__6b232200-d30c-4c95-b458-3ee55946c780-168614057460119297-0",
+        "template--16806136807662__6b232200-d30c-4c95-b458-3ee55946c780-168614057460119297-1"
+      ],
+      "settings": {
+        "title": "",
+        "progress_bar": "mobile",
+        "grid_large": 6,
+        "grid_medium": 3,
+        "grid_mobile": 2.2,
+        "limit": 12,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "149711b4-c215-47f9-9be6-8a1a855312e5",
+    "0a2642a0-c33a-4820-bc8c-9726542fab84",
+    "e98522f9-c4c4-41f4-8202-64b927e05350",
+    "6b232200-d30c-4c95-b458-3ee55946c780"
+  ]
+}

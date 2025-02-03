@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "21d4e2a2-d930-481c-8b50-7c82e7aecb3f": {
+      "type": "section-richtext",
+      "blocks": {
+        "5ac7c915-c25e-46a4-90bb-89b941e4e3b1": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>IMPORTANT<\/p>",
+            "enable_caps": true,
+            "enable_line": true,
+            "text_size": 3
+          }
+        },
+        "template--16790007283950__21d4e2a2-d930-481c-8b50-7c82e7aecb3f-16841479393622ad37-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please create an account using the same email address you use to make orders. Once you have submitted your details below please then activate your account by following the steps in the activation email we send you. Only once your account is activated can you log in to your account. If you have already created an account, you can <a href=\"https:\/\/lanxshoes.com\/account\/login\" title=\"https:\/\/lanxshoes.com\/account\/login\">login here<\/a>.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "5ac7c915-c25e-46a4-90bb-89b941e4e3b1",
+        "template--16790007283950__21d4e2a2-d930-481c-8b50-7c82e7aecb3f-16841479393622ad37-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "customer-register",
+      "settings": {}
+    }
+  },
+  "order": [
+    "21d4e2a2-d930-481c-8b50-7c82e7aecb3f",
+    "main"
+  ]
+}

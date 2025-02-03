@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_GA9QzW": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_z3Qrnq": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>UGC PORTAL<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 3
+          }
+        },
+        "heading_yipBVj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>PHOTO\/VIDEO CONSENT TERMS<\/p>",
+            "text_size": 8
+          }
+        },
+        "text_8Q8dDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><ul><li>You have the necessary permissions or licences to share the content and for Lanx to use it as described. <strong>If someone else has taken the photos or videos please ensure they have also agreed for Lanx to use them<\/strong> (e.g. if taken by a wedding photographer, or during a work event). If you are unsure, please <span style=\"text-decoration:underline\">contact us<\/span> and we will answer any queries and assist you further.<\/li><li>You agree to hold us harmless (indemnify) from any claims against Lanx, or losses we suffer, arising out of or in connection with you not having the necessary permissions to allow Lanx to use the content you provide (as stated in the above bullet).<\/li><li>You agree to being tagged in our social media posts, providing we only tag to your publicly available accounts.<\/li><li>Lanx may use the content on our website, social media channels, or other marketing and advertising from time to time.<\/li><li>We will keep and may continue to use the content until you ask us otherwise, or we delete it in accordance with our <span style=\"text-decoration:underline\">Privacy Notice<\/span> and internal policies.<\/li><li>If you would like us to stop using any images or videos, please <span style=\"text-decoration:underline\">contact us<\/span> and we will work with you to arrange this wherever possible (however, please note that it may not be possible to remove the content from previous marketing materials).<\/li><li>If you have received free shoes or other free products or gifts from Lanx, then you will need to ensure any posts you make on social media comply with the relevant platform's terms of use, the law, the CAP and BCAP advertising codes, and the Competition and Markets Authority's guidance on social media endorsements. <strong>In particular, we recommend using an appropriate disclosure (such as #ad or #gifted ) in the post in a way that is clear and comprehensible to identify the content as being sponsored<\/strong><\/li><\/ul><p>v1.1. Updated [12\/03\/24]<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_P9hBni": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "UGC PORTAL",
+            "link_1": "shopify:\/\/pages\/ugc-portal",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_z3Qrnq",
+        "heading_yipBVj",
+        "text_8Q8dDB",
+        "button_P9hBni"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_GA9QzW"
+  ]
+}

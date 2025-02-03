@@ -1,0 +1,289 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "eb465f58-b2b4-46a8-b870-c438a3878678": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16800664387822__eb465f58-b2b4-46a8-b870-c438a3878678-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>SHOE CARE + REPAIR + RESOLING<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16800664387822__eb465f58-b2b4-46a8-b870-c438a3878678-16843148706ff0ba0c-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>How to take care of your LANX shoes now and in the future.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16800664387822__eb465f58-b2b4-46a8-b870-c438a3878678-16843148706ff0ba0c-1",
+        "template--16800664387822__eb465f58-b2b4-46a8-b870-c438a3878678-16843148706ff0ba0c-2"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-collabs-lancashire-cricket.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "30508b7a-45bc-4501-b631-0afff9e416ad": {
+      "type": "section-richtext",
+      "blocks": {
+        "869b9903-7625-4592-a993-6176fe635d7b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shoes are like cars, if you give them the correct attention and maintenance they look great, stay on the road and provide you with many years of good service. <\/p><p>Our commitment to sustainability has seen us develop a shoe repair service for all LANX customers to benefit from. We currently offer a shoe resoling\/ restore service for all our footwear and a variety of small repairs, more details and prices listed below.<\/p><p>Additionally, your friendly and often very helpful local cobblers shop will also be able to assist with all sorts of shoe care, repair and resoling requirements. We recommend external cobblers as this sometimes offers the quickest and most cost effective service to some people, as it cuts out shipping back and forth.<\/p><p>To find your local shoe cobbler please visit the <a href=\"https:\/\/www.masterrepairers.co.uk\/home\" target=\"_blank\" title=\"https:\/\/www.masterrepairers.co.uk\/home\"><strong>Society of Master Shoe Repairers website<\/strong><\/a><strong>. <\/strong>You can email them on info@masterrepairers.co.uk, or call 01858438255. <\/p><p><\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "869b9903-7625-4592-a993-6176fe635d7b"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 48,
+        "padding_bottom": 30
+      }
+    },
+    "da965924-786b-48b1-91fc-9634dae3e81f": {
+      "type": "section-faq",
+      "blocks": {
+        "ab3678bb-43be-4354-8443-b8a2b37b605e": {
+          "type": "text",
+          "settings": {
+            "title": "Shoe Care Products",
+            "content": "<p>We don't currently sell our own shoe care products and instead divert all our shoe care product enquiries to <a href=\"https:\/\/www.shoestringuk.com\/\">Shoe String<\/a>, who are a independent UK business located in Market Harborough, England. <\/p><p>They are experts in this field and best equipped to answer questions about shoe care and advise the correct products for your shoes. We highly recommend the extensive range of quality products offered by <a href=\"https:\/\/www.shoestringuk.com\/\" target=\"_blank\">Shoe String<\/a>. <\/p><p>The \"Shoe Care Gurus\" can be contacted Monday-Fri, 9am-5pm, on either sales@shoestringuk.com or via 01858 467467. You can also visit their website <a href=\"https:\/\/www.shoestringuk.com\/\">www.shoestringuk.com<\/a>. <\/p><p>When you do contact them please make them aware of the style of LANX shoes you have and the leather the shoe is made from, details of which can be found on the specific product page. <\/p><p>To get 10% off with Shoe Care use code VDB10 during checkout on their website.<\/p>"
+          }
+        },
+        "bcbe0eac-097a-4e2f-9a36-d7030a9097e5": {
+          "type": "text",
+          "settings": {
+            "title": "Small Repairs",
+            "content": "<p>From time-to-time your LANX shoes may need some TLC and we are here to help...<br\/><br\/><strong>Guide Prices*<\/strong><\/p><ul><li>Stitching : £20<\/li><li>Eyelets : £20 \/ £25<\/li><li>Heel Tab : £20<\/li><li>Insole Replacement : £30<\/li><li>Lace Stay : £25<\/li><li>Boot \/ Shoe Stretching : £20<\/li><li>Hooks & Loops : £15 \/ £20<\/li><li>Painting Edges : £15<br\/><\/li><\/ul><p><strong>Note<\/strong><\/p><p>All repair prices are inclusive of work that needs to be carried out and shipping both to and from the customer (applies to UK customers only).  <\/p><p>We aim to complete all repair jobs as quickly as possible. Most jobs will be completed within a 3 week turn-around, this includes the shipping of the item to and from the customer and the work to be carried out.<br\/><br\/>Once you've read the above, please email hello@lanxshoes.com with photos to start the repairs process and a member of our team will get back to you with how to book and proceed.<br\/><\/p>"
+          }
+        },
+        "11039362-8c9e-493a-9237-285001fc97f4": {
+          "type": "text",
+          "settings": {
+            "title": "Shoe Resoling \/ Restore",
+            "content": "<p>From time-to-time the soles on your LANX shoes may need to be restored or re-soled, we are here to help...<br\/><br\/><strong>Guide Prices*<\/strong><\/p><ul><li>Sole restore, for cemented and Blake stitch styles: £60 (includes Heel Repair)<\/li><li>Full resoling, Goodyear welted : £90 (includes Heel Repair)<\/li><li>Heel Repair for shoes & boots: £30<br\/><\/li><\/ul><p><strong>Note<\/strong><\/p><p>All repair\/ resoling prices above are inclusive of work that needs to be carried out and shipping both to and from the customer (applies to UK customers only).<\/p><p>We aim to complete all repair\/ resoling jobs as quickly as possible. Most jobs will be completed within a 3 week turn-around, this includes the shipping of the item to and from the customer and the work to be carried out.<br\/><br\/>Once you've read the above, please email hello@lanxshoes.com with photos to start the process and a member of our team will get back to you with how to book and proceed.<\/p>"
+          }
+        },
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-0": {
+          "type": "text",
+          "settings": {
+            "title": "First Time Wear",
+            "content": "<p>Customers are kindly asked to try on your new shoes for the first time with a shoe horn and on a carpet. This is so you protect the heel and don’t scuff the bottom of the soles on a hard surface. If for any reason you need to return or exchange your shoes, they will need to be returned to us in a resalable condition, which requires the heel not to be damaged and the sole of the shoes not to be scuffed.<\/p><p>We use good quality materials in the production of our shoes, so this means your new shoes will take a little time wearing in and getting used to the shape of your feet. Almost every single pair of shoes needs to be broken in before they can be comfortably worn for a decent length of time. Not all feet are made the same, so it makes sense that shoes need to adapt slightly before they perfectly suit the foot of its wearer.<\/p><p>We suggest you wear some thick proper socks the first few times you wear LANX shoes, also wear them around the house and on short outings before taking them out on an all-dayer at the Grand National.<\/p><p>We highly recommend the use of shoe trees, when you are not wearing your LANX shoes. A shoe tree is a device approximating the shape of a foot that is placed inside a shoe to preserve its shape, stop it from developing creases and thereby extend the life of the shoe. You can buy a variety of different shoe trees online via eBay or Amazon.<\/p>"
+          }
+        },
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-1": {
+          "type": "text",
+          "settings": {
+            "title": "General Maintenance",
+            "content": "<p>We recommend the use of shoe care products on all our footwear. Please take time to ensure you select the correct care product which matches the material\/s used in the construction of your shoes. We divert all our shoe care product enquiries to Shoe String, who are a independent UK business located in Market Harborough, England.<\/p><p>Our shoes are a natural leather product, due to this please expect some slight colour migration during wear. Regular cleaning and polishing of your shoes will maintain the suppleness of the leathers and enhance their good looks.<\/p><p>Suitable products can waterproof and weather protect your shoes. Please don’t wear your shoes in the rain until they have been worn 3 or 4 times. If you do get them wet remember to use shoe-trees and let them dry naturally at room temperature for about 2-3 days. Do not dry near the oven, open fire or radiator. As the leather dries it can adopt odd shapes if they aren’t in shoe-trees. Wet sole leather wears out twice as quickly so the drying period is important.<\/p><p>In order to protect the leather and provide a high shine finish, leather uppers require regular treatment with a good quality wax cream. For black shoes it’s fine to use a black wax or cream. For coloured shoes a clear or neutral wax or cream will avoid altering the colour and finish of the shoes. Before application of any product shoes should be dry.<\/p>"
+          }
+        },
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-2": {
+          "type": "text",
+          "settings": {
+            "title": "Suede & Nubuck",
+            "content": "<p>Before wearing suede or nubuck shoes for the first time, apply a protective spray to protect them from any stains or water. You should always give them a good brush before and after using the spray. You’ll only need to do this every so often to keep up the resistance. If you get a small stain or mark on them, use a suede\/ nubuck eraser to rub out the stain. If you get mud on them, let them dry overnight before brushing them off with a suede brush.<\/p>"
+          }
+        },
+        "3ca7baa9-cae8-4896-82db-443e9adf3f3d": {
+          "type": "text",
+          "settings": {
+            "title": "Distressed Brown Leather",
+            "content": "<p>Distressed Leather behaves more like a suede, so polishing them with a gloss or high shine polish isn’t recommended. If you were going to polish them, we would recommend using clear or neutral creams. We would suggest that if you did need to clean them to use a multi-clean or a combi-clean once any dirt has been removed.<\/p><p>We do think that distressed leather should be left to get a little bit weathered as it adds to the distressed effect of the leather, and to only clean them when absolutely necessary.<\/p><p>You could also protect the leather further with a weather protect spray, which will prolong the life of your footwear.<\/p>"
+          }
+        },
+        "8d029960-17b8-4f76-b0b2-9ddd4d08eed2": {
+          "type": "text",
+          "settings": {
+            "title": "Oxblood Oil Pull-up Leather",
+            "content": "<p>In terms of keeping them looking good, we would recommend using a clear polish or cream to keep from discolouring the leather.<\/p><p>You can also use the natural oils in the leather to remove any scuffs by massaging the affected areas with a soft cloth in a circular motion.<\/p><p>We would also recommend using an aqua-phobic spray to keep them weather protected.<\/p>"
+          }
+        },
+        "e40d363e-b80e-4163-a9f5-7e9e4c6f2719": {
+          "type": "text",
+          "settings": {
+            "title": "Waxy Commander",
+            "content": "<p>Used in our Charles F Stead collab range, is relatively easy to look after. It is a waxed suede, so where you scuff or scratch the wax you will see the underlying colour (the lighter the base colour, the more obvious this is), however the wax finish can be easily recovered. Unlike a grain leather where if you scuff or scratch the grain it can be permanently damaged, with a waterproof waxed suede like this you can use a brush to remove any dried dirt and then re-apply a natural waterproof wax. We recommend Mountval B-Wax which is a waterproof beeswax-based wax applied which can be applied with a cloth.<\/p>"
+          }
+        },
+        "f65a3d7d-43b1-443a-b3a4-6aa6ab2a908f": {
+          "type": "text",
+          "settings": {
+            "title": "Coach \/ Crazy Cow Leather",
+            "content": "<p>This Charles F Stead leather provides a wonderful depth of colour and burnishes magnificently by trapping a layer of wax between the natural antiquing and our regular aniline top finish. The glossier finish makes the leather particularly suitable for footwear. The nature of this leather means it marks easily, however we believe this ads further charm to the boots over time. In terms of cleaning, gently remove loose dirt once dry with a dry cloth or soft brush. If wet, allow the leather to dry in a well ventilated location at ambient temperature. Polish with a natural wax, dubbin or Venetian cream.<\/p>"
+          }
+        },
+        "6740914a-6f24-4976-b593-cb91df17ba1a": {
+          "type": "text",
+          "settings": {
+            "title": "Boanil Omega Black Leather",
+            "content": "<p>Clean away dirt using a damp cloth and allow it to dry, and apply either neutral or black wax polish as appropriate. Buff vigorously to desired shine.<\/p>"
+          }
+        },
+        "d1eb7849-f61a-45cc-bf51-08815fb9f851": {
+          "type": "text",
+          "settings": {
+            "title": "Craftsman Range Leather",
+            "content": "<p>We advise customers to rotate their footwear and avoid wearing back to back days to allow the leather linings to dry naturally. Where possible, use a shoe tree to help maintain the shape of the footwear they have purchased.<br\/><br\/>For Calf leathers – we use Famaco neutral polish applied with a soft cloth and then brushed with a good quality shoe brush, and allow to naturally dry.<br\/><br\/>For Grained\/ Odyssey leathers – we also use Famaco neutral polish but take care to apply to the valleys of the grain and not just the top finish. Brush to shine.<br\/><br\/>After all processes, please allow to dry naturally.<\/p>"
+          }
+        },
+        "51dfcf02-bf66-47e3-92d9-dc76f43ba1d4": {
+          "type": "text",
+          "settings": {
+            "title": "365 Collection",
+            "content": "<p>Properly cleaning and maintaining your water-resistant boots will not only extend their lifespan but also ensure they perform well in various conditions. Here's an extensive guide to help you achieve just that:<\/p><p><strong>Materials Needed<\/strong><\/p><ul><li>Soft bristle brush<\/li><li>Mild soap or specialized leather cleaner<\/li><li>Clean water<\/li><li>Soft lint free cloths or sponge<\/li><li>Leather conditioner<\/li><li>Waterproofing product (wax, spray, or cream)<\/li><li>Shoe tree or crumpled paper<\/li><li>Well-ventilated area<\/li><\/ul><p>If you would like guidance on what products you should use for each of the above steps, please contact our shoe care partner Shoestring and they will be able to assist you… www.shoestringuk.com.<\/p><p><strong>Step 1: Remove Laces<\/strong><\/p><p>Start by removing the laces from your boots. This will allow you to clean and treat all parts of the boot effectively.<\/p><p><strong>Step 2: Brush Off Dirt and Debris<\/strong><\/p><p>Use a soft bristle brush to gently remove dirt, dust, and debris from the surface of your boots. Pay special attention to the seams, creases, and any areas where dirt might be trapped.<\/p><p><strong>Step 3: Clean the Boots<\/strong><\/p><p>Prepare a mixture of mild soap or specialized leather cleaner with clean water. Dampen a soft lint free cloth or sponge with the soapy water and gently clean the surface of the boots. Focus on one small section at a time and avoid oversaturating the leather. Wipe off the soap residue with a clean damp cloth.<\/p><p><strong>Step 4: Rinse and Dry<\/strong><\/p><p>Using another clean damp cloth, wipe down the boots to remove any remaining soap residue. Allow the boots to air dry naturally in a well-ventilated area, away from direct sunlight and heat sources. Avoid using artificial heat or leaving next to a radiator, as it can damage or crack the leather.<\/p><p><strong>Step 5: Condition the Leather<\/strong><\/p><p>Once the boots are completely dry, apply a high-quality leather conditioner. Apply a small amount of conditioner to a soft cloth and rub it onto the leather in circular motions. This helps to nourish and restore the leather's natural oils, preventing it from drying out and cracking. Allow the conditioner to be absorbed for the recommended time on the product's instructions. <\/p><p><strong>Step 6: Apply Waterproofing Product<\/strong><\/p><p>Choose a waterproofing product that suits your boots, such as wax, spray, or cream. Apply the product evenly to the entire surface of the boots, focusing on seams and creases. Follow the waterproofing product instructions for application and drying time. Waterproofing helps maintain the water-resistant properties of your boots. <\/p><p><strong>Step 7: Reinsert Laces<\/strong><\/p><p>Once the waterproofing product has dried, reinsert the laces into your boots.<\/p><p><strong>Step 8: Store Properly<\/strong><\/p><p>Store your boots in a cool, dry place when not in use. To help maintain their shape and prevent creasing, use a shoe tree or stuff the boots with crumpled paper. Avoid storing them in a humid environment or under direct sunlight, as these conditions can damage the leather.<\/p><p><strong>Step 9: Regular Maintenance<\/strong><\/p><p>Regularly inspect your boots for signs of dirt, scuffs, or wear. Clean them as needed using the steps outlined above. Reapply the waterproofing product whenever you notice the water resistance diminishing, or after a few uses in wet conditions.<\/p><p><strong>Additional Tips<\/strong><\/p><ul><li>The Vibram soles used can be re-soled when the times comes.<\/li><li>Avoid using harsh chemicals or solvents on your boots, as they can strip away natural oils and damage the leather.<\/li><li>Test any cleaning or waterproofing products on a small, inconspicuous area of your boots before applying them all over to ensure compatibility.<\/li><li>Leather is a natural material that can benefit from occasional deep conditioning. <\/li><li>If your boots get excessively wet, allow them to dry naturally without using artificial heat sources. Stuff them with newspaper to help absorb moisture from the inside.<\/li><\/ul><p>By following this comprehensive guide, you'll be able to effectively clean, condition, and maintain the water-resistant properties of your walking boots, ensuring they stay in top-notch condition for many outdoor adventures to come.<\/p><p>If you would like guidance on what products you should use for each of the above steps, please contact our shoe care partner Shoestring and they will be able to assist you… <a href=\"https:\/\/www.shoestringuk.com\" title=\"https:\/\/www.shoestringuk.com\">www.shoestringuk.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ab3678bb-43be-4354-8443-b8a2b37b605e",
+        "bcbe0eac-097a-4e2f-9a36-d7030a9097e5",
+        "11039362-8c9e-493a-9237-285001fc97f4",
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-0",
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-1",
+        "template--16800664387822__da965924-786b-48b1-91fc-9634dae3e81f-1684319861b470ca71-2",
+        "3ca7baa9-cae8-4896-82db-443e9adf3f3d",
+        "8d029960-17b8-4f76-b0b2-9ddd4d08eed2",
+        "e40d363e-b80e-4163-a9f5-7e9e4c6f2719",
+        "f65a3d7d-43b1-443a-b3a4-6aa6ab2a908f",
+        "6740914a-6f24-4976-b593-cb91df17ba1a",
+        "d1eb7849-f61a-45cc-bf51-08815fb9f851",
+        "51dfcf02-bf66-47e3-92d9-dc76f43ba1d4"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 3,
+        "heading_size": 3,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "4fd3c364-6eae-47f6-b3a5-d21ffcf186d5": {
+      "type": "section-richtext",
+      "blocks": {
+        "03754d33-c959-4913-89ea-21473afd8173": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>IMPORTANT<\/p>",
+            "text_size": 7
+          }
+        },
+        "8ef36351-3985-4001-be5c-a3dc23461dc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please email hello@lanxshoes.com with photos and a member of our team will get back to you asap.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "8e88ce0b-1f01-4b63-9e9d-829fe19535e0": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 2,
+            "show_line": false
+          }
+        },
+        "e011b5c1-065e-4a4d-a2d6-48fd5f127d97": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All prices are inclusive of work that needs to be carried out and shipping both to and from the customer. <br\/><br\/>If you have any questions please contact the customer service team at hello@lanxshoes.com who will be happy to answer any queries.<br\/><br\/>We aim to complete all jobs as quickly as possible but most jobs will be completed within a 3 week turn around this includes the shipping of the item to and from the customer and the work to be carried out.<br\/><br\/>These services are to be selected by customers who are outside of the warranty period of their LANX. Should you have a warranty query please contact the customer service team at hello@lanxshoes.com who will be happy to answer any queries. <br\/><br\/><strong>Guide Prices*<\/strong><\/p><ul><li>Shoe and boot sole repair, cemented and Blake stitch : £60<\/li><li>Shoe and boot resoling, Goodyear welted : £90<\/li><li>Shoe & boot heel repair : £30<\/li><li>Stitching : £20<\/li><li>Eyelets : £20 \/ £25<\/li><li>Heel Tab : £20<\/li><li>Insole Replacement : £30<\/li><li>Lace Stay : £25<\/li><li>Boot \/ Shoe Stretching : £20<\/li><li>Hooks & Loops : £15 \/ £20<\/li><li>Painting Edges : £15<br\/><\/li><\/ul><p><em>*Prices quoted include return postage for UK customers. Overseas customers will be quoted separate for the service they require.<\/em><\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "640720cd-da0b-4521-b68c-07767147f5f6": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 2,
+            "show_line": false
+          }
+        },
+        "11fda905-a531-4d0c-b607-4df65f350f79": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Once a member of the LANX team has confirmed the sole repair service you require you can <\/strong><a href=\"https:\/\/lanxshoes.com\/collections\/repair-service\"><strong>book and pay here.<br\/><br\/><\/strong><\/a><strong>Note<\/strong><\/p><p>Repaired shoes can take up to 14-21 days to process and be returned back to UK customers. Overseas customers should expect 21-28 days.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "03754d33-c959-4913-89ea-21473afd8173",
+        "8ef36351-3985-4001-be5c-a3dc23461dc9",
+        "8e88ce0b-1f01-4b63-9e9d-829fe19535e0",
+        "e011b5c1-065e-4a4d-a2d6-48fd5f127d97",
+        "640720cd-da0b-4521-b68c-07767147f5f6",
+        "11fda905-a531-4d0c-b607-4df65f350f79"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "eb465f58-b2b4-46a8-b870-c438a3878678",
+    "30508b7a-45bc-4501-b631-0afff9e416ad",
+    "da965924-786b-48b1-91fc-9634dae3e81f",
+    "4fd3c364-6eae-47f6-b3a5-d21ffcf186d5"
+  ]
+}

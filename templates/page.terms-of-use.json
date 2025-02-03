@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "05b9f8e9-7a5a-4146-9254-04e3a7a0aa79": {
+      "type": "section-richtext",
+      "blocks": {
+        "25716532-5bcf-477a-88c2-fc49cb3aecb5": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TERMS OF USE<\/p>",
+            "text_size": 10
+          }
+        },
+        "dd79bf31-0907-43be-ad06-e53ac9ecea34": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": true
+          }
+        },
+        "9d8043ea-5e51-4856-978c-c6875bbbd6e0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Terms of Use for https:\/\/lanxshoes.com (the “Website”)<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "template--16753779376366__05b9f8e9-7a5a-4146-9254-04e3a7a0aa79-1677580494592898b5-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Access to and use of the Website is subject to these Terms of Use. In these Terms of Use, “<strong>we<\/strong>”, “<strong>us<\/strong>” and “<strong>our<\/strong>” means Lanx Group Limited, the operator of this Website.<\/p><p>2. Use of the Website includes, but is not limited to, accessing, browsing, registering to receive our newsletter, or using the Website.<\/p><p>3. If you use any part of the Website, that use is considered your acceptance of these Terms of Use. That acceptance applies from the date on which you first access the Website. You must stop using the Website straight away if you do not agree with these Terms of Use.<\/p><p>4. Before entering the Website, you must read these Terms of Use carefully, but also the <a href=\"https:\/\/lanxshoes.com\/pages\/privacy-policy\">Privacy and Cookies Policy<\/a>. Before purchasing the goods that we provide through the Website, you must read our <a href=\"https:\/\/lanxshoes.com\/pages\/terms-and-conditions\">Terms and Conditions.<\/a><\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "fb090bed-37d8-4aa5-badc-06c8830aaacf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Your use of the Website<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "fe52a3cc-0802-4f5c-ad39-d1bbb8fa90da": {
+          "type": "text",
+          "settings": {
+            "text": "<p>5. You must not use the Website for, or send to the Website, anything which, in any way<\/p><ul><li>is not in our best interests;<\/li><li>involves your use of any viruses, Trojans, worms, logic bombs or other material which is malicious or technologically harmful or is intended to damage or interfere with the Website or any other system or information;<\/li><li>is infringing of any intellectual property rights or rights of privacy or confidentiality of us or any third party;<\/li><li>is fraudulent, criminal or not lawful, or which is in breach of any applicable law, statute, regulation or bye-law;<\/li><li>is misrepresentative or impersonates another person or organisation;<\/li><li>is defamatory, racist, sexist, discriminatory, offensive, threatening, hateful, pornographic, indecent, obscene, malicious, abusive, political or untrue;<\/li><li>is outdated or not accurate; or<\/li><li>is contrary to these Terms of Use, the <a href=\"https:\/\/lanxshoes.com\/pages\/terms-and-conditions\">Terms and Conditions<\/a> or the <a href=\"https:\/\/lanxshoes.com\/pages\/privacy-policy\">Privacy and Cookies Policy<\/a>.<\/li><\/ul><p>6. If you submit or send to the Website any information or material, that information or material shall be considered non-confidential and non-proprietary. You hereby grant to us a worldwide, royalty-free, irrevocable, assignable, sub-licensable licence to use that information or material for the purposes of the Website or our general business purposes. You hereby waive your moral rights in respect of such information or material, such that we do not need to identify you as the author of that information or material and we may amend or modify it as we consider, at our absolute discretion, to be appropriate.<\/p><p>7. We have the right to disclose your identity to any third party that claims that any content posted or submitted by you in relation to the Website infringes their intellectual property rights or their right to privacy or confidentiality.<\/p><p>8. You must comply at all times with our instructions for use of the Website.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "1b5810ea-d846-4785-834b-d1632d3bbc97": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Availability, accuracy and security of the Website<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "7935c81c-88cc-476b-a668-30bfe10c1a49": {
+          "type": "text",
+          "settings": {
+            "text": "<p>9. The Website is made available free of charge.<\/p><p>10. The content on the Website is provided for general information only and is not intended to amount to advice on which you should rely. You must obtain professional or specialist advice before taking, or refraining from, any action on the basis of the content on the Website.<\/p><p>11. From time to time, we may carry out maintenance or repairs to the Website, or update the Website with new functionality.<\/p><p>12. We will use our reasonable endeavours to make the Website available 24 hours a day. Subject to paragraph 19 below, we shall not have any liability if the Website is unavailable for any period or at any time.<\/p><p>13. Due to the nature of the Internet, we cannot guarantee that the Website will always be available or that your access to the Website will be uninterrupted, timely or error-free. We do not guarantee that the Website will be secure or free from bugs or viruses.<\/p><p>14. We may suspend or withdraw from any user access to the Website for any reason, temporarily or permanently, at any time without notice, and you must not circumvent, or attempt to circumvent, any such action.<\/p><p>15. We may impose restrictions for any reason on access to the Website at any time without notice, and you must not circumvent, or attempt to circumvent, any such action.<\/p><p>16. It is your responsibility to ensure that any hardware, software or any equipment that you use is compatible with the Website, and, subject to paragraph 19 below, we shall not have any liability for any damage caused to, or viruses or other information which may affect, any such hardware, software or equipment due to your access to the Website. You must use your own virus protection software.<\/p><p>17. Subject to paragraph 19 below, we shall not have any liability for the actions of third parties.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "d8d53182-4869-40d5-a5ad-4660052adff2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Liability<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "a88d334d-9221-42f8-a9b9-570524cc0844": {
+          "type": "text",
+          "settings": {
+            "text": "<p>18. We accept liability for:<\/p><ul><li>death or personal injury caused by our negligence;<\/li><li>our fraudulent misrepresentation; and<\/li><li>any other liability that we cannot exclude or limit at law.<\/li><\/ul><p>19. Subject to paragraph 19 above, and to the extent permitted by law, in all cases other than in respect of services we provide to a specific customer (which shall be governed by separate contractual terms of engagement), in relation to your use of or inability to use, or delay in use of, or reliance on any content on, the Website or any material in it or accessible from it or from any action or decision taken as a result of using the Website or any such material:<\/p><ul><li>our maximum liability (whether in tort, contract, misrepresentation, negligence, restitution or under any other legal head of liability), shall be £100; and<\/li><li>we shall not have any liability (whether in tort, contract, misrepresentation, negligence, restitution or under any other legal head of liability) for any: (i) indirect or consequential losses, damages, costs or expenses; (ii) loss of actual or anticipated profits; (iii) loss of contracts; (iv) loss of use of money; (v) loss of anticipated savings; (vi) loss of revenue; (vii) loss of goodwill; (viii) loss of reputation; (ix) loss of business; (x) ex gratia payments; (xi) loss of operation time; (xii) loss of opportunity; (xiii) loss caused by the diminution in value of any asset; or (xiv) loss of, damage to, or corruption of, data; whether or not such losses were reasonably foreseeable or we had been advised of the possibility of such losses being incurred. For the avoidance of doubt, (ii) to (xiv) (inclusive) of this paragraph 2 apply whether such losses are direct, indirect, consequential or otherwise.<\/li><\/ul><p>20. To the extent permitted by law, we exclude all conditions, warranties, representations or other terms which may apply to the Website or any content on it, whether express or implied.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "aac0dad4-e2b8-478c-8130-654512a83a2d": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Intellectual Property<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "41b97849-17da-4cb4-a21f-37d1152effe2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>21. We are the owner or licensee of all intellectual property rights in the Website and in the material published on it. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.<\/p><p>22. All names, logos and related names, design marks and slogans used by us are trade marks or service marks of us or our licensees.<\/p><p>23. Unless otherwise stated, the copyright, database rights and any other rights (including, but not limited to, intellectual property rights) in all information, data, text, photographs, images, graphics and materials (together “<strong>Materials<\/strong>“) on the Website, and the design, layout, “look and feel” and appearance of the Website is owned by us or licensed to us by third parties. You are permitted to use and download Materials or extracts from the Website to a local hard disk and print copies, subject to all of the following:<\/p><ul><li>your use of the Website and any Materials is for your internal, personal, private use only;<\/li><li>except to the extent provided by law, you must not use, copy, reproduce, republish, post, broadcast or transmit any part of the Website or any Materials for any other purpose without our express prior written consent. This includes (but is not limited to) not reproducing or storing any part of the Website or any Materials in any other website or in any public or private electronic retrieval system or service;<\/li><li>you must not modify the paper or digital copies of any materials you have printed off or downloaded from the Website in any way, and you must not use any illustrations, photographs, videos or audio sequences or any graphics separately from any accompanying text;<\/li><li>except as we expressly permit, you must not in any way modify any Materials on the Website;<\/li><li>our copyright notice (e.g. © Lanx Group Limited 2018) or, where indicated, the notice of our licensors, must appear in all electronic or hard copies of any Materials or extracts from the Website;<\/li><li>when you lawfully or with our consent copy, reproduce, republish, post, broadcast, transmit, print or quote from any of the Website or any Materials, you must do so fairly and give due accreditation to us, our suppliers and the Website. You must also do so in accordance with any restrictions which we stipulate on the Website;<\/li><li>if you print off, copy or download any part of the Website in breach of these Terms of Use, your right to use the Website will cease immediately and you must, at our option, return or destroy any copies of the materials you have made; and<\/li><li>any rights not expressly granted in these Terms of Use or otherwise by us are reserved.<\/li><\/ul>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "a2cff081-4954-443f-9332-6f7b8f6f02ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Third party websites<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "a055205d-01fc-4654-976a-f1af31dbc63e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>24. We have no control over the content of any website to which a link from the Website exists (unless we are the provider or operator of those linked websites). Subject to paragraph 19 above, we shall have no liability for the content of those linked websites. Those websites are provided “as is” with no express or implied warranty for their content. By providing a link to those websites, we do not provide any endorsement or recommendation of those websites, their content or their operators or owners.<\/p><p>25. Unless we provide our written consent for you to do so, you must not frame the Website onto your own or another person’s website.<\/p><p>26. We hereby grant to you a royalty-free, non-exclusive, revocable licence to provide a link from your website to the homepage of the Website; however, you must do so in a legal and fair way without damaging our reputation or taking advantage of it, and:<\/p><ul><li>you must not establish a link to the Website on any website that is not owned by you;<\/li><li>you must not say anything that is false, misleading, derogatory or offensive about us or our services;<\/li><li>you must not make any warranties or representation about us or our services without our prior written consent;<\/li><li>you must not say or suggest that we have endorsed your website or are associated with it without our prior written consent; and<\/li><li>you must not charge any fee to any third party in order to use such link or to otherwise access the Website and, if you act in breach of this paragraph 5, you agree that any such fee that you have received must become immediately payable by you back to such third party.<\/li><\/ul><p>We reserve the right to withdraw this linking permission without notice.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "9fc75308-58bf-4b8e-8ded-7c323f1430ab": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Changes to the Website and these Terms of Use<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "e18d9dd4-a85e-455c-82cc-e056484fe460": {
+          "type": "text",
+          "settings": {
+            "text": "<p>27. We may change or update the Website and its content at any time without notice to you. However, please note that any content on the Website may be out of date at any given time, and we are not under any obligation to update that content.<\/p><p>28. We may change these Terms of Use at any time without notice to you. If we do change these Terms of Use, we will post the updated Terms of Use on the Website. It is your responsibility to check the Website from time to time to see if there have been any changes to these Terms of Use. Once any updated Terms of Use are posted on the Website, your continued use of the Website will be considered to be your acceptance of those updated Terms of Use.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "d0014525-50fa-4fa5-a466-29bb9a56d88a": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>General<\/strong><\/p>",
+            "text_size": 6
+          }
+        },
+        "102fdac0-73ab-48a5-8707-5bb0f8a040f5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>29. If any provision of these Terms of Use shall be determined to be illegal, invalid or otherwise unenforceable by reason of the laws of any jurisdiction, then, to the extent that provision is illegal, invalid or otherwise unenforceable, it shall be severed and deleted, and the remaining provisions of these Terms of Use shall survive, remain in full force and effect and continue to be binding and enforceable.<\/p><p>30. If you are a consumer, please note that these Terms of Use, their subject matter and their formation, are governed by English law. You and we both agree that the courts of England will have exclusive jurisdiction except that if you are a resident of Northern Ireland you may also bring proceedings in Northern Ireland, and if you are resident of Scotland, you may also bring proceedings in Scotland.<\/p><p>31. If you are a business, these Terms of Use, their subject matter and their formation (and any non-contractual disputes or claims) are governed by English law. We both agree to the exclusive jurisdiction of the courts of England.<\/p><p><\/p><p>These Terms of Use were most recently updated in April 2018.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "25716532-5bcf-477a-88c2-fc49cb3aecb5",
+        "dd79bf31-0907-43be-ad06-e53ac9ecea34",
+        "9d8043ea-5e51-4856-978c-c6875bbbd6e0",
+        "template--16753779376366__05b9f8e9-7a5a-4146-9254-04e3a7a0aa79-1677580494592898b5-2",
+        "fb090bed-37d8-4aa5-badc-06c8830aaacf",
+        "fe52a3cc-0802-4f5c-ad39-d1bbb8fa90da",
+        "1b5810ea-d846-4785-834b-d1632d3bbc97",
+        "7935c81c-88cc-476b-a668-30bfe10c1a49",
+        "d8d53182-4869-40d5-a5ad-4660052adff2",
+        "a88d334d-9221-42f8-a9b9-570524cc0844",
+        "aac0dad4-e2b8-478c-8130-654512a83a2d",
+        "41b97849-17da-4cb4-a21f-37d1152effe2",
+        "a2cff081-4954-443f-9332-6f7b8f6f02ed",
+        "a055205d-01fc-4654-976a-f1af31dbc63e",
+        "9fc75308-58bf-4b8e-8ded-7c323f1430ab",
+        "e18d9dd4-a85e-455c-82cc-e056484fe460",
+        "d0014525-50fa-4fa5-a466-29bb9a56d88a",
+        "102fdac0-73ab-48a5-8707-5bb0f8a040f5"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "05b9f8e9-7a5a-4146-9254-04e3a7a0aa79"
+  ]
+}

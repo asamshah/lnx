@@ -1,0 +1,620 @@
+{% assign ss = section.settings %}
+{% assign main_menu = menus[ss.menu] %}
+{% assign secondary_menu = menus[ss.secondary_menu] %}
+{% assign mobile_menu = menus[ss.menu_mobile] %}
+
+{% capture cart_status %}
+  <span class="header__cart__status">
+    <span data-header-cart-price="{{ cart.total_price }}">
+      {{ cart.total_price | money }}
+    </span>
+    <span data-header-cart-count="{{ cart.item_count }}">
+      ({{ cart.item_count }})
+    </span>
+    {% assign cart_full =  false %}
+    {%- if cart.item_count > 0 -%}
+      {% assign cart_full =  true %}
+    {%- endif -%}
+    <span data-header-cart-full="{{ cart_full }}"></span>
+  </span>
+{% endcapture %}
+{% capture cart_content %}
+  {%- capture text_wrapper -%}
+    {%- unless section.settings.use_icons -%}
+      data-text-items-wrapper
+    {%- endunless -%}
+  {%- endcapture -%}
+  {%- capture text_hover -%}
+    {%- unless section.settings.use_icons -%}
+      data-main-menu-text-item
+    {%- endunless -%}
+  {%- endcapture -%}
+
+  <div class="header__desktop__buttons{% if section.settings.use_icons %} header__desktop__buttons--icons{% endif %}" {{ text_wrapper }}>
+
+    {%- if shop.customer_accounts_enabled and section.settings.enable_account -%}
+      <div class="header__desktop__button {% if request.path contains routes.account_url %} main-menu--active{% endif %} {% if settings.type_nav_caps %} caps{% endif %}" {{ text_hover }}>
+        <a href="{{ routes.account_url }}" class="navlink">
+          {% if section.settings.use_icons %}
+            {% render 'icon-account' %}
+            <span class="visually-hidden">{{ 'customer.account.title' | t }}</span>
+          {% else %}
+            <span class="navtext">{{ 'layout.customer.account' | t }}</span>
+          {% endif %}
+        </a>
+      </div>
+    {% endif %}
+
+    {% if section.settings.enable_search %}
+      <div class="header__desktop__button {% if request.path contains routes.search_url %} main-menu--active{% endif %}" {{ text_hover }}>
+        <a href="{{ routes.search_url }}" class="navlink {% if settings.type_nav_caps %} caps{% endif %}" data-popdown-toggle="search-popdown-desktop">
+          {% if section.settings.use_icons %}
+            {% render 'icon-search' %}
+            <span class="visually-hidden">{{ 'general.search.submit' | t }}</span>
+          {% else %}
+            <span class="navtext">{{ 'general.search.submit' | t }}</span>
+          {% endif %}
+        </a>
+      </div>
+    {% endif %}
+
+    <div class="header__desktop__button {% if request.path contains routes.cart_url %} main-menu--active{% endif %}" {{ text_hover }}>
+      <a href="{{ routes.cart_url }}"
+        class="navlink navlink--cart {% if settings.type_nav_caps %} caps{% endif %}"
+        data-drawer-toggle="drawer-cart">
+        {% if section.settings.use_icons %}
+          {% render 'icon-cart' %}
+          <span class="visually-hidden">{{ 'layout.cart.title' | t }}</span>
+          {{ cart_status }}
+        {% else %}
+          <span class="navtext cart__status__parens">
+            {{ 'layout.cart.title' | t }}
+            {{ cart_status }}
+          </span>
+        {% endif %}
+      </a>
+    </div>
+
+  </div>
+{% endcapture %}
+{% capture drawer %}
+  <nav class="drawer header__drawer display-none"
+    data-drawer="hamburger"
+    aria-label="{{ 'general.accessibility.main_menu' | t }}"
+    id="header-menu">
+    <div class="drawer__content">
+      <div class="drawer__top">
+        <div class="drawer__top__left">
+          {% if drawer_locale or drawer_currency %}
+            {%- form 'localization', class: 'header__drawer__selects', id: 'localization-form-drawer' -%}
+              {%- if drawer_locale -%}
+                {%- render 'select-locale', form: form, unique: 'localization-form-drawer', wrapper_class: 'popout--navbar', enable_scroll: true -%}
+              {%- endif -%}
+
+              {%- if drawer_currency -%}
+                {%- render 'select-currency', form: form, unique: 'localization-form-drawer', wrapper_class: 'popout--navbar', select_type: settings.currency_select_type, enable_scroll: true -%}
+              {%- endif -%}
+            {%- endform -%}
+          {% endif %}
+
+          {%- if shop.customer_accounts_enabled and section.settings.enable_account -%}
+            <a class="drawer__account" href="{{ routes.account_url }}">
+              {% render 'icon-account' %}
+              <span class="visually-hidden">{{ 'customer.account.title' | t }}</span>
+            </a>
+          {%- endif -%}
+        </div>
+
+        <button class="drawer__button drawer__close"
+          data-drawer-toggle="hamburger"
+          aria-label="{{ 'general.accessibility.close' | t }}">
+          {% render 'icon-close' %}
+        </button>
+      </div>
+
+      <div class="drawer__inner" data-drawer-scrolls>
+        {% if section.settings.enable_search %}
+          <div class="drawer__search" data-drawer-search>
+            {% render 'search-predictive', version: 'search-drawer' %}
+          </div>
+        {% endif %}
+
+        {% assign menu_index = 0 %}
+        {%- assign mobile_menu_linklist = section.settings.mobile_menu_linklist | default: main_menu_linklist -%}
+        <div class="drawer__menu {% if settings.type_nav_caps %} caps{% endif %}" data-stagger-animation data-sliderule-pane="0">
+          {% for link in linklists[mobile_menu_linklist].links %}
+            {% render 'nav-item-mobile', link: link, section: section, index: forloop.index %}
+            {% assign menu_index = forloop.index %}
+          {% endfor %}
+
+          {% if drawer_links %}
+            {% assign secondary_index = menu_index | plus: 1 %}
+            {% for link in linklists[toolbar_links].links %}
+              {% render 'nav-item-mobile', link: link, section: section, index: secondary_index, secondary_menu: true %}
+              {% assign secondary_index = secondary_index | plus: forloop.index %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <span class="drawer__underlay" data-drawer-underlay>
+      <span class="drawer__underlay__fill"></span>
+      <span class="drawer__underlay__blur"></span>
+    </span>
+  </nav>
+{% endcapture %}
+
+<div class="header-outer" data-mega-menus data-when-scrolled-past='{
+  "selector": ".hero-slider",
+  "class": "bg-semi-transparent",
+  "offset": 350
+}'
+data-section-id="{{ section.id }}"
+data-section-type="header"
+>
+  <div class="header-inner flex f-j-between f-a-center" >
+    
+    <nav class="left-nav-area flex f-a-center">
+      
+      <ul class="flex desktop-nav">
+        
+        {% for link in main_menu.links %}
+          <li>
+            <a href="{{ link.url }}" class="nav-item flex f-a-center {% if link.active and template != 'index' %}active{% endif %}" {% if link.links != blank %}data-nav-item{% endif %} {% if link.type == 'http_link' %}target="_blank"{% endif %}>
+              <span>{{ link.title }}</span>
+            </a>
+            {% if link.links != blank %}
+              {% include 'mega-menu' %}
+            {% endif %}
+          </li>
+        {% endfor %}
+
+      </ul>
+
+      <button aria-label="Burger Menu" class="burger-menu-container">
+        <div class="burger-menu-open" data-class-change='[
+          {
+            "method": "add",
+            "on": "click",
+            "target": ".mobile-nav",
+            "class": "open"
+          },
+          {
+            "method": "add",
+            "on": "click",
+            "target": ".burger-menu-container",
+            "class": "active"
+          },
+          {
+            "target": ".search-dropdown",
+            "class": "open",
+            "method": "remove",
+            "on": "click"
+          },
+          {
+            "target": ".site-header",
+            "class": "dropdown-open",
+            "method": "add",
+            "on": "click"
+          }
+        ]'>
+          <span></span>
+        </div>
+        <div class="burger-menu-close" data-class-change='[
+          {
+            "method": "remove",
+            "on": "click",
+            "target": ".mobile-nav",
+            "class": "open"
+          },
+          {
+            "method": "remove",
+            "on": "click",
+            "target": ".burger-menu-container",
+            "class": "active"
+          },
+          {
+            "target": ".search-dropdown",
+            "class": "open",
+            "method": "remove",
+            "on": "click"
+          },
+          {
+            "target": ".site-header",
+            "class": "dropdown-open",
+            "method": "remove",
+            "on": "click"
+          }
+        ]'>
+          {% render 'icon-close' %}
+        </div>
+      </button>
+
+    </nav>
+
+    <div class="middle-area">
+      
+      <a href="{{ routes.root_url }}" aria-label="Logo">
+        {% if section.settings.logo != blank %}
+          {%- assign img_url = section.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img data-src="{{ img_url }}"
+            class="lazyload logo__img logo__img--color"
+            width="{{ section.settings.logo.width }}"
+            height="{{ section.settings.logo.height }}"
+            data-widths="[110, 160, 220, 320, 480, 540, 720, 900]"
+            data-sizes="auto"
+            data-aspectratio="{{ section.settings.logo.aspect_ratio }}"
+            alt="{{ section.settings.logo.alt | default: shop.name | strip_html | escape }}">
+        {% endif %}
+      </a>
+
+    </div>
+
+    <nav class="right-nav-area flex f-j-end f-a-center">
+
+      {% if secondary_menu.links != blank %}
+        <ul class="secondary-nav desktop-only">
+          {% for link in secondary_menu.links %}
+            <li>
+              <a href="{{ link.url }}" class="nav-item">
+                <span>{{ link.title }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <ul class="trigger-nav flex f-a-center">
+        
+        <li class="desktop-only">
+          <a aria-label="Account" href="{{ routes.account_url }}" class="account-trigger">
+            {% render 'icon-account' %}
+          </a>
+        </li>
+
+        <li class="search-trigger-item">
+          <a aria-label="Search" href="#" class="search-trigger flex f-a-center" data-class-change='[
+            {
+              "target": ".search-dropdown",
+              "class": "open",
+              "method": "add",
+              "on": "click",
+              "preventDefault": true
+            },
+            {
+              "method": "remove",
+              "on": "click",
+              "target": ".mobile-nav",
+              "class": "open",
+              "preventDefault": true
+            },
+            {
+              "method": "remove",
+              "on": "click", 
+              "target": ".burger-menu-container",
+              "class": "active",
+              "preventDefault": true
+            },
+            {
+              "target": ".side-cart",
+              "class": "shown",
+              "method": "remove",
+              "on": "click",
+              "preventDefault": true
+            }, 
+            {
+              "target": ".cart-trigger",
+              "class": "active",
+              "method": "remove",
+              "on": "click",
+              "preventDefault": true
+            },
+            {
+              "target": ".collection--filters",
+              "class": "open",
+              "method": "remove",
+              "on": "click",
+              "preventDefault": true
+            },
+            {
+              "target": ".site-header .header-outer",
+              "class": "search-open",
+              "method": "add",
+              "on": "click"
+            }
+          ]'
+          data-focus-on='[
+            {
+              "target": ".search-dropdown [data-ajax-search-input]",
+              "on":  "click",
+              "waitFor": 500
+            }
+          ]'
+          >
+            {% render 'icon-search' %}
+          </a>
+        </li>
+
+        <li class="cart-trigger-item">
+          <a href="{{ routes.cart_url }}" class="cart-trigger" data-drawer-toggle="drawer-cart" aria-label="Cart">
+            {% render 'icon-cart' %}
+            <span class="header__cart__status">
+              {% assign cart_full =  false %}
+              {%- if cart.item_count > 0 -%}
+                {% assign cart_full =  true %}
+              {%- endif -%}
+              <span data-header-cart-full="{{ cart_full }}"></span>
+            </span>
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </div> 
+
+  {% include 'search-dropdown' %}
+
+  {{ drawer }}
+  {%- if settings.cart_style == "drawer" or settings.cart_style == "pop" -%}
+    {%- if template.name != 'cart' -%}
+      {% render 'cart-drawer' %}
+    {%- endif -%}
+  {%- endif -%}
+
+</div>
+
+{% if ss.show_top_bar %}
+  <div class="announcement-bar" style="background-color: {{ ss.top_bar_bg }};">
+    {% render 'announcement-bar' %}
+  </div>
+{% endif %}
+
+{% include 'mobile-nav' %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": {{ shop.name | json }},
+  {% if section.settings.logo %}
+    {% assign image_size = section.settings.logo.width | append: 'x' %}
+    "logo": {{ section.settings.logo | img_url: image_size | prepend: "https:" | json }},
+  {% endif %}
+  "sameAs": [
+    {{ settings.social_twitter_link | json }},
+    {{ settings.social_facebook_link | json }},
+    {{ settings.social_instagram_link | json }},
+    {{ settings.social_pinterest_link | json }},
+    {{ settings.social_youtube_link | json }},
+    {{ settings.social_vimeo_link | json }},
+    {{ settings.social_snapchat_link | json }},
+    {{ settings.social_medium_link | json }},
+    {{ settings.social_tumblr_link | json }}
+  ],
+  "url": {{ shop.url | append: page.url | json }}
+}
+</script>
+
+{% if template.name == 'index' %}
+  {% assign potential_action_target = shop.url | append: "/search?q={search_term_string}" %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ potential_action_target | json }},
+        "query-input": "required name=search_term_string"
+      },
+      "url": {{ shop.url | append: page.url | json }}
+    }
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name":"Header",
+  "class": "site-header",
+  "tag": "header",
+  "settings":[
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "secondary_menu",
+      "label": "Secondary Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu_mobile",
+      "label": "Menu Mobile"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_top_bar",
+      "label": "Show Announcement Bar"
+    },
+    {
+      "type": "color",
+      "id": "top_bar_bg",
+      "label": "Announcement Bar Background Color",
+      "default": "#efefef"
+    },
+    {
+      "type": "checkbox",
+      "id": "top_bar_arrows",
+      "label": "Announcement Bar Arrows",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "top_bar_autoplay",
+      "label": "Announcement Bar Autoplay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "top_bar_autoplay_speed",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "unit": "sec",
+      "label": "Announcement Bar Change Interval (autoplay)",
+      "default": 5
+    }
+  ],
+  "blocks":[ 
+    {
+      "type": "mega-menu-item",
+      "name": "Mega menu item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Menu name"
+        },
+        {
+          "type": "header",
+          "content": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "menu__image1",
+          "label": "Image 1"
+        },
+        {
+          "type": "url",
+          "id": "menu__link1",
+          "label": "Link 1"
+        },
+        {
+          "type": "text",
+          "id": "menu__link1title",
+          "label": "Link 1 Title",
+          "default": "Shop Now"
+        },
+        {
+          "type": "text",
+          "id": "menu__title1",
+          "label": "Title 1"
+        },
+        {
+          "type": "header",
+          "content": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "menu__image2",
+          "label": "Image 2"
+        },
+        {
+          "type": "url",
+          "id": "menu__link2",
+          "label": "Link 2"
+        },
+        {
+          "type": "text",
+          "id": "menu__link2title",
+          "label": "Link 2 Title",
+          "default": "Shop Now"
+        },
+        {
+          "type": "text",
+          "id": "menu__title2",
+          "label": "Title 2"
+        }
+      ]
+    },
+    {
+      "name":"Announcement Bar Message",
+      "type":"top_bar_message",
+      "settings":[ 
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#efefef"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text Colour",
+          "default": "#010203"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_countdown",
+          "label": "Show countdown?"
+        },
+        {
+          "type": "text",
+          "id": "countdown_end_timestamp",
+          "label": "Countdown End Timestamp",
+          "info": " UNIX timestamp (seconds). [Get From Here](https://www.epochconverter.com). Add [COUNTDOWN] where you want it to appear in the content area"
+        }
+      ]
+    },
+    {
+      "name":"Announcement Bar HTML",
+      "type":"top_bar_html",
+      "settings":[ 
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Custom HTML code",
+          "info": "Use this field for HTML content like Klaviyo forms"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#efefef"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text Colour",
+          "default": "#010203"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_countdown",
+          "label": "Show countdown?"
+        },
+        {
+          "type": "text",
+          "id": "countdown_end_timestamp",
+          "label": "Countdown End Timestamp",
+          "info": " UNIX timestamp (seconds). [Get From Here](https://www.epochconverter.com). Add [COUNTDOWN] where you want it to appear in the content area"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

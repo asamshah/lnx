@@ -1,0 +1,254 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3b4ee7f8-bfc3-4a38-8d11-3191604bf329": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007251182__3b4ee7f8-bfc3-4a38-8d11-3191604bf329-16842256399cadbb32-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Wedding Discounts<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007251182__3b4ee7f8-bfc3-4a38-8d11-3191604bf329-16842256399cadbb32-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Planning a wedding? Let's make it a proper day to remember. Why not kit out your squad of friends in LANX footwear. We offer discount on group orders of 3+ pairs.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007251182__3b4ee7f8-bfc3-4a38-8d11-3191604bf329-16842256399cadbb32-1",
+        "template--16790007251182__3b4ee7f8-bfc3-4a38-8d11-3191604bf329-16842256399cadbb32-2"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-wedding-group-packages-discount-married.jpg",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_heJkar": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_QTKjHP": {
+          "type": "text",
+          "settings": {
+            "kicker": "Package A",
+            "title": "3 Pairs",
+            "text": "<ul><li>10% off all footwear<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase 3 pairs to qualify for this package<\/li><li>Add 3 pairs to cart and use code <strong>PACKA<\/strong> at checkout<\/li><\/ul>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_Mpkrxh": {
+          "type": "text",
+          "settings": {
+            "kicker": "Package B",
+            "title": "4 Pairs",
+            "text": "<ul><li>10% off all footwear <\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/pages\/socks\" target=\"_blank\">LANX socks<\/a> with each pair purchased*<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase 4 pairs to qualify for this package<\/li><li>Add 4 pairs to cart and use code <strong>PACKB<\/strong> at checkout<\/li><\/ul>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_YmJQXp": {
+          "type": "text",
+          "settings": {
+            "kicker": "Package C",
+            "title": "5+ Pairs",
+            "text": "<ul><li>15% off all footwear<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/pages\/socks\" target=\"_blank\">LANX socks<\/a> with each pair purchased*<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase a minimum of 5 pairs to qualify for this package<\/li><li>Add 5 or more pairs to basket and use code <strong>PACKC<\/strong> at checkout<\/li><\/ul>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_QTKjHP",
+        "text_Mpkrxh",
+        "text_YmJQXp"
+      ],
+      "custom_css": [
+        ".brick__block__text {align-items: flex-start;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 10,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "b4aba1dc-2cd1-4497-8087-20f87ecf78a4": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16756740391150__b4aba1dc-2cd1-4497-8087-20f87ecf78a4-16778515841b22f41b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*After purchasing your footwear online please email us with your preference for the complimentary shoe laces (Package A+B+C) and complimentary socks (Package B+C). The free shipping and exchanges is to 1 UK address.To book a fitting session at our <a href=\"https:\/\/lanxshoes.com\/pages\/warehouse-shop\">Whalley Warehouse Shop<\/a>, or to request more information please email the LANX team via hello@lanxshoes.com.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16756740391150__b4aba1dc-2cd1-4497-8087-20f87ecf78a4-16778515841b22f41b-2"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "9dbfed76-bace-4600-85e8-4d27e880e5e4": {
+      "type": "section-tabs",
+      "blocks": {
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-0": {
+          "type": "text",
+          "settings": {
+            "title": "Package A - 3 Pairs",
+            "text": "<ol><li>10% off all footwear<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase 3 pairs to qualify for this package<\/li><li>Add 3 pairs to cart and use code <strong>PACKA<\/strong> at checkout<\/li><\/ol>"
+          }
+        },
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-1": {
+          "type": "text",
+          "settings": {
+            "title": "Package B - 4 Pairs",
+            "text": "<ol><li>10% off all footwear <\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/pages\/socks\" target=\"_blank\">LANX socks<\/a> with each pair purchased*<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase 4 pairs to qualify for this package<\/li><li>Add 4 pairs to cart and use code <strong>PACKB<\/strong> at checkout<\/li><\/ol>"
+          }
+        },
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-2": {
+          "type": "text",
+          "settings": {
+            "title": "Package C - 5+ Pairs",
+            "text": "<ol><li>15% off all footwear<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/pages\/socks\" target=\"_blank\">LANX socks<\/a> with each pair purchased*<\/li><li>Complimentary <a href=\"https:\/\/lanxshoes.com\/collections\/laces\" target=\"_blank\">coloured laces<\/a> with each pair purchased*<\/li><li>Free shipping & free UK exchanges*<\/li><li>You must purchase a minimum of 5 pairs to qualify for this package<\/li><li>Add 5 or more pairs to basket and use code <strong>PACKC<\/strong> at checkout<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-0",
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-1",
+        "template--16790007251182__9dbfed76-bace-4600-85e8-4d27e880e5e4-1684238177f08c01f6-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "157ab547-106b-4c0f-87e9-c2fdcb36ff46": {
+      "type": "section-mosaic",
+      "blocks": {
+        "0c3dd6ed-8b90-440e-a438-1ece5dff71db": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-footwear",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "SHOP MEN'S",
+            "title_size": 8,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 20
+          }
+        },
+        "dbdb11ad-329d-4cb8-80fd-3d25d071552d": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-footwear",
+            "kicker": "",
+            "kicker_size": 3,
+            "show_title": true,
+            "text_align": "text-center",
+            "title": "SHOP WOMEN'S",
+            "title_size": 8,
+            "link_text": "",
+            "link_size": 3,
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "0c3dd6ed-8b90-440e-a438-1ece5dff71db",
+        "dbdb11ad-329d-4cb8-80fd-3d25d071552d"
+      ],
+      "settings": {
+        "first_block_height": "short",
+        "aspect_ratio": 0.5,
+        "split": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 28,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3b4ee7f8-bfc3-4a38-8d11-3191604bf329",
+    "section_custom_content_heJkar",
+    "b4aba1dc-2cd1-4497-8087-20f87ecf78a4",
+    "9dbfed76-bace-4600-85e8-4d27e880e5e4",
+    "157ab547-106b-4c0f-87e9-c2fdcb36ff46"
+  ]
+}

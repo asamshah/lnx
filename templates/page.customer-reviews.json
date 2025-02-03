@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6bbefe99-2d37-4dfb-8fd0-93edb141c03e": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007316718__6bbefe99-2d37-4dfb-8fd0-93edb141c03e-16842256399cadbb32-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>CUSTOMER REVIEWS<\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007316718__6bbefe99-2d37-4dfb-8fd0-93edb141c03e-16842256399cadbb32-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-about-us-page.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a238a893-bdab-4560-9525-5f1861c8d0bc": {
+      "type": "section-richtext",
+      "blocks": {
+        "399baeec-a8ff-46ca-be63-680c395cb86e": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><\/h1><p>Below you will find reviews submitted by our customers. We are always looking for ways to improve our products and service, please post your feedback after purchase or drop us an email. To leave your own feedback simply click on the page of the product\/s you purchased, scroll down the product page and select the Write A Review<strong> <\/strong>button. <\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "399baeec-a8ff-46ca-be63-680c395cb86e"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16842297629ae017c3": {
+      "type": "apps",
+      "blocks": {
+        "dca81396-30ea-48e9-8e4f-0d60b0724269": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#010103",
+            "review_type": "product",
+            "reviews_shown": 60,
+            "header_bg_colour": "#010103",
+            "header_colour": "#ffffff",
+            "header_star_colour": "#ffffff",
+            "heading_text_colour": "#010103",
+            "heading_font": "roboto_mono_n3",
+            "body_text_colour": "#010203",
+            "badge_icon_colour": "#010203",
+            "badge_text_colour": "#010203",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "1px",
+            "item_border_colour": "#010203",
+            "item_border_radius": "0px",
+            "item_shadow_size": "0px",
+            "item_shadow_colour": "#000000",
+            "enable_rich_snippets": false,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        }
+      },
+      "block_order": [
+        "dca81396-30ea-48e9-8e4f-0d60b0724269"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6bbefe99-2d37-4dfb-8fd0-93edb141c03e",
+    "a238a893-bdab-4560-9525-5f1861c8d0bc",
+    "16842297629ae017c3"
+  ]
+}

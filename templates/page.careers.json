@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1f35ada7-768b-4ab1-9989-1298e3fb6688": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007742702__1f35ada7-768b-4ab1-9989-1298e3fb6688-16841484527d2374e9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>CAREERS<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007742702__1f35ada7-768b-4ab1-9989-1298e3fb6688-16841484527d2374e9-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>LANX is looking for talented, passionate and hard working individuals to join our team. <br\/><br\/>All applications should be made via the below link only, please do not apply by any other method.<\/p>",
+            "text_size": 3
+          }
+        },
+        "spacer_xp7iQe": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 20,
+            "show_line": false
+          }
+        },
+        "kicker_anRpjN": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>EMPLOYEE BENEFITS<\/p>",
+            "enable_caps": true,
+            "text_size": 3
+          }
+        },
+        "spacer_yALWLK": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 4,
+            "show_line": false
+          }
+        },
+        "text_hkDXmB": {
+          "type": "text",
+          "settings": {
+            "richtext": "<ul><li>• 40% off all full priced LANX footwear<br\/><\/li><li>• Annual staff wellness day - fully paid for<br\/><\/li><li>• Heavily discounted gym memberships at <a href=\"https:\/\/per4mhealth.co.uk\" title=\"https:\/\/per4mhealth.co.uk\">Per4mhealth<br\/><\/a><\/li><li>• In-house HR support <br\/><\/li><li>• Monthly staff socials - fully paid for\/ subsidised <br\/><\/li><li>• Company pension<br\/><\/li><li>• Christmas party, all-expenses-paid<br\/><\/li><li>• Unlimited free coffee<br\/><\/li><li>• Friday walks up Pendle Hill<br\/><\/li><li>• Good vibes<\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "button_6bMGkD": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "CURRENT VACANCIES",
+            "link_1": "https:\/\/uk.indeed.com\/cmp\/Lanx-1\/jobs",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007742702__1f35ada7-768b-4ab1-9989-1298e3fb6688-16841484527d2374e9-1",
+        "template--16790007742702__1f35ada7-768b-4ab1-9989-1298e3fb6688-16841484527d2374e9-2",
+        "spacer_xp7iQe",
+        "kicker_anRpjN",
+        "spacer_yALWLK",
+        "text_hkDXmB",
+        "button_6bMGkD"
+      ],
+      "custom_css": [
+        ".bloop {display: none;}"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-team-homepage-about-section_31b51b57-f56b-4c53-921e-60ebbe140c60.png",
+        "height": "use_screen_full",
+        "overlay_opacity": 100,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 800,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "56feabc3-fc9f-463a-a1c4-3c456c44c2e0": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16806137331950__56feabc3-fc9f-463a-a1c4-3c456c44c2e0-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>CURRENT VACANCIES<\/p>",
+            "text_size": 7
+          }
+        },
+        "kicker_b9H3By": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>No Current Vacancies<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "text_Utf3VW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "button_6KqgnG": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "JOB LISTINGS",
+            "link_1": "https:\/\/uk.indeed.com\/cmp\/Lanx-1\/jobs",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16806137331950__56feabc3-fc9f-463a-a1c4-3c456c44c2e0-heading-1",
+        "kicker_b9H3By",
+        "text_Utf3VW",
+        "button_6KqgnG"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--tiny",
+        "padding_top": 46,
+        "padding_bottom": 46
+      }
+    },
+    "2d730433-a18f-488d-a26a-a4f028a359f5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "2f72b5c0-34e3-4554-aa6e-93be39fcc3ca": {
+          "type": "text",
+          "settings": {
+            "kicker": "Shop Manager (Whalley)",
+            "title": "",
+            "text": "<p>To manage and operate the LANX Whalley shop and give fantastic service to LANX customers.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/shop-manager-eb16d4c0b50ae5e4?_gl=1*1yps0d*_gcl_au*MTg1MTU2OTk0Ni4xNzA0Mjc4NzY2",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "e135cda8-b532-4f15-8c7a-04c8e0dd6074": {
+          "type": "text",
+          "settings": {
+            "kicker": "Customer Service Executive",
+            "title": "",
+            "text": "<p>To provide fantastic customer service to all our online customers.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/customer-service-executive-2e762d2646483414",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "09c74fee-88b5-4c3e-8e3a-40caacaa3b4a": {
+          "type": "text",
+          "settings": {
+            "kicker": "Warehouse Executive",
+            "title": "",
+            "text": "<p>To support the Warehouse Manager in all aspects of warehouse duties<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/warehouse-executive-a0058fe4486057e3?_gl=1*1w30dtb*_gcl_au*MTg1MTU2OTk0Ni4xNzA0Mjc4NzY2",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2f72b5c0-34e3-4554-aa6e-93be39fcc3ca",
+        "e135cda8-b532-4f15-8c7a-04c8e0dd6074",
+        "09c74fee-88b5-4c3e-8e3a-40caacaa3b4a"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_U6VHGF": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_4DdbwY": {
+          "type": "text",
+          "settings": {
+            "kicker": "Partnership Manager",
+            "title": "",
+            "text": "<p>As the LANX Partnership Manager, your job's simple – get people, brands, and sports teams talking about LANX.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/partnership-manager-35399f58de1efcfb?_gl=1*1eii89z*_gcl_au*MTg1MTU2OTk0Ni4xNzA0Mjc4NzY2",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_jLVHfB": {
+          "type": "text",
+          "settings": {
+            "kicker": "Social Media Manager",
+            "title": "",
+            "text": "<p>If you're all about making waves on social media and want to be part of a team that's going places fast...<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/social-media-manager-de0662d198b60274?_gl=1*1eii89z*_gcl_au*MTg1MTU2OTk0Ni4xNzA0Mjc4NzY2",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_7MEFHG": {
+          "type": "text",
+          "settings": {
+            "kicker": "Financial Director \/ Controller (Part-time)",
+            "title": "",
+            "text": "<p>As the LANX Financial Director \/ Controller you will spearhead the finance function for the business...<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/finance-director-financial-controller-bbdb8495daa1cd2c?_gl=1*1eii89z*_gcl_au*MTg1MTU2OTk0Ni4xNzA0Mjc4NzY2",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4DdbwY",
+        "text_jLVHfB",
+        "text_7MEFHG"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_p7jPw8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_wdJNYf": {
+          "type": "text",
+          "settings": {
+            "kicker": "Cobbler \/ Shoe Repairer",
+            "title": "",
+            "text": "<p>An important role to repair shoes.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "DETAILS + APPLY",
+            "button_url": "https:\/\/uk.indeed.com\/job\/shoes-repairercobbler-6b2310806c36dedf",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_wdJNYf"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1f35ada7-768b-4ab1-9989-1298e3fb6688",
+    "56feabc3-fc9f-463a-a1c4-3c456c44c2e0",
+    "2d730433-a18f-488d-a26a-a4f028a359f5",
+    "section_custom_content_U6VHGF",
+    "section_custom_content_p7jPw8"
+  ]
+}

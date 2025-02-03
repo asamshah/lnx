@@ -1,0 +1,36 @@
+<!-- /snippets/product-variant-sizes.liquid -->
+
+{% comment %}
+  A grid item for products used in collection grid view
+
+  * product {object} - The current prodcut
+
+  {% render 'product-variant-sizes', product: product %}
+{% endcomment %}
+
+{% liquid
+  comment
+   Work out how many extra boxes we need in the grid to make it always four across
+  endcomment
+  assign number_options = product.variants | size
+  assign remainder = number_options | modulo: 4
+  if remainder > 0
+    assign number_extra = 4 | minus: remainder
+  endif
+%}
+
+<div class="product-variant-sizes"
+  data-number-options="{{ product.variants | size }}"
+  data-number-extra="{{ number_extra }}">
+{% for variant in product.variants %}
+<div>
+   <a class="product-variant-sizes--size" href="{{ variant.url }}"> <span data-variant-available="{{ variant.available }}">{{ variant.title | remove: 'UK' }}</span> </a>
+</div>
+{% endfor %}
+{% comment %} Add the required number of empty boxes to make 4 across {% endcomment %}
+{% for i in (1..number_extra) %}
+    <div class="product-variant-sizes--size">
+      <span></span>
+    </div>
+{% endfor %}
+</div>

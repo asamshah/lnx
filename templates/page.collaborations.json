@@ -1,0 +1,644 @@
+{
+  "sections": {
+    "ef69eed0-5424-4a5b-ab03-41613efde124": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007611630__ef69eed0-5424-4a5b-ab03-41613efde124-16841484527d2374e9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>COLLABS<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007611630__ef69eed0-5424-4a5b-ab03-41613efde124-16841484527d2374e9-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Historic and Current<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007611630__ef69eed0-5424-4a5b-ab03-41613efde124-16841484527d2374e9-1",
+        "template--16790007611630__ef69eed0-5424-4a5b-ab03-41613efde124-16841484527d2374e9-2"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-collabs-great-north-pie-co.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "88750cc4-edb2-47e1-8b55-37ee320646a8": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_ggD7Ke": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/beck-willow.jpg",
+            "title": "BECK & WILLOW",
+            "text": "<p>We are happy to work with Beck & Willow, located down the road from LANX in Barnoldswick for our new Steads leather wallets and card holders.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_kKTpL7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/county-brook.jpg",
+            "title": "COUNTY BROOK",
+            "text": "<p>We have worked in collaboration with County Brook, a local family-run Mill, to add yet another made in England product to our range.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_TpA8pg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/gloucester-rugby.jpg",
+            "title": "GLOUCESTER RUGBY",
+            "text": "<p>We are honoured to be the ‘Official Footwear Supplier of Gloucester Rugby’. With their illustrious history and world class players.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_rV9BVV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/carter-duck.jpg",
+            "title": "CARTER & DUCK",
+            "text": "<p>We are super proud to be working with Carter & Duck to supply our own Sam Thompson with the buckles he needs to manufacture our newly released leather belts.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_z4QfYy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/highland-2000.jpg",
+            "title": "HIGHLAND 2000",
+            "text": "<p>Our friends at Highland 2000 helped us create our new wooly hat collection this year.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_NxXFL9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/farmyard-3.png",
+            "title": "FARM YARD BREW CO",
+            "text": "<p>We are super excited to announce our latest collaboration with fellow Lancastrians Farm Yard Brew Co.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_PfCPtW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/wigan-socials-1-1-1.png",
+            "title": "WIGAN WARRIORS",
+            "text": "<p>We're proud to announce our second collab with the Wigan Warriors, a team that's not just known for its silverware but for its spirit and traditions — much like us at LANX.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_ggD7Ke",
+        "text_block_kKTpL7",
+        "text_block_TpA8pg",
+        "text_block_rV9BVV",
+        "text_block_z4QfYy",
+        "text_block_NxXFL9",
+        "text_block_PfCPtW"
+      ],
+      "settings": {
+        "title": "2024",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_TdJ6xz": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_kQkzRr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/hothersall-brown-distressed-leather-vibram-outdoor-boot-7.png",
+            "title": "VIBRAM",
+            "text": "<p>The LANX 365 Vibram collection. This is our first offering of footwear for the outdoors, for both women and men.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_LUmYLe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-wales-rugby-unionpng.png",
+            "title": "WALES RUGBY UNION",
+            "text": "<p>LANX are the official formal footwear provider for the Welsh national Rugby union for the upcoming season.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kQkzRr",
+        "text_block_LUmYLe"
+      ],
+      "settings": {
+        "title": "2023",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "925bf442-3131-495c-8201-e8785043ff2a": {
+      "type": "section-columns",
+      "blocks": {
+        "a29935a6-74d6-4517-9f07-a5c7c96cf2aa": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-leicester-tigers.png",
+            "title": "LEICESTER TIGERS",
+            "text": "<p>Holding the record for the most premiership titles, we are very proud to be collaborating with leading Rugby Union team - Leicester Tigers.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "f02f62dc-97d4-490c-bb32-af92e83c344a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-wigan-warriors.png",
+            "title": "WIGAN WARRIORS",
+            "text": "<p>It is our pleasure to announce our collaboration with one of UK’s premier rugby league teams - Wigan Warriors; Crowned Champions on 22 occasions, winners of the Challenge Cup 19 times and World Club Champions a record breaking four times.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "9b6c0176-83c8-4008-9ca6-2aa92acf74e7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-england-rugby.png",
+            "title": "ENGLAND RUGBY LEAGUE",
+            "text": "<p>We are very pleased to announce that we have been selected by England Rugby League to provide the formal footwear for the upcoming World Cup Quarter Final against Papua New Guinea at Wigan’s DW Stadium.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "a29935a6-74d6-4517-9f07-a5c7c96cf2aa",
+        "f02f62dc-97d4-490c-bb32-af92e83c344a",
+        "9b6c0176-83c8-4008-9ca6-2aa92acf74e7"
+      ],
+      "settings": {
+        "title": "2022",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "41230f5f-76b5-4491-861f-580e0be59d25": {
+      "type": "section-columns",
+      "blocks": {
+        "aef48773-09f0-4f6d-95e4-25a7d48e96e6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-british-millerain.png",
+            "title": "BRITISH MILLERAIN",
+            "text": "<p>LANX is proud to be working with a number of the UKs finest traditional tweed manufacturers.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "18e5294c-e804-4e87-b21a-bd6556583c89": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-sale-sharks-2021.png",
+            "title": "SALE SHARKS",
+            "text": "<p>The club was founded in 1861 and is one of the oldest clubs in English rugby. Throughout their history they have been one of the leading rugby union clubs in the North of England.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1ac4d7e5-8bb3-4f7e-8e3f-986cc37ebf53": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-british-tweed.png",
+            "title": "BRITISH TWEED",
+            "text": "<p>LANX is proud to be working with long-standing Lancashire based waxed cotton supplier, British Millerain.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "aef48773-09f0-4f6d-95e4-25a7d48e96e6",
+        "18e5294c-e804-4e87-b21a-bd6556583c89",
+        "1ac4d7e5-8bb3-4f7e-8e3f-986cc37ebf53"
+      ],
+      "settings": {
+        "title": "2021",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "d872ba17-30fc-4c81-bd49-255f439b571a": {
+      "type": "section-columns",
+      "blocks": {
+        "52be4bad-f652-4bad-aba0-38696e505fa5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-charles-f-stead.png",
+            "title": "CHARLES F. STEAD",
+            "text": "<p>LANX is proud to be working with long standing British leather supplier Charles F Stead & Co as part of our Autumn Winter 2020 range.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "a18a8ae7-7704-4d37-a297-eadc9262ca82": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-ribero.png",
+            "title": "RIBERO",
+            "text": "<p>LANX is excited to team up with Ribero Sportswear to create Home & Away football shirts inspired by 90's club kits that were that bad they were bloody marvellous.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "0af28b95-3a30-47a9-a381-fdeec87ea592": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-great-north-pie-co.png",
+            "title": "GNPC",
+            "text": "<p>We teamed up with Great North Pie Co to create a proper pair of sneakers and some lovely pies.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "52be4bad-f652-4bad-aba0-38696e505fa5",
+        "a18a8ae7-7704-4d37-a297-eadc9262ca82",
+        "0af28b95-3a30-47a9-a381-fdeec87ea592"
+      ],
+      "settings": {
+        "title": "2020",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "b77c023c-7f6b-454f-ad98-5d721ecf38e9": {
+      "type": "section-columns",
+      "blocks": {
+        "cef42897-e61e-46d3-81a9-00b9e944b3f5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-sale-sharks-2019.png",
+            "title": "SALE SHARKS",
+            "text": "<p>The club was founded in 1861 and is one of the oldest clubs in English rugby. Throughout their history they have been one of the leading rugby union clubs in the North of England.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "7f81d8d6-7c1a-4366-8e06-6fc97a6ac99a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-burnley-football-club.png",
+            "title": "BURNLEY F.C.",
+            "text": "<p>Founded in 1881 and playing in the English Premiership and Europe. Like LANX the club is based in Lancashire, located in the North-West of England.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c51a7a2d-56a3-4d48-b241-e6699e0ac78f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-northern-whisper.png",
+            "title": "NORTHERN WHISPER",
+            "text": "<p>LANX and Northern Whisper have teamed up to create \"Talking Cobblers\", a 5.2% West Coast IPA.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "cef42897-e61e-46d3-81a9-00b9e944b3f5",
+        "7f81d8d6-7c1a-4366-8e06-6fc97a6ac99a",
+        "c51a7a2d-56a3-4d48-b241-e6699e0ac78f"
+      ],
+      "settings": {
+        "title": "2019",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "5bbc2f1b-b266-481e-bdd5-aa55dd4b32b9": {
+      "type": "section-columns",
+      "blocks": {
+        "fa00fe0e-5f23-4b2c-9b14-c801facc1dfd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-cuckoo-gin.png",
+            "title": "CUCKOO GIN",
+            "text": "<p>We made a gin with Lancashire gin makers Cuckoo. Their smooth awarding winning gins are distilled using fresh spring water from the artesian aquifer in the field next to the distillery and natural ingredients that are locally sourced and grown on their own farm.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "111768cc-c195-4702-8d7e-08c962069fc9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/lanx-collabs-lancashire-cricket.png",
+            "title": "LANCASHIRE CRICKET",
+            "text": "<p>Lancashire County Cricket Club represents the historic county of Lancashire in English cricket. The club has held first-class status since it was founded in 1864.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--outline uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "fa00fe0e-5f23-4b2c-9b14-c801facc1dfd",
+        "111768cc-c195-4702-8d7e-08c962069fc9"
+      ],
+      "settings": {
+        "title": "2018",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5eabb785-5d9b-4907-8d22-00cf1827fd6e": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16790007611630__5eabb785-5d9b-4907-8d22-00cf1827fd6e-16841479393622ad37-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>OUR VALUES<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790007611630__5eabb785-5d9b-4907-8d22-00cf1827fd6e-16841479393622ad37-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are always looking to collaborate with new folk that share our interests, so drop us an email and let’s make some’ut good and Proper together.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "9d85a660-d508-41a8-8376-f56cb9759a71": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "CONTACT",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007611630__5eabb785-5d9b-4907-8d22-00cf1827fd6e-16841479393622ad37-1",
+        "template--16790007611630__5eabb785-5d9b-4907-8d22-00cf1827fd6e-16841479393622ad37-2",
+        "9d85a660-d508-41a8-8376-f56cb9759a71"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 46
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "ef69eed0-5424-4a5b-ab03-41613efde124",
+    "88750cc4-edb2-47e1-8b55-37ee320646a8",
+    "section_columns_TdJ6xz",
+    "925bf442-3131-495c-8201-e8785043ff2a",
+    "41230f5f-76b5-4491-861f-580e0be59d25",
+    "d872ba17-30fc-4c81-bd49-255f439b571a",
+    "b77c023c-7f6b-454f-ad98-5d721ecf38e9",
+    "5bbc2f1b-b266-481e-bdd5-aa55dd4b32b9",
+    "5eabb785-5d9b-4907-8d22-00cf1827fd6e",
+    "main"
+  ]
+}

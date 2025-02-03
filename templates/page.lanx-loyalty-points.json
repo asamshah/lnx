@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "5144b614-293a-4b7e-9327-71f905f716ea": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006202606__5144b614-293a-4b7e-9327-71f905f716ea-16843148706ff0ba0c-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006202606__5144b614-293a-4b7e-9327-71f905f716ea-16843148706ff0ba0c-2"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-help-loyalty-points.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bc1520ce-5f82-40a7-88bb-ab4e08c50c7f": {
+      "type": "section-richtext",
+      "blocks": {
+        "a7382bfe-2083-4bac-bd16-d36374c8460c": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>DOUBLE POINTS DAY<\/p>",
+            "text_size": 8
+          }
+        },
+        "234386bc-693f-44a3-a437-1da184287863": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>ENDS MIDNIGHT 30.12.23<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 3
+          }
+        },
+        "template--16790006202606__bc1520ce-5f82-40a7-88bb-ab4e08c50c7f-1684315032f7c60fdd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For 24 hours only we are giving £2 loyalty credit back for every £10 spent.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "a7382bfe-2083-4bac-bd16-d36374c8460c",
+        "234386bc-693f-44a3-a437-1da184287863",
+        "template--16790006202606__bc1520ce-5f82-40a7-88bb-ab4e08c50c7f-1684315032f7c60fdd-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2395f984-64f5-4708-9b16-aa638e0a8868": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div class=\"Rise-rewards-page-placeholder\"><\/div>",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "5144b614-293a-4b7e-9327-71f905f716ea",
+    "bc1520ce-5f82-40a7-88bb-ab4e08c50c7f",
+    "main",
+    "2395f984-64f5-4708-9b16-aa638e0a8868"
+  ]
+}

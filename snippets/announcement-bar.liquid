@@ -1,0 +1,63 @@
+{% assign ss = section.settings %}
+
+<ul class="keen-slider" data-keen-slider='{
+  "autoplay": {{ ss.top_bar_autoplay }},
+  "autoplaySpeed": {{ ss.top_bar_autoplay_speed | times: 1000.00 | json }},
+  "dots": false,
+  "arrows": {{ ss.top_bar_arrows }},
+  "fade": false,
+  "controls": false,
+  "adaptiveHeight": false,
+  "loop": true,
+  "triggerOnMount": "announcement-bar-slider-ready"
+}'>
+  {% for block in section.blocks %}
+    {% assign bs = block.settings %}
+
+    {% case block.type %}
+      {% when 'top_bar_message' %}
+        <li class="keen-slider__slide keen-slider__slide--{{block.id}} flex f-j-center" style="background: {{ bs.background }}; color: {{ bs.color }};">
+          {% if bs.url != blank %}
+            <a href="{{ bs.url }}" class="flex f-a-center">
+          {% else %}
+            <p class="flex f-a-center">
+          {% endif %}
+
+            {% if bs.content contains '[COUNTDOWN]' %}
+              {% assign bs_content_split = bs.content | split: '[COUNTDOWN]' %}
+
+              {{ bs_content_split[0] }}
+              
+              {% if bs.show_countdown %}
+                <span class="countdown-timer" data-countdown-timer='{
+                  {% if bs.countdown_end_timestamp != blank %}
+                  "epoch": "{{ bs.countdown_end_timestamp }}",
+                  {% endif %}
+                  "hideParentElement": ".keen-slider__slide--{{block.id}}"
+                }'>
+                  <span data-time="days"></span>
+                  <span data-time="hours"></span>
+                  <span data-time="minutes"></span>
+                  <span data-time="seconds"></span>
+                </span>
+              {% endif %}
+
+              {{ bs_content_split[1] }}
+            {% else %}
+              <span>{{ bs.content }}</span>
+            {% endif %}
+
+          {% if bs.url != blank %}
+            </a>
+          {% else %}
+            </p>
+          {% endif %}
+        </li>
+      {% when 'top_bar_html' %}
+        <li class="keen-slider__slide flex f-j-center" style="background: {{ bs.background }}; color: {{ bs.color }};">
+          {{ bs.html }}
+        </li>
+    {% endcase %}
+
+  {% endfor %}
+</ul>

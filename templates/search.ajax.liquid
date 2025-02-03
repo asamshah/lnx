@@ -1,0 +1,19 @@
+{% layout none %}
+
+<div data-ajax-search-results>
+  <ul class="search-results-products js-grid" data-grid-large="4" data-grid-small="2">
+
+    {% for product in search.results %}
+      <li>
+        {% include 'product-grid-item', extra_class: 'simple-item' %}
+      </li>
+    {% else %}
+      {% for product in fallback_collection.products limit: 4 %}
+        <li>
+          {% include 'product-grid-item', extra_class: 'simple-item' %}
+        </li>
+      {% endfor %}
+    {% endfor %}
+
+  </ul>
+</div>

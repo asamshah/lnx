@@ -1,0 +1,108 @@
+{% assign ss = section.settings %}
+{% assign collection = ss.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if collection == blank %}
+  <style>
+    #shopify-section-{{ section.id }} {
+      display: none !important;
+    }
+  </style>
+{% else %}
+
+  {% if meta_obj.manual_customer_review.value != blank %}
+    <div class="product-manual-reviews wrapper--full">
+      <div class="inner flex f-a-center">
+
+        <div class="reviews-area">
+          <h2 class="title">{{ ss.title }}</h2>
+          <div class="manual-reviews__list" data-keen-slider='{
+            "id": "manualReviewsSlider",
+            "slidesPerView": 3,
+            "spacing": 35,
+            "arrows": false,
+            "dots": false,
+            "loop": true,
+            "responsive": [
+              {
+                "breakpoint": "1300px",
+                "settings": {
+                  "slidesPerView": 2,
+                  "dots": false
+                }
+              },
+              {
+                "breakpoint": "834px",
+                "settings": {
+                  "slidesPerView": 1,
+                  "dots": true
+                }
+              }
+            ]
+          }'>
+            {% for review in meta_obj.manual_customer_review.value %}
+              {% assign review_text = review | split: '[' | first %}
+              {% assign review_author = review | split: '[' | last | replace: ']', '' %}
+
+              <div class="manual-reviews__item">
+                <div class="review-quote">
+                  {% render 'icon-quote' %}
+                </div>
+                <div class="review-text">{{ review_text }}</div>
+                <div class="review-customer flex f-a-center">
+                  {% render 'icon-verified' %}
+                  <span>Verified Customer</span>
+                </div>
+                <div class="review-footer flex f-a-center f-j-between">
+                  <span class="review-author">{{ review_author }}</span>
+                  <div class="review-stars flex f-a-center">
+                    {% for i in (1..5) %}
+                      {% render 'icon-star' %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="image-area">
+          {% render 'picture-element', image: ss.image, size: '900x', alt: ss.title, extra_class: 'object-fit--cover' %}
+        </div>
+
+      </div>
+    </div>
+  {% endif %}
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product manual reviews",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Product associated collection"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Customer reviews"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product",
+      "name": "Product manual reviews"
+    }
+  ]
+}
+
+{% endschema %}

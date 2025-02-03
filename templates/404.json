@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "646c31ba-dae7-4f7d-8206-06f72d0c7fe2": {
+      "type": "section-richtext",
+      "blocks": {
+        "fec3574c-a2f6-42de-ae82-40430190595c": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": true
+          }
+        }
+      },
+      "block_order": [
+        "fec3574c-a2f6-42de-ae82-40430190595c"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 72,
+        "padding_bottom": 16
+      }
+    },
+    "5104220d-6603-45a9-950d-60d5b98497df": {
+      "type": "section-richtext",
+      "blocks": {
+        "b1fcce6b-cd74-44e9-adbf-a53aca20ba28": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>404 PAGE NOT FOUND<\/p>",
+            "text_size": 10
+          }
+        },
+        "2f07eaa7-f52a-4107-8a1f-7ac5d30d7075": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The page you requested does not exist. Click the buttons below to continue shopping.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "adc33541-e047-4535-85c1-961003b85a1c": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SHOP MEN'S",
+            "link_1": "shopify:\/\/collections\/mens-footwear",
+            "button_size_1": "btn--fixed",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "SHOP WOMEN'S",
+            "link_2": "shopify:\/\/collections\/womens-footwear",
+            "button_size_2": "btn--fixed",
+            "button_style_2": "btn--outline uppercase",
+            "button_color_2": "btn--black",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "b1fcce6b-cd74-44e9-adbf-a53aca20ba28",
+        "2f07eaa7-f52a-4107-8a1f-7ac5d30d7075",
+        "adc33541-e047-4535-85c1-961003b85a1c"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "7750a7e7-ff7a-49a8-a076-5b07721284ee": {
+      "type": "section-richtext",
+      "blocks": {
+        "36232a49-6198-4a07-9690-8aa531922dd0": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": true
+          }
+        }
+      },
+      "block_order": [
+        "36232a49-6198-4a07-9690-8aa531922dd0"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 62
+      }
+    },
+    "56f0b68b-9866-41a2-877f-e4d940823074": {
+      "type": "section-recent-products",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "646c31ba-dae7-4f7d-8206-06f72d0c7fe2",
+    "main",
+    "5104220d-6603-45a9-950d-60d5b98497df",
+    "7750a7e7-ff7a-49a8-a076-5b07721284ee",
+    "56f0b68b-9866-41a2-877f-e4d940823074"
+  ]
+}

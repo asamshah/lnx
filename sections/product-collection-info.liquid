@@ -1,0 +1,99 @@
+{% assign ss = section.settings %}
+{% assign collection = ss.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if collection == blank %}
+  <style>
+    #shopify-section-{{ section.id }} {
+      display: none !important;
+    }
+  </style>
+{% else %}
+
+  <div class="product-collection-info wrapper--full flex">
+    
+    <div class="text-area">
+      <div class="inner">
+
+        {% if ss.usps_display_on != 'none' and meta_obj.usps != blank %}
+          <div class="usps-area">
+          
+            {% if ss.usps_display_on == 'desktop-only' %}
+              <style>
+                @media screen and (max-width: 834px) {
+                  #shopify-section-{{ section.id }} .usps-area {
+                    display: none !important;
+                  }
+                }
+              </style>
+            {% endif %}
+            {% if ss.usps_display_on == 'tablet-only' %}
+              <style>
+                @media screen and (min-width: 835px) {
+                  #shopify-section-{{ section.id }} .usps-area {
+                    display: none !important;
+                  }
+                }
+              </style>
+            {% endif %}
+
+            <div class="product-usps">
+              <ul class="product-usps__list">
+                {% for product_usp in meta_obj.usps.value %}
+                  <li class="product-usps__item">
+                    {{ product_usp.usp_icon.value | image_url: width: 70 | image_tag: loading: 'lazy', alt: product_usp.usp_text }}
+                    <span>{{ product_usp.usp_text }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+          </div>
+        {% endif %}
+
+        <h2 class="title">{{ collection.title }}</h2>
+        <div class="description">{{ collection.description }}</div>
+      </div>
+    </div>
+
+    <div class="image-area">
+      {% assign image = product.images[1] | default: product.featured_image %}
+      {% render 'picture-element', image: image, size: '900x', alt: image.alt, extra_class: 'object-fit--cover' %}
+    </div>
+
+  </div>
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product collection info",
+  "class": "product-collection-info-section",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Product associated collection"
+    },
+    {
+      "type": "select",
+      "id": "usps_display_on",
+      "default": "desktop-only",
+      "options": [
+        { "value": "none", "label": "None"},
+        { "value": "", "label": "Both"},
+        { "value": "desktop-only", "label": "Desktop Only"},
+        { "value": "tablet-only", "label": "Mobile Only"}
+      ],
+      "label": "Display USPs On"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product",
+      "name": "Product collection info"
+    }
+  ]
+}
+
+{% endschema %}

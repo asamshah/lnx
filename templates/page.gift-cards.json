@@ -1,0 +1,315 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "87f0e3c2-e342-4d1e-ad94-e29d28da8b64": {
+      "type": "section-custom-content",
+      "blocks": {
+        "7db19550-5695-4fe2-bd16-34fc9495eaa1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_GIFT_CARDS_MENS_FOOTWEAR_BROGUES_BOOTS_SHOES_3.2_7ddb2f44-1434-4278-a868-e1edfd6c4d8c.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "e9e910f3-b24d-4884-a9db-0a6df6c8674c": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Posted Gift Cards",
+            "text": "<p>Our posted Gift Card has a discount code on them which the recipient can use to purchase anything they like from our website or in-store.<\/p><p>Packaged in a craft paper envelope, and sealed in our LANX branded paper mailing bag.<\/p><p>Gift Card codes expire 12 months after the purchase date.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP GIFT CARDS",
+            "button_url": "shopify:\/\/products\/lanx-gift-card",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7db19550-5695-4fe2-bd16-34fc9495eaa1",
+        "e9e910f3-b24d-4884-a9db-0a6df6c8674c"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b6c4153f-0321-4691-aa41-c5f83c759c09": {
+      "type": "section-custom-content",
+      "blocks": {
+        "6e0eb6d4-0801-4939-8e13-53b5fc869007": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Gift Cards",
+            "text": "<p>LANX E-Gift Cards are delivered by email and contain instructions on how to redeem them at checkout.<\/p><p>E-Gift Cards can be used on multiple orders until the entire value of the card has been spent, and expire 12 months after the purchase date.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP E-GIFT CARDS",
+            "button_url": "shopify:\/\/products\/gift-card",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "8a72e0a8-6cac-4cd1-a87e-1cab01d167e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_GIFT_CARDS_MENS_FOOTWEAR_BROGUES_BOOTS_SHOES_6.2_97873903-b9c1-46a9-8797-2680b0041e19.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "6e0eb6d4-0801-4939-8e13-53b5fc869007",
+        "8a72e0a8-6cac-4cd1-a87e-1cab01d167e3"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c4de4136-58d3-4c2b-b0c4-580d4cf07794": {
+      "type": "section-custom-content",
+      "blocks": {
+        "8047501d-f345-4ccf-8f5b-48fc0d875ffb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_CLOTHING_SOCKS_AW18_17.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SHOP HOME",
+            "link": "shopify:\/\/pages\/shop",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "b3df02cf-905a-449e-8bad-2e701e68744f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_womens_footwear_photo_shoot_2021_behind_the_scenes_32.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SIZING ADVICE",
+            "link": "shopify:\/\/pages\/sizing-advice",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "dd0cfb53-e659-4a6c-b516-077caaf354b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-proper-shoes-brogues-boots-sneakers-_4_-cropped_.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "MEN'S COLLECTIONS",
+            "link": "shopify:\/\/pages\/mens",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "5cf0cef2-813b-46b0-bcd7-676f6da5da9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_shoes_womens_female_footwear_brogues_boots_61.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "WOMEN'S COLLECTIONS",
+            "link": "shopify:\/\/pages\/womens",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "8047501d-f345-4ccf-8f5b-48fc0d875ffb",
+        "b3df02cf-905a-449e-8bad-2e701e68744f",
+        "dd0cfb53-e659-4a6c-b516-077caaf354b0",
+        "5cf0cef2-813b-46b0-bcd7-676f6da5da9d"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e9b241e8-3ef2-4718-9af0-98a5ed7252e6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "d8455564-18fa-4f21-9c52-aedde9bec92a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_clothing_made_in_england_9_48aad317-a14a-4628-9dc0-d074e4c33224.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "CLOTHING",
+            "link": "shopify:\/\/collections\/clothing",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "28bcddea-9a60-4b10-82a8-154bd52d849f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_socks_made_in_england_9.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SOCKS",
+            "link": "shopify:\/\/pages\/socks",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "cec9a7ec-c9fc-4654-86d5-6c8f59f31f10": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_GIFT_CARDS_MENS_FOOTWEAR_BROGUES_BOOTS_SHOES_3_42657d83-b0b4-4b7b-af04-1e386be9fe92.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "GIFT IDEAS",
+            "link": "shopify:\/\/pages\/gift-ideas",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "36736736-25b5-4176-aadc-15827bc7b5d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_shoes_mens_brogues_boots_lancashire_made_in_england_48.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "COLLABS",
+            "link": "shopify:\/\/pages\/collaborations",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "d8455564-18fa-4f21-9c52-aedde9bec92a",
+        "28bcddea-9a60-4b10-82a8-154bd52d849f",
+        "cec9a7ec-c9fc-4654-86d5-6c8f59f31f10",
+        "36736736-25b5-4176-aadc-15827bc7b5d0"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "87f0e3c2-e342-4d1e-ad94-e29d28da8b64",
+    "b6c4153f-0321-4691-aa41-c5f83c759c09",
+    "c4de4136-58d3-4c2b-b0c4-580d4cf07794",
+    "e9b241e8-3ef2-4718-9af0-98a5ed7252e6"
+  ]
+}

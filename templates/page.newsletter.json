@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4d057fe8-87a7-455e-b03a-1d41e75e1c92": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790005874926__4d057fe8-87a7-455e-b03a-1d41e75e1c92-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>ENTER OUR COMPETITION TO WIN A FREE PAIR OF SHOES<\/p>",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--16790005874926__4d057fe8-87a7-455e-b03a-1d41e75e1c92-16843148706ff0ba0c-1"
+      ],
+      "custom_css": [
+        "ol {margin-left: 25px;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-comp-page.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9883e52d-8680-4de1-8afa-d3d500adff1e": {
+      "type": "section-richtext",
+      "blocks": {
+        "51a150da-6783-4531-b94a-c4b8dc1048e0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up to the LANX newsletter to enter our monthly competition to win a free pair of shoes. For an extra entry please also sign up to our SMS database below. 1x competition winner contacted each month, must have a UK shipping address.<\/p><p><\/p><p><\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "51a150da-6783-4531-b94a-c4b8dc1048e0"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "1684325240677f8297": {
+      "type": "apps",
+      "blocks": {
+        "6abaee59-12f2-4055-b6bc-41c5e497379e": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UVk66j\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "6abaee59-12f2-4055-b6bc-41c5e497379e"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "217328ac-1265-4ca6-8a78-44d91d7cf995": {
+      "type": "apps",
+      "blocks": {
+        "f3b01de4-f854-4ee9-9810-57c24baa3dbf": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-VwMhhM\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "f3b01de4-f854-4ee9-9810-57c24baa3dbf"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4d057fe8-87a7-455e-b03a-1d41e75e1c92",
+    "9883e52d-8680-4de1-8afa-d3d500adff1e",
+    "1684325240677f8297",
+    "217328ac-1265-4ca6-8a78-44d91d7cf995"
+  ]
+}

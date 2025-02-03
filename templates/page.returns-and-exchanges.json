@@ -1,0 +1,317 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "bfa32c6a-f9c9-4cae-b699-ea8b61e42268": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16800664420590__bfa32c6a-f9c9-4cae-b699-ea8b61e42268-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>RETURNS & EXCHANGES<\/p>",
+            "text_size": 8
+          }
+        },
+        "1719fede-13fd-4288-8308-2db7645f87ce": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Was the fit not quite correct for you? Perhaps we can send you another size to try? Worth noting that on each product page we give detailed sizing advice, please do have a read and contact is with any questions. Please also read the detailed sizing notes on our dedicated <a href=\"https:\/\/lanxshoes.com\/pages\/sizing-advice\">Sizing Advice<\/a> page. You can email us via hello@lanxshoes.com.<\/p>",
+            "text_size": 3
+          }
+        },
+        "c72727ce-d7b6-4ad7-806f-51eb93d59ffb": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SHOE CARE & REPAIR",
+            "link_1": "shopify:\/\/pages\/lanx-shoe-care",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn--outline uppercase",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16800664420590__bfa32c6a-f9c9-4cae-b699-ea8b61e42268-16843148706ff0ba0c-1",
+        "1719fede-13fd-4288-8308-2db7645f87ce",
+        "c72727ce-d7b6-4ad7-806f-51eb93d59ffb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-about-dna-heel-rose.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "69f42111-bd4a-4d75-a6f0-5a7abcbe7ced": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "eaf2000f-2e5e-461d-b881-3d8983ab7761": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>This section contains information on how to Exchange your product for UK orders. <br\/><br\/><\/p><ul><li>As per the <a href=\"https:\/\/lanxshoes.com\/pages\/shoe-care\">Shoe Care notes on the website and inside the shoe box<\/a>, customers are kindly asked to try on your new shoes for the first time with a shoe horn and on a carpet. This is so you protect the heel and don’t scuff the bottom of the soles on a hard surface. If for any reason you need to return or exchange your shoes, they will need to be returned to us in a resalable condition, which requires the heel not to be damaged and the sole of the shoes not to be scuffed. <br\/><br\/><\/li><li>We will exchange goods provided the product is returned within 14 days of receiving, has not been worn and is returned in its original condition with its original packaging. <br\/><br\/><\/li><li>If you deem your product incorrect or faulty please read our notes on the Faulty Products section further down this page.<br\/><br\/><\/li><li>The product is your responsibility until it reaches LANX. <br\/><br\/><\/li><li>Customers may request 2 complimentary exchanges free of charge, the third exchange (and any exchanges thereafter) must be paid for prior to exchange products being sent. A shipping and admin fee of £10 applies to each exchange.<br\/><br\/><\/li><li>Please note: gift cards, books, laces, care products, polishes and socks which have been removed from the packaging are non-refundable and cannot be exchanged.<\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "a28395d4-d205-4489-a791-1b00502b2a6e": {
+          "type": "text",
+          "settings": {
+            "title": "Exchange Option A",
+            "text": "<p><\/p><ul><li>The quickest way to receive an exchange product is to purchase the new product you would like via the LANX website today, then send the product you already have back for a refund. Once you have purchased your new product, send your current product back for a refund by following the steps in the returns section.<\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "8d54a846-c3ab-455c-8535-de0fe7c1cea1": {
+          "type": "text",
+          "settings": {
+            "title": "Exchange Option B",
+            "text": "<p><\/p><p><strong>STEP 1 of 3<\/strong><\/p><ul><li>Please print and complete the LANX Returns & Exchanges form &gt; <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1903\/2073\/files\/LANX_Returns_Exchanges_Form_30.05.23_8781b032-6618-408d-834e-9020a1c6408f.pdf?v=1685710565\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1903\/2073\/files\/LANX_Returns_Exchanges_Form_30.05.23_8781b032-6618-408d-834e-9020a1c6408f.pdf?v=1685710565\"><strong>CLICK HERE<\/strong>.<\/a> If you don't have access to a printer, please write the information we request within the Returns & Exchanges form on a piece of paper and include this inside your return parcel.<\/li><\/ul><p><strong>STEP 2 of 3<\/strong><\/p><ul><li>Please now register for a free shipping label, you will need your original LANX order reference number (it starts with LXW) &gt; <a href=\"https:\/\/www.royalmail.com\/track-my-return#\/details\/5897\" target=\"_blank\" title=\"https:\/\/www.royalmail.com\/track-my-return#\/details\/5897\"><strong>CLICK HERE<\/strong><\/a><strong>. <\/strong>After a few minutes please open your email inbox (also check your junk folder) and select 1 of the 2 formats you would prefer your return label, which are... (1) You can select the Royal Mail label which you print yourself and attach to your return parcel, or (2) if you don’t have access to a printer you can select the QR code option which you show at the drop-off location.<\/li><\/ul><p><strong>STEP 3 of 3<\/strong><\/p><ul><li>Please take your LANX returns parcel to your local Royal Mail drop-off location with your printed shipping label attached. Alternatively if you selected the QR option show the barcode provided at your local Royal Mail store and the cashier will scan it and print a returns label for you. To find your nearest Royal Mail store drop-off location &gt; <a href=\"https:\/\/www.royalmail.com\/services-near-you#\/\" target=\"_blank\" title=\"https:\/\/www.royalmail.com\/services-near-you#\/\"><strong>CLICK HERE<\/strong><\/a><\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "9a27979c-a455-44d1-9471-56f6d3373443": {
+          "type": "text",
+          "settings": {
+            "title": "Exchange Option C",
+            "text": "<p><\/p><ul><li>Alternatively you may send items back using your own method and at your own expense. However, we are not able to refund the shipping costs. If you do choose to return items back yourself we would highly recommend sending items back using a tracked service.Please include a hand written note inside the box stating; your order number, contact details and what product\/s you would like to exchange or get a refund for. Our returns address is; LANX, Unit 29-30, Mitton Rd Business Park, Mitton Rd, Whalley, Lancs, BB79YE. <\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "ec4a24a1-0f20-4c3e-948a-ca2a61897a5e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>EXCHANGES (IF APPLICABLE)<\/strong><\/p><ul><li>Once your item is received and inspected by a member of the customer services team you will be notified via email of the approval or rejection of your exchange request.<br\/><br\/><\/li><li>Exchanges are processed as quickly as possible but please allow 7 working days for your exchange to be shipped.<br\/><br\/><\/li><li>Once your request has been processed your new tracking information will be uploaded to your order on the website and you will be automatically emailed with the new information.<br\/><br\/><\/li><li>Customers may request 2 complimentary exchanges free of charge, the third exchange (and any exchanges thereafter) must be paid for prior to exchange product being sent. A shipping and admin fee of £10 applies to each exchange.  <\/li><\/ul><p><strong>EVENTS & POP-UP SHOPS<\/strong><\/p><ul><li>At our events and pop-up shops we are not able to repair shoes, or process returns and exchanges. Instead you can drop them back at the same location you purchased from along with a completed returns & exchanges form (download the form below). The LANX staff member will then bring them back to LANX HQ for inspection, after which we will contact you. Alternatively you can post them back to LANX HQ using the details above.<\/li><\/ul><p><strong>CHRISTMAS RETURNS POLICY<\/strong><\/p><ul><li>Christmas present orders: Items purchased between the 31 October to the 31 December are entitled to an extended exchange period. This extended exchange period ends at midnight on the 15 January. Customers may request an exchange for product or credit on a future order. Please note, the normal 14 days return for refund policy still applies on all orders.<\/li><\/ul>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "eaf2000f-2e5e-461d-b881-3d8983ab7761",
+        "a28395d4-d205-4489-a791-1b00502b2a6e",
+        "8d54a846-c3ab-455c-8535-de0fe7c1cea1",
+        "9a27979c-a455-44d1-9471-56f6d3373443",
+        "ec4a24a1-0f20-4c3e-948a-ca2a61897a5e"
+      ],
+      "settings": {
+        "title": "UK Exchanges",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ba92a21a-9793-4c72-b2c1-6237d6983bee": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>This section contains information on how to return your product for a refund. If instead you would like to exchange your product see the relevant section on this page.<br\/><br\/><\/p><ul><li>We will refund or issue credit to spend with us on a future occasion, provided the product is returned within 14 days of receiving, has not been worn and is returned in its original condition with its original packaging.<br\/><br\/><\/li><li>If we receive your products back after the 14 day window expires we will not permit a refund and we may instead give you the option of an exchange or credit on a future order. <br\/><br\/><\/li><li>As per the <a href=\"https:\/\/lanxshoes.com\/pages\/shoe-care\">Shoe Care notes on the website and inside the shoe box<\/a>, customers are kindly asked to try on your new shoes for the first time with a shoe horn and on a carpet. This is so you protect the heel and don’t scuff the bottom of the soles on a hard surface. If for any reason you need to return your shoes, they will need to be in a resalable condition. <br\/><br\/><\/li><li>If you deem your product incorrect or faulty please read our notes on the <a href=\"https:\/\/lanxshoes.com\/pages\/faulty-and-incorrect-items\">Faulty Products page<\/a>.<br\/><br\/><\/li><li>The product is your responsibility until it reaches LANX. <br\/><\/li><\/ul><p><em><strong>Please note: gift cards, books, laces, care products, polishes and socks which have been removed from the packaging are non-refundable and cannot be exchanged.<\/strong><\/em><\/p>",
+            "text_size": 3
+          }
+        },
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-1": {
+          "type": "text",
+          "settings": {
+            "title": "Return Option A",
+            "text": "<p><\/p><p><strong>STEP 1 OF 3<\/strong><\/p><ul><li>Please print and complete the LANX Returns & Exchanges form &gt; <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1903\/2073\/files\/LANX_Returns_Exchanges_Form_30.05.23_8781b032-6618-408d-834e-9020a1c6408f.pdf?v=1685710565\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1903\/2073\/files\/LANX_Returns_Exchanges_Form_30.05.23_8781b032-6618-408d-834e-9020a1c6408f.pdf?v=1685710565\"><strong>CLICK HERE<\/strong>.<\/a>  If you don't have access to a printer, please write the information we request within the Returns & Exchanges form on a piece of paper and include this inside your return parcel.<\/li><\/ul><p><strong>STEP 2 OF 3<\/strong><\/p><ul><li>Please now register for a free shipping label, you will need your original LANX order reference number (it starts with LXW) &gt; <a href=\"https:\/\/www.royalmail.com\/track-my-return#\/details\/5897\" target=\"_blank\" title=\"https:\/\/www.royalmail.com\/track-my-return#\/details\/5897\"><strong>CLICK HERE<\/strong><\/a><strong>.  <\/strong>After a few minutes please open your email inbox (also check your junk folder) and select 1 of the 2 formats you would prefer your return label, which are... (1) You can select the Royal Mail label which you print yourself and attach to your return parcel, or (2) if you don’t have access to a printer you can select the QR code option which you display at the drop-off location.<\/li><\/ul><p><strong>STEP 3 OF 3<\/strong><\/p><ul><li>Please take your LANX returns parcel to your local Royal Mail drop-off location with your printed shipping label attached. Alternatively if you selected the QR code option show the barcode provided at your local Royal Mail store and the cashier will scan it and print a returns label for you. To find your nearest Royal Mail store drop-off location &gt; <a href=\"https:\/\/www.royalmail.com\/services-near-you#\/\" target=\"_blank\" title=\"https:\/\/www.royalmail.com\/services-near-you#\/\"><strong>CLICK HERE<\/strong><\/a><\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-2": {
+          "type": "text",
+          "settings": {
+            "title": "Return Option B",
+            "text": "<p><\/p><ul><li>Alternatively you may send items back using your own method and at your own expense. However, we are not able to refund the shipping costs. If you do choose to return items back yourself we would highly recommend sending items back using a tracked service. Please include a hand written note inside the box stating; your order number, contact details and what product\/s you would like to exchange or get a refund for. Our returns address is; LANX, Unit 29-30, Mitton Rd Business Park, Mitton Rd, Whalley, Lancs, BB79YE. <\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-3": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>REFUNDS (IF APPLICABLE)<\/strong><\/p><ul><li>Once your return is received and inspected by a member of the customer services team you will be notified via email of the approval or rejection of your refund<br\/><br\/><\/li><li>If you are approved then your refund will be processed<br\/><br\/><\/li><li>All correctly returned items will only be credited to the account from which the original purchase was made, less any taxes, delivery or import duties incurred in delivery.<br\/><br\/><\/li><li>If you received a discount, you will be refunded the price you paid only<\/li><\/ul><p><strong>LATE OR MISSING REFUNDS<\/strong><\/p><ul><li>Please note all returns are processed as quickly as possible but please allow 7 working days for your return or exchange to be processed<br\/><br\/><\/li><li>If you haven’t received a refund yet, first check your bank account. Then contact your credit card company. It may take some time before your refund is officially posted. Next contact your bank. If you’ve done all of this and you still have not received your refund yet, please email us via the contact page.<\/li><\/ul><p><strong>CHRISTMAS RETURNS POLICY<\/strong><\/p><ul><li>Christmas present orders: Items purchased between the 31 October to the 31 December are entitled to an extended exchange period. This extended exchange period ends at midnight on the 15 January. Customers may request an exchange for product or credit on a future order. Please note, the normal 14 days return for refund policy still applies on all orders.<\/li><\/ul>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-0",
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-1",
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-2",
+        "template--16800664420590__ba92a21a-9793-4c72-b2c1-6237d6983bee-16843195490e714cc4-3"
+      ],
+      "settings": {
+        "title": "UK Returns",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "cda48cc1-e720-4433-a22b-573ae5da1103": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "49a70f5a-adb7-4d2f-b9e2-3456cef9b9bb": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<ul><li>We would like to ensure your complete satisfaction with the items you have purchased from this website. If for any reason you are not completely satisfied with any product you order from us, simply read the information below and then complete the returns & exchanges document and return the goods back to us within the deadlines set out below.<\/li><\/ul><p><\/p><ul><li>As per the <a href=\"https:\/\/lanxshoes.com\/pages\/shoe-care\">Shoe Care notes on the website and inside the shoe box<\/a>, customers are kindly asked to try on your new shoes for the first time with a shoe horn and on a carpet. This is so you protect the heel and don’t scuff the bottom of the soles on a hard surface. If for any reason you need to return or exchange your shoes, they will need to be returned to us in a resalable condition, which requires the heel not to be damaged and the sole of the shoes not to be scuffed. <\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "6f9d5ec0-055b-424e-b6c1-68280823e7a5": {
+          "type": "text",
+          "settings": {
+            "title": "HOW TO RETURN A PRODUCT FROM OVERSEAS",
+            "text": "<p><\/p><p><\/p><ul><li>All international customers must pay for their goods to be returned for a refund or exchange.<br\/><br\/><\/li><li>If you would like to exchange your item you will be required to pay the new postage fees (we only offer free exchanges for UK customers).<br\/><br\/><\/li><li>You must include your <strong>name, full address, contact phone number, and contact email address<\/strong> on the outside of your parcel. This is in case the parcel needs to be returned to you during transit. <br\/><br\/><\/li><li>Please mark clearly on the outer carton \"<strong>UK RETURNED GOODS\"<\/strong>. Failure to do this may result in additional charges being levied, a possible delay in your parcel reaching us, and therefore a delay with your refund being processed.<br\/><br\/><\/li><li>You must write <strong>\"RETURNING UNSUITABLE GOODS TO SENDER\"<\/strong> on the customs form and parcel itself as we will not accept parcels that incur duty charges. You must also tick the returned goods box on the customs declaration documents. If this box is not ticked we will recover the costs from you or return the shoes to you.<br\/><br\/><\/li><li>We would also advise that you attach your original duties and taxes paid receipt to the outside of your parcel being returned back to LANX. You will have paid this when the goods originally entered your county. This will inform UK Customs that the products in the parcel have already incurred customs and duties charges entering your country and therefore as these same products are being returned they should not incur additional import charges to re-enter the UK.<br\/><br\/><\/li><li>Please note: gift cards, books, laces, care products, polishes and socks which have been removed from the packaging are non-refundable and cannot be exchanged.<\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "74fb87eb-499d-4ddb-960a-e4c205064767": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><p><strong>REFUNDS (IF APPLICABLE):<\/strong><\/p><ul><li>Once your return is received and inspected by a member of the customer services team, you will be notified via email of the approval or rejection of your refund or exchange.<br\/><br\/><\/li><li>If you are approved, then your item\/s will be processed.<br\/><br\/><\/li><li>All correctly returned items will only be credited to the account from which the original purchase was made, less any taxes, delivery or import duties incurred in delivery.<br\/><br\/><\/li><li>If you received a discount, you will be refunded the price you paid only<\/li><\/ul><p><strong>LATE OR MISSING REFUNDS:<\/strong><\/p><ul><li>Please note all returns are processed as quickly as possible but please allow 14 working days for your return or exchange to be processed.<br\/><br\/><\/li><li>If you haven’t received a refund yet, first check your bank account. Then contact your credit card company. It may take some time before your refund is officially posted. Next contact your bank. If you’ve done all of this and you still have not received your refund yet, please email us via the contact page.<\/li><\/ul><p><strong>RETURNS POSTAL ADDRESS<\/strong><\/p><ul><li>LANX, Unit 29-30, Mitton Rd Business Park, Mitton Rd, Whalley, Lancashire, BB79YE, England, United Kingdom. hello@lanxshoes.com<\/li><\/ul>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "49a70f5a-adb7-4d2f-b9e2-3456cef9b9bb",
+        "6f9d5ec0-055b-424e-b6c1-68280823e7a5",
+        "74fb87eb-499d-4ddb-960a-e4c205064767"
+      ],
+      "settings": {
+        "title": "Overseas Returns & Exchanges",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "38b4e420-746c-4ca3-8a76-f62cdd16eb1a": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "5689b017-d206-4da0-b670-9aaea5f61a9b": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>If your shoes need their soles repairing please <a href=\"https:\/\/lanxshoes.com\/pages\/repairs\"><em><strong>click here.<\/strong><\/em><\/a><\/p><p>If for any reason you are not completely satisfied with any product you order from us, simply read the information below, then contact us as set out below. Before contacting LANX please do consider how long you have had your shoes for and whether or not the issue you have may be general wear and tear.<\/p><p>As per the <a href=\"https:\/\/lanxshoes.com\/pages\/shoe-care\">Shoe Care notes on the website and inside the shoe box<\/a>, customers are kindly asked to try on your new shoes for the first time with a shoe horn and on a carpet. This is so you protect the heel and don’t scuff the bottom of the soles on a hard surface. If for any reason you need to return or exchange your shoes, they will need to be returned to us in a resalable condition, which requires the heal not to be damaged and the sole of the shoes not to be scuffed. <\/p>",
+            "text_size": 3
+          }
+        },
+        "a09f2e4e-1a83-49ab-aec5-57e440579c7c": {
+          "type": "text",
+          "settings": {
+            "title": "HOW TO RETURN A FAULTY OR INCORRECT PRODUCT",
+            "text": "<p><\/p><p><\/p><ul><li>If you wish to return a faulty or incorrect item please email us with your; name, mobile, order number, a brief explanation and photos of the items. We will then reply and confirm what to do next. <br\/><br\/><\/li><li>Please do not return any faulty or incorrect products until you have emailed our team and received a reply. Our email can be found at the bottom of this page.<br\/><br\/><\/li><li>Please note, products will only be deemed faulty once received by us and checked by our technical team. <br\/><br\/><\/li><li>As per our T&Cs and the consumer rights act, we will accept returns up to 30 days for faulty or incorrect items.<br\/><br\/><\/li><li>Please ensure we receive the goods within 30 days of their dispatch and that they are returned in their original condition.<br\/><br\/><\/li><li>If we agree with you via email to a exchange, refund or repair for a faulty or incorrect product please then follow our normal <a href=\"https:\/\/lanxshoes.com\/pages\/uk-returns\">returns process.<\/a><\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "8322f02a-43fe-44ee-9057-e4e3caa52fd8": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><p><strong>RETURNS POSTAL ADDRESS<\/strong><\/p><ul><li>This is given during our normal <a href=\"https:\/\/lanxshoes.com\/pages\/uk-returns\"><em><strong>returns process.<\/strong><\/em><\/a><\/li><\/ul><p><strong>REFUNDS (IF APPLICABLE)<\/strong><\/p><ul><li>Once your return is received and inspected by a member of the customer services team you will be notified via email of the approval or rejection of your refund.<br\/><br\/><\/li><li>If you are approved then your refund will be processed.<br\/><br\/><\/li><li>All correctly returned items will only be credited to the account from which the original purchase was made, less any taxes, delivery or import duties incurred in delivery.<br\/><br\/><\/li><li>If you received a discount, you will be refunded the price you paid only.<\/li><\/ul><p><strong>LATE OR MISSING REFUNDS<\/strong><\/p><ul><li>Please note all returns are processed as quickly as possible but please allow 14 working days for your return or exchange to be processed.<br\/><br\/><\/li><li>If you haven’t received a refund yet, first check your bank account. Then contact your credit card company. It may take some time before your refund is officially posted. Next contact your bank. If you’ve done all of this and you still have not received your refund yet, please email us via the contact page.<\/li><\/ul><p><strong>EMAIL US<\/strong><\/p><ul><li>hello@lanxshoes.com<\/li><\/ul>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "5689b017-d206-4da0-b670-9aaea5f61a9b",
+        "a09f2e4e-1a83-49ab-aec5-57e440579c7c",
+        "8322f02a-43fe-44ee-9057-e4e3caa52fd8"
+      ],
+      "settings": {
+        "title": "Faulty & Incorrect Items",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "3924328a-8775-402d-a598-a4adcf3bfa77": {
+      "type": "section-accordion-single-column",
+      "blocks": {
+        "82f9450d-382a-4dd2-98f2-f3369d77fbc3": {
+          "type": "text",
+          "settings": {
+            "title": "EVENT & POP-UP PURCHASES",
+            "text": "<p><\/p><p><\/p><ul><li>Unfortunately we are not able to refund, exchange or repair shoes at LANX pop-up shops and events.<br\/><br\/><\/li><li>If you purchased a pair of shoes from us at a pop-up shop or event you can take them back to the same destination and hand them over to the LANX member of staff, who will then bring them back to LANX HQ for inspection. <br\/><br\/><\/li><li>Please complete a returns & exchanges form, which can be downloaded in the returns section above and place inside the shoe box before handing over the shoes to the LANX member of staff.<br\/><br\/><\/li><li>Alternatively you can post them back to LANX HQ using the returns and exchanges form from the above sections.<\/li><\/ul>",
+            "text_size": 3
+          }
+        },
+        "ac75a64a-909f-4073-a1de-199c346c78c5": {
+          "type": "text",
+          "settings": {
+            "title": "STORE PURCHASES",
+            "text": "<p><\/p><ul><li>If you feel there is a fault with your shoes which you purchased from a store; please take them back to the store you purchased them from, together with a proof of purchase. Your receipt acts as your contract with that store. <br\/><br\/><\/li><li>The retailer can examine the shoe to see if they deem it to be a manufacturer fault. If advised as such, they can then send it back to us for an internal inspection, at which point it is at the retailer’s discretion as to whether they offer to exchange, refund or offer a credit note. <br\/><br\/><\/li><li>Each of our stockists has its own returns policy, so you will need to check this when making a purchase. If they do not feel it is a manufacturer fault, it is at their discretion.<\/li><\/ul>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "82f9450d-382a-4dd2-98f2-f3369d77fbc3",
+        "ac75a64a-909f-4073-a1de-199c346c78c5"
+      ],
+      "settings": {
+        "title": "Store, Events & Pop-Up Returns",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bfa32c6a-f9c9-4cae-b699-ea8b61e42268",
+    "69f42111-bd4a-4d75-a6f0-5a7abcbe7ced",
+    "ba92a21a-9793-4c72-b2c1-6237d6983bee",
+    "cda48cc1-e720-4433-a22b-573ae5da1103",
+    "38b4e420-746c-4ca3-8a76-f62cdd16eb1a",
+    "3924328a-8775-402d-a598-a4adcf3bfa77"
+  ]
+}

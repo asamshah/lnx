@@ -1,0 +1,137 @@
+<div class="product-info-area">
+  {% assign klarna_block = '' %}
+  {% assign clearpay_block = '' %}
+
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {%- when '@app' -%}
+        {% capture block_content %}
+          {% render block %}
+        {% endcapture %}
+
+        {% if block_content contains 'klarna' %}
+          {% assign klarna_block = block_content %}
+        {% elsif block_content contains 'square-placement' %}
+          {% assign clearpay_block = block_content %}
+        {% else %}
+          {% render block %}
+        {% endif %}
+        
+        {% if klarna_block != blank and clearpay_block != blank %}
+          {% render 'product-klarna-clearpay', klarna_block: klarna_block, clearpay_block: clearpay_block %}
+        {% endif %}
+
+      {% when 'title' %}
+        {% render 'product-title-price', product: product, block: block, section: section %}
+      {% when 'product-meta' %}
+        {% render 'product-metafield-data', product: product, block: block, section: section %}
+      {% when 'add-buttons' %}
+        {% render 'product-buttons' product: product, uniq_id: product_form_id, block: block %}
+      {% when 'quantity' %}
+        {% render 'product-quantity' product: product, uniq_id: product_form_id, block: block %}
+      {% when 'variant-selectors' %}
+        {% render 'product-variant-options' product: product, uniq_id: product_form_id, block: block %}
+      {% when 'siblings' %}
+        {% render 'product-siblings' product: product, uniq_id: product_form_id, block: block %}
+      {% when 'subscription' %}
+        {%- if block.settings.subscriptions_enable_selectors -%}
+          {% render 'product-subscription' product: product, uniq_id: product_form_id, block: block %}
+        {%- endif -%}
+      {% when 'size-remaining' %}
+        {% render 'product-size-and-remaining' product: product, block: block %}
+      {% when 'remaining' %}
+        {% render 'product-remaining' product: product, block: block %}
+      {% when 'sharing' %}
+        <div class="product__block__share" {{ block.shopify_attributes }}>
+          {% render 'share' product: product, label: block.settings.share_label, block: block %}
+        </div>
+      {% when 'pickup' %}
+        <div class="product__block__pickup" data-store-availability-container="{{ product.selected_or_first_available_variant.id }}" {{ block.shopify_attributes }}></div>
+      {% when 'text' %}
+        {% if block.settings.title != '' %}
+          <div class="product__block__text" {{ block.shopify_attributes }}>
+            <div class="product__subheading" {{ block.shopify_attributes }}>
+              {{ block.settings.title }}
+            </div>
+          </div>
+        {% endif %}
+      {% when 'countdown' %}
+        {% if block.settings.title != '' %}
+        <div class="product__block__countdown hide" {{ block.shopify_attributes }} data-delivery-countdown-block data-cutoff-hour="{{ block.settings.cutoff_time | default: 15 }}">
+          <div class="" {{ block.shopify_attributes }}>
+            {{ block.settings.pre_countdown }}
+            <span class="countdown">
+              <span data-countdown-hours></span> {{ block.settings.deliveryhours }},
+              <span data-countdown-minutes></span> {{ block.settings.deliveryminutes }},
+              <span data-countdown-seconds></span> {{ block.settings.deliveryseconds }}
+            </span>
+            <br>
+            {{ block.settings.post_countdown }}
+          </div>
+        </div>
+        {% endif %}
+      {% when 'general_countdown' %}
+          {% if block.settings.title != '' %}
+          <div class="product__block__countdown hide" {{ block.shopify_attributes }} data-countdown-block data-cutoff-hour="{{ block.settings.cutoff_time_general | default: 15 }}" data-date="{{ block.settings.countdown_date }}">
+            <div class="" {{ block.shopify_attributes }}>
+              {{ block.settings.pre_countdown_general }}
+              <span class="countdown">
+                <span data-countdown-days></span> {{ block.settings.generaldays }},
+                <span data-countdown-hours></span> {{ block.settings.generalhours }},
+                <span data-countdown-minutes></span> {{ block.settings.generalminutes }},
+                <span data-countdown-seconds></span> {{ block.settings.generalseconds }}
+              </span>
+              <br>
+              {{ block.settings.post_countdown_general }}
+            </div>
+          </div>
+          {% endif %}
+      {% when 'liquid' %}
+        {{ block.settings.custom_liquid }}
+      {% when 'upsell' %}
+        {% render 'product-upsell', section: section, block: block, product: product %}
+      {% when 'complimentary' %}
+        <div {{ block.shopify_attributes }}>
+          <div class="upsell__holder js-unloaded" data-product-complimentary-loaded>
+            <div class="upsell__holder__title">
+              <h2 class="upsell__holder__title__text">
+                {{ block.settings.title }}
+              </h2>
+            </div>
+
+            <product-complimentary data-url="{{ routes.product_recommendations_url }}?section_id=api-product-upsell-item&product_id={{ product.id }}&limit={{ block.settings.complimentary_list_limit }}&intent=complementary">
+            </product-complimentary>
+          </div>
+        </div>
+      {% when 'icon' %}
+        <div class="product__block__icon" {{ block.shopify_attributes }}>
+          <div class="icon-holder" style="--stroke: {{ block.settings.icon_color }};">
+            {%- render 'icons', filename: block.settings.icon_name -%}
+          </div>
+
+          <p>{{ block.settings.text | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      {% when 'image' %}
+        <div class="product__block__image {{ block.settings.alignment }}" {{ block.shopify_attributes }}>
+          <div style="max-width: {{ block.settings.image_max_limit | append: 'px' }};">
+            {%- if block.settings.image != blank -%}
+              {%- render 'image-fit' img_object: block.settings.image -%}
+            {%- else -%}
+              {%- render 'image-fill' img_object: null, aspect_ratio: 1 -%}
+            {%- endif -%}
+          </div>
+        </div>
+      {% when 'usp' %}
+        {% render 'product-usp' ss: section.settings %}
+      {% when 'product-usps' %}
+        {% render 'product-usps' product: product, bs: block.settings, ss: section.settings %}
+      {% when 'fit-message' %}
+        {% render 'product-fit-message' meta_obj: meta_obj, bs: block.settings %}
+      {% when 'description' %}
+        {% render 'product-description' product: product, block: block %}
+      {% when 'accordion-tabs' %}
+        {% render 'product-tabs', section: section, block: block, product: product %}
+    {% endcase %}
+  {% endfor %}
+
+</div>

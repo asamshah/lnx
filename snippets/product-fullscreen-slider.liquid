@@ -1,0 +1,360 @@
+<div class="fullscreen-slider" data-class-change='
+[
+  {
+    "target": ".fullscreen-slider",
+    "class": "shown",
+    "method": "remove",
+    "on": "click",
+    "onlyThisElem": true
+  },
+  {
+    "target": ".product-image-area-{{ product.id }}",
+    "class": "fullscreen-shown",
+    "method": "remove",
+    "on": "click",
+    "onlyThisElem": true
+  },
+  {
+    "target": ".fullscreen-slider",
+    "class": "shown",
+    "method": "remove",
+    "on": "keydown",
+    "keyCode": 27
+  }
+]
+'
+
+data-method-call='[
+  {
+    "componentId": "fullscreenSlider",
+    "on": "click",
+    "onlyThisElem": true,
+    "method": "_pauseVideos",
+    "args": []
+  },
+  {
+    "componentId": "fullscreenSlider",
+    "on": "keydown",
+    "keyCode": 27,
+    "method": "_pauseVideos",
+    "args": []
+  }
+]'
+
+>
+
+  <div class="fullscreen-slider__header">
+
+    <div class="fullscreen-slider__thumbnails-wrapper tablet-only"> 
+      <ul class="fullscreen-slider__thumbnails" 
+      data-keen-slider-nav='{
+        "parentSlider": "fullscreenSlider"
+      }' data-mobile-product-thumbnail-images>
+        {% assign dot_index = 0 %}
+
+        {% if current_variant.featured_image != blank or current_variant.featured_media != blank %}
+          {% assign media = current_variant.featured_media %}
+          {% assign alt = media.alt | remove: 'full-width' | default: product.title %}
+          {% assign image_variant_id = '' %}
+
+          {% assign size = '450x' %}
+          {% assign large_size = '450x' %}
+          {% assign is_dot = true %}
+          {% assign mobile = true %}
+
+          {% if media.alt contains 'full-width' %}
+            {% assign size = large_size %}
+          {% endif %}
+
+          <li {% if is_dot %}data-dot="{{ dot_index }}"{% endif %} 
+          data-product-image='{{ image.variants | map: 'id' | join: ',' }}' 
+          class="{% if media.alt contains 'full-width' %}full-width{% endif %} {% if is_dot %}keen-slider__nav-item is-active{% endif %}" {{ fullScreenToggle | replace: 'indexNum', 0 }}>
+          
+            {% if media.media_type == 'image' %}
+              {% render 'picture-element', image: media, image_mobile: media, size: size, alt: alt, extra_class: 'object-fit--cover', preload: true %}
+            {% elsif media.media_type == 'video' %}
+          
+              <div class="video-wrapper object-fit--cover">
+                <video muted autoplay loop playsinline -webkit-playsinline poster="{{ media.preview_image | img_url: size }}">
+                  {% for source in media.sources %}
+                    <source src="{{ source.url }}" type="video/{{ source.format }}">
+                  {% endfor %}
+                  This browser does not support the HTML5 video element.
+                </video>
+              </div>
+
+            {% endif %}
+            
+          </li>
+
+          {% assign dot_index = dot_index | plus: 1 %}
+        {% endif %}
+
+        {% for media in product.media %}
+
+          {% if media.media_type != 'image' and media.media_type != 'video' %}
+            {% continue %}
+          {% endif %}
+
+          {% assign image = blank %}
+          {% for image in product.images %}
+            {% if image.src == media.src %}
+              {% assign image = image %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if image.variants != blank and image.variants.first.id != current_variant.id %}
+            {% continue %}
+          {% endif %}
+
+          {% if image.variants.first.id == current_variant.id %}
+            {% continue %}
+          {% endif %}
+
+          <li class="keen-slider__nav-item" data-product-image='{{ image.variants | map: 'id' | join: ',' }}' {% if media.media_type == 'video' %}class="video-thumb"{% endif %} data-dot="{{ dot_index }}">
+
+            {% assign image = media %}
+
+            {% if media.media_type == 'video' %}
+              {% assign image = media.preview_image %}
+            {% endif %}
+
+            {% render 'picture-element', image: image, size: '60x', alt: image.alt, extra_class: 'object-fit--cover' %}
+
+          </li>
+
+          {% assign dot_index = dot_index | plus: 1 %}
+
+        {% endfor %}
+
+        {% if alternative_variant_image %}
+          <li>
+              {% render 'picture-element', image: alternative_variant_image, image_mobile: alternative_variant_image, size: '60x', alt: alternative_variant_image.alt, extra_class: 'object-fit--cover'  %}
+          </li>
+        {% endif %}
+
+        {% for media in current_variant.metafields.custom.extra_media.value %}
+          <li data-dot="{{ dot_index }}">
+
+            {% if media.media_type == 'image' %}
+              {% render 'picture-element', image: media, image_mobile: media, size: '60x', alt: alt, extra_class: 'object-fit--cover'  %}
+            {% elsif media.media_type == 'video' %}
+
+              <div class="video-wrapper object-fit--cover">
+                <video data-lazy muted autoplay loop playsinline -webkit-playsinline data-poster="{{ media.preview_image | img_url: size }}">
+                  {% for source in media.sources %}
+                    <source data-src="{{ source.url }}" type="video/{{ source.format }}">
+                  {% endfor %}
+                  This browser does not support the HTML5 video element.
+                </video>
+              </div>
+
+            {% endif %}
+
+          </li>
+
+          {% assign dot_index = dot_index | plus: 1 %}
+
+        {% endfor %}
+      </ul>
+    </div>
+
+    <button data-class-change='
+    [
+      {
+        "target": ".fullscreen-slider",
+        "class": "shown",
+        "method": "remove",
+        "on": "click"
+      },
+      {
+        "target": ".product-image-area-{{ product.id }}",
+        "class": "fullscreen-shown",
+        "method": "remove",
+        "on": "click"
+      }
+    ]
+    '  
+
+    data-method-call='[
+      {
+        "componentId": "fullscreenSlider",
+        "on": "click",
+        "method": "_pauseVideos",
+        "args": []
+      }
+    ]'
+
+    class="close">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#fb5gt4zkpa)">
+            <path d="M15.071 2.573 13.427.93 8 6.355 2.573.93.93 2.573 6.355 8 .93 13.427l1.644 1.644L8 9.645l5.427 5.426 1.644-1.644L9.645 8l5.426-5.427z" fill="#225728"/>
+        </g>
+        <defs>
+            <clipPath id="fb5gt4zkpa">
+                <path fill="#fff" d="M0 0h16v16H0z"/>
+            </clipPath>
+        </defs>
+    </svg>
+    </button>
+  </div>
+
+<ul class="keen-slider" data-keen-slider='{
+  "slidesPerView": 1,
+  "dots": false,
+  "arrows": true,
+  "namespace": "fullscreenSlider",
+  "id": "fullscreenSlider",
+  "controls": false,
+  "loop": true,
+  "duration": 0,
+  "arrowKeyNavigation": true,
+  "playVideos": true,
+  "mode": "snap",
+  "responsive": [
+    {
+      "breakpoint": "834px",
+      "settings": {
+        "slidesPerView": 1,
+        "controls": true,
+        "arrows": false,
+        "duration": 250,
+        "dragSpeed": 0
+      }
+    }
+  ]
+}'>
+
+  {% for media in product.media %}
+    {% assign alt = media.alt | default: product.title %}
+    <li class="keen-slider__slide media-type--{{ media.media_type }}">
+
+      {% if media.media_type == 'image' %}
+      {% assign image = media %}
+
+      <div class="image-slider-zoom"  data-image-zoom
+      data-zoom="
+      {{ image | img_url: '2000x' }}
+      "  
+      data-class-change='
+        [
+          {
+            "target": ".image-zoom-pane",
+            "class": "shown",
+            "method": "toggle",
+            "on": "click"
+          },
+          {
+            "target": ".original",
+            "class": "zoom-out",
+            "method": "toggle",
+            "on": "click"
+          }
+
+        ]'>
+        <img data-lazy data-src="{{ image | img_url: '600x' }}" data-srcset="{{ image | img_url: '400x' }} 400w, {{ image | img_url: '600x' }} 1x, {{ image | img_url: '600x', scale: 2 }} 2x" alt="{{ image.alt | default: product.title }}" width="{{ image.width }}" height="{{ image.height }}">
+        <div class="image-zoom-pane" data-zoom-pane></div>
+      </div>
+
+      {% elsif media.media_type == 'video' %}
+
+        <video controls loop playsinline -webkit-playsinline placeholder="{{ media.preview_image | img_url: '800x' }}">
+          {% for source in media.sources %}
+            <source src="{{ source.url }}" type="video/{{ source.format }}">
+          {% endfor %}
+          This browser does not support the HTML5 video element.
+        </video>
+
+      {% endif %}
+
+    </li>
+  {% endfor %}
+
+  {% if current_variant.metafields.my_fields.alternative_variant_image != blank %}
+    {% assign alternative_variant_image = current_variant.metafields.my_fields.alternative_variant_image %}
+    <li class="keen-slider__slide media-type--image">
+
+      <div class="image-slider-zoom"  data-image-zoom 
+      data-zoom="
+      {{ alternative_variant_image | img_url: '2000x' }}
+      "  
+      data-class-change='
+        [
+          {
+            "target": ".image-zoom-pane",
+            "class": "shown",
+            "method": "toggle",
+            "on": "click"
+          },
+          {
+            "target": ".original",
+            "class": "zoom-out",
+            "method": "toggle",
+            "on": "click"
+          }
+
+        ]'>
+          <img data-lazy data-src="{{ alternative_variant_image | img_url: '600x' }}" data-srcset="{{ alternative_variant_image | img_url: '400x' }} 400w, {{ alternative_variant_image | img_url: '600x' }} 1x, {{ alternative_variant_image | img_url: '600x', scale: 2 }} 2x" alt="{{ alternative_variant_image.alt | default: product.title }}">
+        <div class="image-zoom-pane" data-zoom-pane></div>
+      </div>
+
+    </li>
+  {% endif %}
+
+  {% for media in current_variant.metafields.custom.extra_media.value %}
+    {% assign image = media %}
+    <li class="keen-slider__slide media-type--image">
+
+      <div class="image-slider-zoom"  data-image-zoom 
+      data-zoom="
+      {{ image | img_url: '2000x' }}
+      "  
+      data-class-change='
+        [
+          {
+            "target": ".image-zoom-pane",
+            "class": "shown",
+            "method": "toggle",
+            "on": "click"
+          },
+          {
+            "target": ".original",
+            "class": "zoom-out",
+            "method": "toggle",
+            "on": "click"
+          }
+
+        ]'>
+          <img data-lazy data-src="{{ image | img_url: '600x' }}" data-srcset="{{ image | img_url: '400x' }} 400w, {{ image | img_url: '600x' }} 1x, {{ image | img_url: '600x', scale: 2 }} 2x" alt="{{ image.alt | default: product.title }}" data-image-zoom='{
+              "enableWhen": "(max-width: 834px)",
+              "type": "mobile"
+            }'>
+        <div class="image-zoom-pane" data-zoom-pane></div>
+      </div>
+
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="fullscreen-slider__footer tablet-only">
+  <h2 class="h4--desktop h5--tablet product-title">
+    {% if meta_obj.title_second_line != blank and product.title contains meta_obj.title_second_line %}
+      {{ product.title | split: meta_obj.title_second_line | first }}
+      <span class="product-title__sub">
+        {{ meta_obj.title_second_line }}
+      </span>
+    {% else %}
+      {{ product.title }}
+    {% endif %}
+    </h2>
+
+    <p class="zoom-text">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 3V6C13.5 6.13261 13.4473 6.25979 13.3536 6.35355C13.2598 6.44732 13.1326 6.5 13 6.5C12.8674 6.5 12.7402 6.44732 12.6464 6.35355C12.5527 6.25979 12.5 6.13261 12.5 6V4.20687L9.35375 7.35375C9.25993 7.44757 9.13268 7.50028 9 7.50028C8.86732 7.50028 8.74007 7.44757 8.64625 7.35375C8.55243 7.25993 8.49972 7.13268 8.49972 7C8.49972 6.86732 8.55243 6.74007 8.64625 6.64625L11.7931 3.5H10C9.86739 3.5 9.74021 3.44732 9.64645 3.35355C9.55268 3.25979 9.5 3.13261 9.5 3C9.5 2.86739 9.55268 2.74021 9.64645 2.64645C9.74021 2.55268 9.86739 2.5 10 2.5H13C13.1326 2.5 13.2598 2.55268 13.3536 2.64645C13.4473 2.74021 13.5 2.86739 13.5 3ZM6.64625 8.64625L3.5 11.7931V10C3.5 9.86739 3.44732 9.74021 3.35355 9.64645C3.25979 9.55268 3.13261 9.5 3 9.5C2.86739 9.5 2.74021 9.55268 2.64645 9.64645C2.55268 9.74021 2.5 9.86739 2.5 10V13C2.5 13.1326 2.55268 13.2598 2.64645 13.3536C2.74021 13.4473 2.86739 13.5 3 13.5H6C6.13261 13.5 6.25979 13.4473 6.35355 13.3536C6.44732 13.2598 6.5 13.1326 6.5 13C6.5 12.8674 6.44732 12.7402 6.35355 12.6464C6.25979 12.5527 6.13261 12.5 6 12.5H4.20687L7.35375 9.35375C7.44757 9.25993 7.50028 9.13268 7.50028 9C7.50028 8.86732 7.44757 8.74007 7.35375 8.64625C7.25993 8.55243 7.13268 8.49972 7 8.49972C6.86732 8.49972 6.74007 8.55243 6.64625 8.64625Z" fill="black"/>
+      </svg>
+      {{ 'products.product.pinch_to_zoom' | t }}
+    </p>
+</div>
+
+</div>

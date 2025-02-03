@@ -1,0 +1,459 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8032c946-c1e7-4ed9-970a-f6d6a035267d": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006268142__8032c946-c1e7-4ed9-970a-f6d6a035267d-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>MANUFACTURING <\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790006268142__8032c946-c1e7-4ed9-970a-f6d6a035267d-16843148706ff0ba0c-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>LANX is proud to operate our own Lancashire based footwear factory and also work with a fantastic network of small independent partners who supply us with various; components, leathers, footwear, socks and clothing. Most are located in the UK, some in the same village as us and a few we have to jump on a plane to visit. All our partner suppliers have been visited by a member of the LANX team to inspect working conditions and that they meet our high expectations for manufacturing and employment standards.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006268142__8032c946-c1e7-4ed9-970a-f6d6a035267d-16843148706ff0ba0c-1",
+        "template--16790006268142__8032c946-c1e7-4ed9-970a-f6d6a035267d-16843148706ff0ba0c-2"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-manufacturers.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 60,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006268142__9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a-168431704944405027-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-brand-intro-uk-boots-shoes-brogues.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790006268142__9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a-168431704944405027-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Since the outbreak of Covid-19 in 2020 we have found it imperative to not only manufacture our own shoes, but also source footwear, leather and components from a variety of suppliers both in the UK and overseas. The reason for this is to maintain supply of materials and footwear all year round. When one of our partners (or a whole country) has to suddenly stop production we can shift sourcing to another location. Without the supply of continuous materials and footwear our business will cease to exist. Working in this manner allows us to maintain production, a steady flow of income and most importantly save jobs.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006268142__9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a-168431704944405027-1",
+        "template--16790006268142__9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a-168431704944405027-0"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "a0ca0468-b3e2-4729-8079-5e6e8399bb32": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-0": {
+          "type": "text",
+          "settings": {
+            "title": "Shoes | Lancashire, UK",
+            "content": "<p>We are very proud to have our own shoe manufacturing factory and shoe care workshop in Whalley, Lancashire. This sits alongside our Whalley Warehouse shop, which is open 10-4 daily. Pop in for a brew and a natter soon!<\/p>"
+          }
+        },
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-1": {
+          "type": "text",
+          "settings": {
+            "title": "Shoes | Yorkshire, UK",
+            "content": "<p>Despite the long history of county rivalry we are very pleased to work with our partner shoe factory in Yorkshire. They have over 70 years footwear making experience.<\/p>"
+          }
+        },
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-2": {
+          "type": "text",
+          "settings": {
+            "title": "Shoes | Northamptonshire, UK",
+            "content": "<p>Our partner shoemakers in Northamptonshire have been making shoes for over 100 years. We work with this factory to source Goodyear Welted constructed footwear.<\/p>"
+          }
+        },
+        "ba2ac1e2-cbb8-4cec-8d89-a07385170f14": {
+          "type": "text",
+          "settings": {
+            "title": "Shoes | Portugal",
+            "content": "<p>Located in the beautiful rural suburbs of Porto we are delighted to work with a small family owned shoe factory with over 50 years of manufacturing pedigree. Porto is the traditional hub of Portuguese shoe manufacturing and home to some of the best producers of footwear in the world.<\/p>"
+          }
+        },
+        "00423021-f3eb-4f9e-ba39-5bb42f6d8111": {
+          "type": "text",
+          "settings": {
+            "title": "Shoes | India",
+            "content": "<p>Our partner factory in India has over 60 years of footwear manufacturing experience. They are a small family owned business with a proud history of supplying footwear to many leading UK, US and European brands. We have a superb relationship with the factory owner who studied at the University of Manchester.<\/p>"
+          }
+        },
+        "text_X74JgP": {
+          "type": "text",
+          "settings": {
+            "title": "Leather Belts | Lancashire, UK",
+            "content": "<p>All our belts are made in-house at LANX HQ in Whalley, and the belt buckles made bespoke to our design by a Lancashire based blacksmiths Carter & Duck just up the road from us in the Ribble Valley.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/belts?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/belts?filter.v.availability=1\">Shop Now<\/a><\/p>"
+          }
+        },
+        "5b56c57a-8dde-40f6-914e-3fa28bace2e2": {
+          "type": "text",
+          "settings": {
+            "title": "Socks | Leicestershire, UK",
+            "content": "<p>LANX socks are proudly made in England by one of the last remaining family run socks manufacturers in the United Kingdom. Neil and his trusty team have been making proper socks for over 100 years.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/socks?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/socks?filter.v.availability=1\">Shop Now<\/a><\/p>"
+          }
+        },
+        "584cf54f-9f42-4f0c-825e-af2c4de2ad88": {
+          "type": "text",
+          "settings": {
+            "title": "Sweatshirts | Cheshire, UK",
+            "content": "<p>All our sweatshirts and t-shirts are made by English Fine cottons. There mission is to \"bring cotton spinning back to its spiritual home in the North West of England .<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/clothing?filter.p.m.footwear.style=Sweatshirt&filter.v.availability=1&sort_by=manual\" title=\"https:\/\/lanxshoes.com\/collections\/clothing?filter.p.m.footwear.style=Sweatshirt&filter.v.availability=1&sort_by=manual\">Shop Now<\/a><\/p>"
+          }
+        },
+        "5c2ee862-ead6-4cfe-a38f-68625a11b514": {
+          "type": "text",
+          "settings": {
+            "title": "Rugby Shirt | Midlands, UK",
+            "content": "<p>The LANX rugby shirt has been in development for 12+ months, largely because we had to search the length and breadth of the UK to find a factory who still made rugby shirts to the very high quality we required. After months of “digging like demented moles”, we stumbled across Roy.<br\/><br\/>Roy has been in textiles for the last 52 years and his connection with rugby shirts goes back a staggering 30+ years. Back in the 90’s Roy worked with some of the long established names from British sportswear manufacturing, and when one of his previous employers closed down their UK production in the early 2000’s Roy bought their knitting equipment and set up on his own.<br\/><br\/>Alongside his partner Helen, Roy had produced us a 14 gauge single jersey, in a 310 gram\/m2 weight. Each of these rugby jerseys are made with 100% cotton, of which the yarns can be traced back to their Portuguese origins. We know what you're thinking… “They don’t build ‘em like that anymore”. Well Roy still does, and we are very proud to work with him and his team.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/clothing\/products\/rugby-shirt-lanx-traders\" title=\"https:\/\/lanxshoes.com\/collections\/clothing\/products\/rugby-shirt-lanx-traders\">Shop Now<\/a><\/p>"
+          }
+        },
+        "9f6b8313-cf10-46a9-ae50-8e3f2c788c5b": {
+          "type": "text",
+          "settings": {
+            "title": "Embroidery | Lancashire, UK",
+            "content": "<p>All the embroidery on our various clothing pieces is done by a small family owned business in the village of Whalley, 2 minutes from the LANX HQ front door.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/clothing?filter.v.availability=1&sort_by=manual\" title=\"https:\/\/lanxshoes.com\/collections\/clothing?filter.v.availability=1&sort_by=manual\">Shop Now<\/a><\/p>"
+          }
+        },
+        "text_nKQBDU": {
+          "type": "text",
+          "settings": {
+            "title": "Hats | Nottingham, UK",
+            "content": "<p>Made in Nottingham by our friends at Highland 2000. Ran by two brothers Stuart and Mark who took over their family business in (you guessed it) the year 2000. The family had moved up from Guildford in the 60’s to set up shop in the thriving knitting industry in Nottingham - namely, in Eastwood - where the brothers started to work in the 80’s.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/hats?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/hats?filter.v.availability=1\">Shop Now<\/a><\/p>"
+          }
+        },
+        "text_VmPHYg": {
+          "type": "text",
+          "settings": {
+            "title": "Bags | Lancashire, UK",
+            "content": "<p>Proudly hand-made in Lancashire by the timeless manufacturer <a href=\"https:\/\/carradice.co.uk\/pages\/our-story\" title=\"https:\/\/carradice.co.uk\/pages\/our-story\"><span style=\"text-decoration:underline\">Carradice<\/span><\/a>, using the best materials that England has to offer.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/bags\" title=\"https:\/\/lanxshoes.com\/collections\/bags\">Shop Now<\/a><\/p>"
+          }
+        },
+        "text_iypQpM": {
+          "type": "text",
+          "settings": {
+            "title": "Wallets | Lancashire, UK",
+            "content": "<p>Our wallets are handmade in collaboration with Beck & Willow, a young leather worker who really caught our eye.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/wallets\" title=\"https:\/\/lanxshoes.com\/collections\/wallets\">Shop Now<\/a><\/p>"
+          }
+        },
+        "text_Vam7w6": {
+          "type": "text",
+          "settings": {
+            "title": "Scarves | Lancashire, UK",
+            "content": "<p>Made by our friends at County Brook, who has been championing the textile industry for over 200 years. Their standalone Mill located in the countryside of Foulridge, Colne, has been owned and operated by four generations of the Mitchell family since 1907.<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/scarves?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/scarves?filter.v.availability=1\">Shop Now<\/a><\/p>"
+          }
+        },
+        "0f89f637-0d0d-4dc3-a966-c5f040fe74a3": {
+          "type": "text",
+          "settings": {
+            "title": "Shoe & Gift Boxes | Lancashire, UK",
+            "content": "<p>We work with a family owned packaging manufacture in Rossendale, Lancashire, to supply us with high quality shoe boxes.<\/p><p><strong><br\/>Gift Box<\/strong><\/p><p>Our gift boxes allow you to bundle multiple LANX accessories together for a proper presentation that is sure to impress.<\/p><p><a href=\"https:\/\/lanxshoes.com\/products\/gift-box\" title=\"https:\/\/lanxshoes.com\/products\/gift-box\">Shop Gift Box<\/a><\/p>"
+          }
+        },
+        "6cafe176-c49f-457b-bae6-55d25d48e659": {
+          "type": "text",
+          "settings": {
+            "title": "Mailing Bags | Glasgow, UK",
+            "content": "<p>All the beautiful craft brown mailing bags we use to ship our products in are made in Glasgow, Scotland.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-0",
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-1",
+        "template--16790006268142__a0ca0468-b3e2-4729-8079-5e6e8399bb32-1684319861b470ca71-2",
+        "ba2ac1e2-cbb8-4cec-8d89-a07385170f14",
+        "00423021-f3eb-4f9e-ba39-5bb42f6d8111",
+        "text_X74JgP",
+        "5b56c57a-8dde-40f6-914e-3fa28bace2e2",
+        "584cf54f-9f42-4f0c-825e-af2c4de2ad88",
+        "5c2ee862-ead6-4cfe-a38f-68625a11b514",
+        "9f6b8313-cf10-46a9-ae50-8e3f2c788c5b",
+        "text_nKQBDU",
+        "text_VmPHYg",
+        "text_iypQpM",
+        "text_Vam7w6",
+        "0f89f637-0d0d-4dc3-a966-c5f040fe74a3",
+        "6cafe176-c49f-457b-bae6-55d25d48e659"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 3,
+        "heading_size": 3,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "346fe4da-46e1-42bf-a559-b8fb9b7e1fda": {
+      "type": "section-richtext",
+      "blocks": {
+        "beaed2bb-0829-4563-9870-92c554458e8f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To learn more about where each of our specific collections are made please use the link below.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "25b79f03-354a-42f3-8e3b-7615aa9304c6": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "ABOUT COLLECTIONS",
+            "link_1": "shopify:\/\/pages\/collections",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "beaed2bb-0829-4563-9870-92c554458e8f",
+        "25b79f03-354a-42f3-8e3b-7615aa9304c6"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "59d84325-3e04-4fdc-876b-8b2f41ce918e": {
+      "type": "section-richtext",
+      "blocks": {
+        "e5f04757-020b-432b-b88d-ac5a70e5eeb5": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>PARTNER GALLERY<\/p>",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "e5f04757-020b-432b-b88d-ac5a70e5eeb5"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "7bb380ab-8fdb-44ee-a862-91663c738b46": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-2.png",
+            "link": ""
+          }
+        },
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-6.png",
+            "link": ""
+          }
+        },
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-1.png",
+            "link": ""
+          }
+        },
+        "5f69417c-c435-428f-be81-b4385f59660c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-3.png",
+            "link": ""
+          }
+        },
+        "e0fe7871-cfe9-4892-900d-234daf3f5201": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-5.png",
+            "link": ""
+          }
+        },
+        "ccf9e3fc-84ba-4168-b4a4-b60e3fbf5742": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-9.png",
+            "link": ""
+          }
+        },
+        "ab90df87-b4d0-400f-ac80-ae0d421eb234": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-10.png",
+            "link": ""
+          }
+        },
+        "cb896b2e-7156-447a-b8c5-2c19200e87a3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-8.png",
+            "link": ""
+          }
+        },
+        "43bd558d-44c4-4010-a3fd-2099a7bfc04e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-4.png",
+            "link": ""
+          }
+        },
+        "7bc6816c-7c9e-4a5d-8de4-665fd2a55151": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-7.png",
+            "link": ""
+          }
+        },
+        "dd6f93d9-95bf-4573-aa17-bf5067f72102": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-12.png",
+            "link": ""
+          }
+        },
+        "997a9a94-80ec-4858-a545-e2704f0f39e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-11.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-0",
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-1",
+        "template--16790006268142__7bb380ab-8fdb-44ee-a862-91663c738b46-1684329271ecb6915e-2",
+        "5f69417c-c435-428f-be81-b4385f59660c",
+        "e0fe7871-cfe9-4892-900d-234daf3f5201",
+        "ccf9e3fc-84ba-4168-b4a4-b60e3fbf5742",
+        "ab90df87-b4d0-400f-ac80-ae0d421eb234",
+        "cb896b2e-7156-447a-b8c5-2c19200e87a3",
+        "43bd558d-44c4-4010-a3fd-2099a7bfc04e",
+        "7bc6816c-7c9e-4a5d-8de4-665fd2a55151",
+        "dd6f93d9-95bf-4573-aa17-bf5067f72102",
+        "997a9a94-80ec-4858-a545-e2704f0f39e5"
+      ],
+      "settings": {
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8032c946-c1e7-4ed9-970a-f6d6a035267d",
+    "9a8be28a-4cfc-448f-9e02-5d0aff9e0d3a",
+    "a0ca0468-b3e2-4729-8079-5e6e8399bb32",
+    "346fe4da-46e1-42bf-a559-b8fb9b7e1fda",
+    "59d84325-3e04-4fdc-876b-8b2f41ce918e",
+    "7bb380ab-8fdb-44ee-a862-91663c738b46"
+  ]
+}

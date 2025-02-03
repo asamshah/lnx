@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-help-info-clearpay_672cc295-6804-42f6-a135-0e2a82e236a0.png",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "00138134-f715-411a-b4b1-5db4b9f7375b": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16819283067118__00138134-f715-411a-b4b1-5db4b9f7375b-1689174465afeef368-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CLEARPAY<\/p>",
+            "text_size": 7
+          }
+        },
+        "e3390b36-84ee-4b7f-aab7-22fd0833cd50": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Shop now, pay in 4<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 3
+          }
+        },
+        "abd3ea0a-1772-4b14-b9a7-41ec10ccae4c": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": false
+          }
+        },
+        "489123f3-77f3-4273-a71e-c2758c0a6d71": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop now, pay in 4 interest-free instalments over six weeks. To pay with Clearpay, simply select it at checkout. After that you'll be able to track your payments using the ClearPay app or website.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16819283067118__00138134-f715-411a-b4b1-5db4b9f7375b-1689174465afeef368-1",
+        "e3390b36-84ee-4b7f-aab7-22fd0833cd50",
+        "abd3ea0a-1772-4b14-b9a7-41ec10ccae4c",
+        "489123f3-77f3-4273-a71e-c2758c0a6d71"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 116,
+        "padding_bottom": 0
+      }
+    },
+    "d2047e7d-0649-4e8d-b552-4c2bf4457798": {
+      "type": "section-double",
+      "blocks": {
+        "86c8fd51-c840-4d47-855e-524ffd6da379": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-clearpay_a882dad1-a19b-4ce2-8d52-883a80aa68b4.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "4dd220b6-f06c-4270-a90e-3a01e988e552": {
+          "type": "text",
+          "settings": {
+            "kicker": "DISCLAIMER",
+            "title": "",
+            "text": "<p>Please use Clearpay responsibly. Clearpay lends you a fixed amount of credit so you can pay for your purchase over 4 instalments, due every 2 weeks. You must be 18+ and a permanent UK resident (excl Channel Islands).<a href=\"http:\/\/clearpay.co.uk\/terms\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>T&Cs<\/strong><\/span><\/a>and other eligibility criteria apply. Ensure you can make repayments on time. Clearpay charges a £6 late fee for each late instalment and a further £6 if it’s still unpaid 7 days later. Late fees are capped at £6 for orders under £24 and the lower of £24 or 25% of the order value for orders over £24. Missed payments may affect your ability to use Clearpay in the future and they may pass unpaid debt to a debt collection agency. Clearpay is credit that is not regulated by the Financial Conduct Authority.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "86c8fd51-c840-4d47-855e-524ffd6da379",
+        "4dd220b6-f06c-4270-a90e-3a01e988e552"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 16,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b",
+    "00138134-f715-411a-b4b1-5db4b9f7375b",
+    "d2047e7d-0649-4e8d-b552-4c2bf4457798"
+  ]
+}

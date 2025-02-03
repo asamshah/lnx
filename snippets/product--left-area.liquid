@@ -1,0 +1,138 @@
+<div class="product-image-area product-image-area-{{ product.id }}">
+
+  {% capture fullScreenToggle %}
+    data-method-call='[
+      {
+        "componentId": "fullscreenSlider",
+        "on": "click",
+        "method": "goToSlide",
+        "args": [indexNum, true]
+      }
+    ]' 
+
+    data-class-change='
+    [
+      {
+        "target": ".fullscreen-slider",
+        "class": "shown",
+        "method": "add",
+        "on": "click"
+      },
+      {
+        "target": ".product-image-area-{{ product.id }}",
+        "class": "fullscreen-shown",
+        "method": "add",
+        "on": "click"
+      }
+    ]
+    '
+  {% endcapture %}
+
+  <ul
+    class="product-media-grid product-slider keen-slider"
+    data-keen-slider='{
+      "namespace": "mainProductSlider",
+      "id": "mainProductSlider",
+      "slidesPerView": 1,
+      "arrows": false,
+      "loop": true,
+      "playVideos": true,
+      "enableWhen": "(max-width: 768px)"
+    }'
+  >
+
+    {% assign image_count0 = 0 %}
+    {% for media in product.media %}
+      {% assign alt = image.alt | default: product.title %}
+
+      <li class="product-image" data-product-image='{% for variant in image.variants %}{{ variant.id }}{% unless forloop.last %},{% endunless %}{% endfor %}' {{ fullScreenToggle | replace: 'indexNum', image_count0 }}>
+        {%- case media.media_type -%}
+          {%- when 'image' -%}
+            {% assign lazyload = true %}
+
+            {% if forloop.index <= 2 %}
+              {% assign lazyload = false %}
+            {% endif %}
+
+            {% render 'picture-element', image: media, image_mobile: media, sizes: '(min-width: 835px) 25vw, 100vw', alt: alt, extra_class: 'object-fit--cover', lazyload: lazyload %}
+          {%- when 'external_video' -%}
+            <div class="video-element-wrapper">
+              {%- assign video_class = 'js-' | append: media.host -%}
+              {%- if media.host == 'youtube' -%}
+                {{ media | external_video_url: autoplay: true, loop: loop, playlist: media.external_id | external_video_tag: class: video_class, loading: "lazy" }}
+              {%- else -%}
+                {{ media | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy" }}
+              {%- endif -%}
+            </div>
+          {%- when 'video' -%}
+            <div class="video-element-wrapper">
+              {{ media | video_tag: image_size: "768x", autoplay: true, loop: true, preload: "none", controls: false }}
+            </div>
+          {%- when 'model' -%}
+            <div class="video-element-wrapper">
+              {{ media | media_tag: image_size: "768x", toggleable: true }}
+            </div>
+        {%- endcase -%}
+      </li>
+      {% assign image_count0 = image_count0 | plus: 1 %}
+    {% endfor %}
+  </ul>
+
+  <div class="product-thumbnails-wrapper tablet-only">
+    <ul class="product-thumbnails"
+      data-mobile-product-thumbnail-images
+      data-keen-slider-nav='{
+        "parentSlider": "mainProductSlider"
+      }'
+      data-keen-slider='{
+        "id": "mainProductSliderNav",
+        "slidesPerView": 6,
+        "arrows": false,
+        "spacing": 20,
+        "loop": false,
+        "responsive": [
+          {
+            "breakpoint": "768px",
+            "settings": {
+              "slidesPerView": 5.7,
+              "spacing": 10,
+              "arrows": false
+            }
+          }
+        ]
+      }'
+      data-set-css-var='[
+        {
+          "selector": ".keen-slider__nav-item",
+          "get": "height",
+          "var": "--keen-slider-nav-item-height",
+          "updateOnResize": true,
+          "updateOnCtx": "radiant--mounted"
+        }
+      ]'
+    >
+      {% assign dot_index = 0 %}
+
+      {% for media in product.media %}
+        {% assign alt = image.alt | default: product.title %}
+
+        <li class="keen-slider__nav-item {% if forloop.first %}is-active{% endif %}" data-product-image='{{ image.variants | map: 'id' | join: ',' }}' {% if media.media_type == 'video' %}class="video-thumb"{% endif %} data-dot="{{ dot_index }}">
+
+          {% assign image = media %}
+
+          {% if media.media_type == 'video' %}
+            {% assign image = media.preview_image %}
+          {% endif %}
+
+          {% render 'image-fill', img_object: image, aspect_ratio: 1.0 %}
+        </li>
+
+        {% assign dot_index = dot_index | plus: 1 %}
+
+      {% endfor %}
+    </ul>
+  </div>
+  
+  {% include 'product-fullscreen-slider' %}
+
+</div>

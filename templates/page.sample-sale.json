@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7f5325ba-c7a1-4a51-a026-2d353ee4b28a": {
+      "type": "section-video",
+      "blocks": {
+        "64638313-5a9d-447c-b041-4bb24338fbf7": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>24 & 25 June 2023<\/p>",
+            "enable_caps": true,
+            "text_size": 3
+          }
+        },
+        "d685dc08-cdd2-48e3-9a36-e7196449d966": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>SAMPLE SALE OVER<\/p>",
+            "text_size": 8
+          }
+        },
+        "3571f33a-fd33-4528-917c-5a818573d6d7": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 12,
+            "show_line": false
+          }
+        },
+        "9a6e505b-663b-44a3-ba59-47fe41a88967": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks to everyone who made the trip, we hope to see you next time.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "64638313-5a9d-447c-b041-4bb24338fbf7",
+        "d685dc08-cdd2-48e3-9a36-e7196449d966",
+        "3571f33a-fd33-4528-917c-5a818573d6d7",
+        "9a6e505b-663b-44a3-ba59-47fe41a88967"
+      ],
+      "custom_css": [
+        ".bloop{display: none;}"
+      ],
+      "settings": {
+        "height": "use_screen_full",
+        "color_bg": "palette--light bg--neutral",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5044902cb682451d809dac9cf98856a5.mp4",
+        "object_position": "center-center",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 70,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f9ca679f-39c6-4293-8f8e-e4a267c4075e": {
+      "type": "section-richtext",
+      "disabled": true,
+      "blocks": {
+        "template--16818192417006__f9ca679f-39c6-4293-8f8e-e4a267c4075e-1686819458d993c42d-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It is that time of the year again when we need to make some room in the warehouse...<\/p><p>We are thrilled to extend an invitation to our annual sample sale. Up to 70% off on rare one-of-a-kind design samples, fitting samples, end of line products and a few other bits & bobs you don't want to miss out on!<\/p><p>Save the date: 24 & 25 June 2023, 10am - 4pm daily. LANX, Unit 29, Mitton Rd, Whalley, Lancs, BB7 9YE. Coffee van and pop up bar available.<\/p><p>We look forward to welcoming some familiar faces and many new. For those hoping to make a day\/ weekend out of it, we have listed some great local pubs and restaurants below. Come and experience all the beautiful Ribble Valley has to offer!<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16818192417006__f9ca679f-39c6-4293-8f8e-e4a267c4075e-1686819458d993c42d-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e9e3fcb4-39d9-4471-a094-8ece9acbb23f": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "template--16818192417006__e9e3fcb4-39d9-4471-a094-8ece9acbb23f-168681936919f56b78-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-sample-sale-lancashire-england-boots-shoes_0ea4b7a2-b344-4f64-b840-2e40d4c6ea1d.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16818192417006__e9e3fcb4-39d9-4471-a094-8ece9acbb23f-168681936919f56b78-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "PUB GRUB",
+            "title": "",
+            "text": "<p>We know that many people will be travelling from afar, so we have put together a list of local pubs\/ restaurants you may like to visit. Great local food, excellent beer and a warm Lancashire welcome...<br\/><\/p><p><a href=\"https:\/\/www.brunningandprice.co.uk\/aspinallarms\/\">Aspinall Arms<\/a> <\/p><p><a href=\"https:\/\/www.freemasonsatwiswell.com\/\">Freemasons Wiswell<\/a><\/p><p><a href=\"https:\/\/www.mittonhallhotel.co.uk\/\">Mitton Hall<\/a><\/p><p><a href=\"https:\/\/theeagleatbarrow.co.uk\/\">Eagle At Barrow<\/a><\/p><p><a href=\"https:\/\/www.thethreefishes.co.uk\/\">Three Fishes<\/a><\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16818192417006__e9e3fcb4-39d9-4471-a094-8ece9acbb23f-168681936919f56b78-1",
+        "template--16818192417006__e9e3fcb4-39d9-4471-a094-8ece9acbb23f-168681936919f56b78-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "319eac0a-1be9-4170-8e41-9ace4cd83d22": {
+      "type": "section-richtext",
+      "disabled": true,
+      "blocks": {
+        "67fd7d5b-8506-4871-8f72-f49a67536ed8": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>PLEASE NOTE<\/p>",
+            "enable_caps": true,
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "99c8edf5-9918-4314-9be6-5ea0605972b8": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>The sample sale and special offers will be available at the LANX Whalley Warehouse Shop only. Not online or at our Manchester shop.<\/li><li>We aren’t accepting discount codes at the open weekend event. The heavily discounted prices given at the event are final prices. If you currently have a code for perhaps 10% off, or a free pair of socks, please kindly save this for a future order.<\/li><li>Customers with <a href=\"https:\/\/lanxshoes.com\/pages\/loyalty-credits\"><strong>LANX Loyalty credits<\/strong><\/a> may of course use their credit to purchase items on the day. All we ask is you come prepared with your long unique loyalty code to hand.<\/li><li>To discover which items are in the sale and at what price, you will have to come to the event.<\/li><\/ul>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "c472b472-c0e5-4215-a0d9-d4372198ea7e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many thanks for everyone's support over the last 5 years, we look forward to seeing you at the open weekend..!<\/p><p>Regards,<\/p><p><strong>Marv (Founder) & LANX Team<\/strong><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "67fd7d5b-8506-4871-8f72-f49a67536ed8",
+        "99c8edf5-9918-4314-9be6-5ea0605972b8",
+        "c472b472-c0e5-4215-a0d9-d4372198ea7e"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7f5325ba-c7a1-4a51-a026-2d353ee4b28a",
+    "f9ca679f-39c6-4293-8f8e-e4a267c4075e",
+    "e9e3fcb4-39d9-4471-a094-8ece9acbb23f",
+    "319eac0a-1be9-4170-8e41-9ace4cd83d22"
+  ]
+}

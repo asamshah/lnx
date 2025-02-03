@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "e66cdc55-b89e-40b0-ab6b-4a25fa6850c0": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16806137233646__e66cdc55-b89e-40b0-ab6b-4a25fa6850c0-16866444828f3ca2f3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>PROPER PEOPLE<\/p>",
+            "text_size": 8
+          }
+        },
+        "spacer_TGaxRg": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 10,
+            "show_line": false
+          }
+        },
+        "kicker_zYtKGE": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>BY LANX<\/p>",
+            "enable_caps": true,
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16806137233646__e66cdc55-b89e-40b0-ab6b-4a25fa6850c0-16866444828f3ca2f3-1",
+        "spacer_TGaxRg",
+        "kicker_zYtKGE"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/proper-people-blog_7d37b3d1-f422-4984-ad05-ade52d010915.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 40,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main-blog": {
+      "type": "blog",
+      "settings": {
+        "heading": "",
+        "show_heading": false,
+        "tag_label": "",
+        "tags": false,
+        "text_align": "text-left",
+        "post_grid": 3,
+        "rows": 3,
+        "aspect_ratio": 1,
+        "show_author": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "image_height": "use_screen_one_third",
+        "text_color": "text--white",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blog-section-featured-article": {
+      "type": "section-featured-article",
+      "blocks": {
+        "blog-section-featured-article-block-0": {
+          "type": "kicker",
+          "settings": {
+            "show_author": false,
+            "show_date": true
+          }
+        },
+        "blog-section-featured-article-block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "blog-section-featured-article-block-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "",
+            "text_size": 3
+          }
+        },
+        "blog-section-featured-article-block-3": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--outline"
+          }
+        }
+      },
+      "block_order": [
+        "blog-section-featured-article-block-0",
+        "blog-section-featured-article-block-1",
+        "blog-section-featured-article-block-2",
+        "blog-section-featured-article-block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "article": "news\/leicester-tigers-x-lanx",
+        "image": "shopify:\/\/shop_images\/LANX-England-Rugby-League-Brogues-Lancashire-2.jpg",
+        "image_full_width": true,
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "color_bg": "",
+        "text_align": "align--bottom-center",
+        "text_alignment": "text-center",
+        "text_color": "text--neutral",
+        "text_color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 100
+      }
+    },
+    "custom-content-feature": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "article": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "show_tag": true,
+            "show_date": true,
+            "font_size": 4,
+            "show_excerpt": true,
+            "align_text": "text-left",
+            "placement_text": "middle",
+            "show_author_name": true,
+            "show_author_image": true,
+            "button_text": "Read more",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "article"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "e66cdc55-b89e-40b0-ab6b-4a25fa6850c0",
+    "main-blog",
+    "blog-section-featured-article",
+    "custom-content-feature"
+  ]
+}

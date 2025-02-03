@@ -1,0 +1,29 @@
+<div class="product-description rte rte--column" {{ block.shopify_attributes }}>
+  {%- assign product_description_content = product.description | strip -%}
+  {%- assign truncate_string = 'products.general.read_more' | t -%}
+  {%- assign re_truncate_string = 'products.general.read_less' | t -%}
+  {%- assign truncate_html = '<button type="button" class="open_margin p underline" data-truncated-button>' | append: truncate_string | append: '</button>' -%}
+  {%- assign re_truncate_html = '<button type="button" class="open_margin p underline" data-truncated-button>' | append: re_truncate_string | append: '</button>' -%}
+
+    {% if block.settings.read_more %}
+      <div id="old_margin" class="product-description__holder product-description__holder--truncate" data-truncated-holder data-truncate-lines="{{ block.settings.truncate_lines }}">
+        <div class="product-description__inner">
+          <div class="product-description__content" data-truncated-content="product-description__content--truncate">
+            {{ product_description_content }}
+          </div>
+        </div>
+
+        <div class="product-description__actions">
+          <div class="read-more-action">
+            {{ truncate_html }}
+          </div>
+          <div class="read-less-action">
+            {{ re_truncate_html }}
+          </div>
+        </div>
+      </div>
+    {% else %}
+      {{ product.description }}
+    {% endif %}
+  
+</div>

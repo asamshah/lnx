@@ -1,0 +1,149 @@
+{% assign image_url = image | img_url: size %}
+{% assign image_retina_url = image | img_url: size, scale: 2 %}
+
+{% assign image_tablet_url = image_mobile | default: image | img_url: '834x' %}
+{% assign image_mobile_url = image_mobile | default: image | img_url: '480x' %}
+
+{% assign image_retina_tablet_url = image_mobile | default: image | img_url: '834x', scale: 2 %}
+
+{% assign placeholder_size = '100x100' %}
+
+{% assign placeholder_url = image | img_url: placeholder_size %}
+
+{% if type == 'file_url' %}
+  {% assign image_name = image | split: '/' | last %}
+  {% assign image_url = image_name | file_img_url: size %}
+  {% assign image_retina_url = image_name | file_img_url: size, scale: 2 %}
+
+  {% assign image_tablet_url = image_mobile | default: image_name | file_img_url: '834x' %}
+  {% assign image_mobile_url = image_mobile | default: image_name | file_img_url: '480x' %}
+
+  {% assign image_retina_tablet_url = image_mobile | default: image_name | file_img_url: '834x', scale: 2 %}
+
+  {% assign placeholder_url = image_name | file_img_url: placeholder_size %}
+
+{% endif %}
+
+{% if image_mobile == blank %}
+  {% assign image_mobile = image %}
+  {% assign image_tablet = image %}
+{% endif %}
+
+{% assign ss = section.settings %}
+
+{% assign lazyloading = true %}
+{% if lazyload == false %}
+  {% assign lazyloading = false %}
+{% endif %}
+
+{% if lazyloading %}
+
+  <div class="picture-element-wrapper wrapper--{{ image.id }} {% if extra_class != blank %}{{ extra_class }}{% endif %}" {% if image.aspect_ratio != blank or image_mobile.aspect_ratio != blank %}style="--aspect-desktop: {{ image.aspect_ratio }}; --aspect-tablet: {{ image_mobile.aspect_ratio }};"{% endif %} {% if extra_attr != blank %}{{ extra_attr }}{% endif %} {% if manual_lazy_load %}data-lazy-load-trigger='{
+    "target": "this",
+    "subTarget": "[data-lazy-manual]",
+    "on": "mouseover"
+  }'{% endif %}>
+
+    {% assign widths = '165,330,400,535,750,1000,1500,1920,2000,3000' | split: ',' %}
+      
+    <picture>
+      
+      {% capture mobileSrcSet %}
+        {%- if type == 'file_url' -%}
+          {{ image_tablet_url }} 1x, {{ image_retina_tablet_url }} 2x
+        {%- else -%}
+          {%- for width in widths -%}
+            {{ image_mobile | image_url: width: width }} {{ width }}w{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        {%- endif -%}
+      {% endcapture %}
+
+      {% capture desktopSrcSet %}
+        {%- if type == 'file_url' -%}
+          {{ image_url }} 1x, {{ image_retina_url }} 2x
+        {%- else -%}
+          {%- for width in widths -%}
+            {{ image | image_url: width: width }} {{ width }}w{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        {%- endif -%}
+      {% endcapture %}
+
+      {% capture srcSizes %}{{ sizes | default: '100vw' | strip }}{% endcapture %}
+
+      <source 
+        media="(max-width: 834px)"
+        data-srcset="{{ mobileSrcSet }}"
+        data-sizes="{{ srcSizes }}"
+      >
+
+      <img
+        draggable="false" 
+        data-srcset="{{ desktopSrcSet }}" 
+        data-sizes="{{ srcSizes }}"
+        width="{{ image.width }}"
+        height="{{ image.height }}"
+        alt="{{ alt | strip_html }}" 
+        {% if manual_lazy_load %}data-lazy-manual{% else %}data-lazy{% endif %}
+        class="picture-element-image"
+        style="{% if image.presentation.focal_point != blank %}--focal-desktop: {{ image.presentation.focal_point }};{% endif %} {% if image_tablet.presentation.focal_point != blank %}--focal-tablet: {{ image_tablet.presentation.focal_point }};{% endif %}">
+    </picture>
+
+    {% unless preload %}
+      <img src="{{ placeholder_url }}" alt="{{ alt | default: image.alt | default: bs.title | default: ss.title | default: page.title | default: shop.name | strip_html }}" class="placeholder">
+    {% endunless %}
+
+    {% if preload %}
+      <link rel="preload" media="(max-width: 834px)" as="image" href="{{ image_tablet_url }}" imagesrcset="{{ mobileSrcSet }}" imagesizes="{{ srcSizes }}">
+      <link rel="preload" media="(min-width: 835px)" as="image" href="{{ image_url }}" imagesrcset="{{ desktopSrcSet }}" imagesizes="{{ srcSizes }}">
+    {% endif %}
+  </div>
+
+{% else %}
+  
+  <div class="picture-element-wrapper wrapper--{{ image.id }} {% if extra_class != blank %}{{ extra_class }}{% endif %}" {% if image.aspect_ratio != blank or image_mobile.aspect_ratio != blank %}style="--aspect-desktop: {{ image.aspect_ratio }}; --aspect-tablet: {{ image_mobile.aspect_ratio }};"{% endif %} {% if extra_attr != blank %}{{ extra_attr }}{% endif %}>
+
+    {% assign widths = '165,330,400,450,535,750,1000,1500,1920,2000,3000' | split: ',' %}
+      
+    <picture class="loaded">
+      
+      {% capture mobileSrcSet %}
+        {%- if type == 'file_url' -%}
+          {{ image_tablet_url }} 1x, {{ image_retina_tablet_url }} 2x
+        {%- else -%}
+          {%- for width in widths -%}
+            {{ image_mobile | image_url: width: width }} {{ width }}w{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        {%- endif -%}
+      {% endcapture %}
+
+      {% capture desktopSrcSet %}
+        {%- if type == 'file_url' -%}
+          {{ image_url }} 1x, {{ image_retina_url }} 2x
+        {%- else -%}
+          {%- for width in widths -%}
+            {{ image | image_url: width: width }} {{ width }}w{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        {%- endif -%}
+      {% endcapture %}
+
+      {% capture srcSizes %}{{ sizes | default: '100vw' | strip }}{% endcapture %}
+
+      <source 
+        media="(max-width: 834px)"
+        srcset="{{ mobileSrcSet }}"
+        sizes="{{ srcSizes }}"
+      >
+
+      <img
+        draggable="false" 
+        srcset="{{ desktopSrcSet }}" 
+        sizes="{{ srcSizes }}"
+        width="{{ image.width }}"
+        height="{{ image.height }}"
+        alt="{{ alt | strip_html }}" 
+        class="picture-element-image"
+        style="{% if image.presentation.focal_point != blank %}--focal-desktop: {{ image.presentation.focal_point }};{% endif %} {% if image_tablet.presentation.focal_point != blank %}--focal-tablet: {{ image_tablet.presentation.focal_point }};{% endif %}">
+    </picture>
+  </div>
+
+{% endif %}

@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7f5325ba-c7a1-4a51-a026-2d353ee4b28a": {
+      "type": "section-video",
+      "blocks": {
+        "64638313-5a9d-447c-b041-4bb24338fbf7": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>20% DISCOUNT<\/p>",
+            "enable_caps": true,
+            "text_size": 3
+          }
+        },
+        "d685dc08-cdd2-48e3-9a36-e7196449d966": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>BAG OF SOCKS<\/p>",
+            "text_size": 8
+          }
+        },
+        "9a6e505b-663b-44a3-ba59-47fe41a88967": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Select 4+ socks and use code SOCKS20 at checkout to receive a 20% discount. Your sock bundle discount prevents your ability to input other discounts codes at checkout. We allow 1 discount code offer per checkout. Your socks will be shipped in a LANX branded paper bag, perfect for birthdays, Christmas and special occasions.<\/p>",
+            "text_size": 3
+          }
+        },
+        "c21c7001-7a5f-4787-b297-8053387d6181": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SHOP SOCKS",
+            "link_1": "shopify:\/\/collections\/socks",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "64638313-5a9d-447c-b041-4bb24338fbf7",
+        "d685dc08-cdd2-48e3-9a36-e7196449d966",
+        "9a6e505b-663b-44a3-ba59-47fe41a88967",
+        "c21c7001-7a5f-4787-b297-8053387d6181"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".bloop {display: none;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_full",
+        "color_bg": "palette--light bg--neutral",
+        "video_link_bg": "https:\/\/lanx-website-images.s3.eu-west-2.amazonaws.com\/collections\/lanx-socks-video.mp4",
+        "video_link_bg_desktop": "",
+        "object_position": "center-center",
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "overlay_opacity": 65,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "animations": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_8DBVhK": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_kTQwmf": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>GET 15% OFF<\/p>",
+            "enable_caps": true,
+            "text_size": 3
+          }
+        },
+        "heading_ekxHFt": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>BAG OF SOCKS<\/p>",
+            "text_size": 8
+          }
+        },
+        "text_3JjTEV": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Select 4+ socks and use code SOCKS15 at checkout to receive a 15% discount on all your socks. Your socks bundle discount prevents your ability to input other discounts codes at checkout. We allow 1 discount code offer per checkout.<\/p>",
+            "text_size": 3
+          }
+        },
+        "button_npf8xh": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SHOP SOCKS",
+            "link_1": "shopify:\/\/collections\/socks",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_kTQwmf",
+        "heading_ekxHFt",
+        "text_3JjTEV",
+        "button_npf8xh"
+      ],
+      "custom_css": [
+        ".bloop {display: none;}"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-uk-socks-factory-2_0bd78a90-82ce-414c-8dd8-c7c21b964579.png",
+        "height": "use_screen_full",
+        "overlay_opacity": 80,
+        "overlay_color": "#010203",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7f5325ba-c7a1-4a51-a026-2d353ee4b28a",
+    "section_hero_8DBVhK"
+  ]
+}

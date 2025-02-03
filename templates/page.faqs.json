@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790005776622__05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7-16842256399cadbb32-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Frequently Asked Questions<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790005776622__05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7-16842256399cadbb32-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Most information about LANX can be found on either the <a href=\"https:\/\/lanxshoes.com\/pages\/about\"><strong>About <\/strong><\/a>page or the <a href=\"https:\/\/lanxshoes.com\/pages\/info\"><strong>Info <\/strong><\/a>page. However we have added some common customer questions below.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790005776622__05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7-16842256399cadbb32-1",
+        "template--16790005776622__05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7-16842256399cadbb32-2"
+      ],
+      "settings": {
+        "display_on": "",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-about-us-page.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b6d9ca97-ae70-4e3d-b498-6c9b3a7e2940": {
+      "type": "section-faq",
+      "blocks": {
+        "4e62b8d9-d669-4315-bc22-d068b98a8f7c": {
+          "type": "text",
+          "settings": {
+            "title": "What is your Christmas returns\/ exchange policy?",
+            "content": "<p>Christmas present orders: Items purchased between the 31 October to the 31 December are entitled to an extended exchange period. This extended exchange period ends at midnight on the 15 January. Customers may request an exchange for product or credit on a future order. Please note, the normal 14 days return for refund policy still applies on all orders.<\/p>"
+          }
+        },
+        "50353cb8-78f0-43b9-9252-209af3dcf5e5": {
+          "type": "text",
+          "settings": {
+            "title": "How do I return or exchange my order?",
+            "content": "<p>Please visit the returns & exchanges page – <a href=\"https:\/\/lanxshoes.com\/pages\/returns-exchanges\">click here.<\/a><\/p>"
+          }
+        },
+        "a16ef49c-8824-4a06-b958-cb200d61113a": {
+          "type": "text",
+          "settings": {
+            "title": "What is the LANX returns policy?",
+            "content": "<p>To view our returns policy please visit the returns page – <a href=\"https:\/\/lanxshoes.com\/pages\/uk-returns\">click here.<\/a><\/p>"
+          }
+        },
+        "21d52644-b264-43e6-b753-1a3ff42b672d": {
+          "type": "text",
+          "settings": {
+            "title": "How do LANX shoes fit?",
+            "content": "<p>Good question, but not a quick 1 to answer. Best you read the notes on our sizing advice page –<a href=\"https:\/\/lanxshoes.com\/pages\/returns-exchanges\"> <\/a><a href=\"https:\/\/lanxshoes.com\/pages\/sizing-advice\">click here.<\/a><\/p>"
+          }
+        },
+        "b2708e81-7d6c-4277-af71-ac4df009aa27": {
+          "type": "text",
+          "settings": {
+            "title": "How do I create \/ log in to my account?",
+            "content": "<p>To log in to your LANX account <a href=\"https:\/\/lanxshoes.com\/account\/login\">click here<\/a>.<br\/>To create a LANX account <a href=\"https:\/\/lanxshoes.com\/account\/register\">click here<\/a>.<br\/><strong>Important:<\/strong> Please log in using the same email address you use to make orders.<\/p>"
+          }
+        },
+        "3709e103-1c6c-460a-8366-749d3658272c": {
+          "type": "text",
+          "settings": {
+            "title": "How do I access my LANX Loyalty Credits?",
+            "content": "<p>To create a LANX Loyalty account, view your credits and read our Loyalty FAQS please <a href=\"https:\/\/lanxshoes.com\/pages\/loyalty-credits\">click here<\/a>.<\/p>"
+          }
+        },
+        "51ef4e00-f8d0-45cd-82b0-017320fa9790": {
+          "type": "text",
+          "settings": {
+            "title": "What is the 10 Pairs Club and how many shoes have I ordered?",
+            "content": "<p>The 10 Pairs Club is our way of thanking our loyal customers for purchasing their 10th pair of LANX shoes. For more information please <a href=\"https:\/\/lanxshoes.com\/pages\/ten-pairs-club\">click here<\/a>.<\/p>"
+          }
+        },
+        "71baa41f-e195-427e-b7c6-d36ec7b46a13": {
+          "type": "text",
+          "settings": {
+            "title": "How do I access more info on shipping and postage costs?",
+            "content": "<p>Please visit the shipping page – <a href=\"https:\/\/lanxshoes.com\/pages\/shipping\">click here.<\/a><\/p>"
+          }
+        },
+        "be2e90e9-5256-4f0c-b86d-3c7d97cc720d": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship worldwide?",
+            "content": "<p>Yes. Please visit the shipping page – <a href=\"https:\/\/lanxshoes.com\/pages\/shipping\">click here.<\/a><\/p>"
+          }
+        },
+        "61403f01-b86b-48ff-a8c4-054b3946ab46": {
+          "type": "text",
+          "settings": {
+            "title": "Can I visit the LANX warehouse and try on a pair of shoes?",
+            "content": "<p>We'd be delighted to see you. For opening times please <a href=\"https:\/\/lanxshoes.com\/pages\/warehouse-shop\">click here.<\/a><\/p>"
+          }
+        },
+        "9b6201c5-74b8-4455-b337-5e1fd9508d6c": {
+          "type": "text",
+          "settings": {
+            "title": "How do I get my soles repaired or replaced?",
+            "content": "<p>We can help with that – <a href=\"https:\/\/lanxshoes.com\/pages\/lanx-shoe-care\">click here.<\/a><\/p>"
+          }
+        },
+        "8cecff2a-b4a7-4c76-84df-557d12140df3": {
+          "type": "text",
+          "settings": {
+            "title": "What is the size & fitting like on LANX shoes?",
+            "content": "<p>Please visit the size & shape guide page – <a href=\"https:\/\/lanxshoes.com\/pages\/sizing-advice\">click here<\/a><\/p>"
+          }
+        },
+        "24bde507-802c-4ccd-b445-4082a0e7a710": {
+          "type": "text",
+          "settings": {
+            "title": "How do I sign up to your newsletter?",
+            "content": "<p>We thought you’d never ask! Just - <a href=\"https:\/\/lanxshoes.com\/pages\/lanx-newsletter\">click here.<\/a><\/p>"
+          }
+        },
+        "29839a5c-879d-440e-9938-8820f2b60adb": {
+          "type": "text",
+          "settings": {
+            "title": "How do I contact LANX?",
+            "content": "<p>Please visit the contact page – <a href=\"https:\/\/lanxshoes.com\/pages\/contact-lanx\">click here.<\/a><\/p>"
+          }
+        },
+        "7429fc55-d1ff-4166-a147-95120944753c": {
+          "type": "text",
+          "settings": {
+            "title": "Do you do group discount?",
+            "content": "<p>We do indeed – <a href=\"https:\/\/lanxshoes.com\/pages\/group-discount\">click here.<\/a><\/p>"
+          }
+        },
+        "189f06b3-6010-4297-bf55-3798c793cf7e": {
+          "type": "text",
+          "settings": {
+            "title": "How do I look after my shoes?",
+            "content": "<p>Good question. Please visit the shoe care page – <a href=\"https:\/\/lanxshoes.com\/pages\/shoe-care\">click here.<\/a><\/p>"
+          }
+        },
+        "b663b21e-2071-4324-af32-8fb8be5ca023": {
+          "type": "text",
+          "settings": {
+            "title": "How do I collaborate with or help promote LANX?",
+            "content": "<p>Please email hello@lanxshoes.com.<\/p>"
+          }
+        },
+        "1c0f6565-8041-4d91-8cda-1590f6192bcd": {
+          "type": "text",
+          "settings": {
+            "title": "How do I become a LANX affiliate?",
+            "content": "<p>Please email hello@lanxshoes.com.<\/p>"
+          }
+        },
+        "9021ac66-5080-422f-9e92-0873c253cd2f": {
+          "type": "text",
+          "settings": {
+            "title": "Can I visit LANX HQ?",
+            "content": "<p>Yes. For location and open times please <a href=\"https:\/\/lanxshoes.com\/pages\/warehouse-shop\">click here<\/a>. <\/p>"
+          }
+        },
+        "06226403-ae80-4b63-bcfb-7249d23546dc": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have any jobs or career opportunities available?",
+            "content": "<p>Please check out the careers page – <a href=\"https:\/\/lanxshoes.com\/pages\/careers\">click here.<\/a><\/p>"
+          }
+        },
+        "5adba582-0501-489a-8bc5-24f3e7d9bccf": {
+          "type": "text",
+          "settings": {
+            "title": "How do I invest in LANX?",
+            "content": "<p>Another great question! For more information please - <a href=\"https:\/\/lanxshoes.com\/pages\/crowdfunding\">click here.<\/a><\/p>"
+          }
+        },
+        "01f406ec-1b49-4122-81b5-776bef1ebb63": {
+          "type": "text",
+          "settings": {
+            "title": "Will I have to pay any duties or taxes on my order?",
+            "content": "<p>Customers outside of the UK will be liable for all import duties, customs and taxes levied by your country your order is being shipped to. These will be due at the point of or after delivery. We are not liable for these charges. If you are unsure of the charges please contact your local customs office to find out more information. Customers that reject parcels or do not take delivery of parcels once they reach your country will be liable for a £15 shipping and admin fee should the products.<\/p>"
+          }
+        },
+        "3c22bc6e-8517-42d1-ae91-dae2538bf83e": {
+          "type": "text",
+          "settings": {
+            "title": "Do the products for sale on this website include VAT?",
+            "content": "<p>Please note that prices quoted include UK VAT only (which is payable on all orders), some international deliveries may be subject to local duty and custom charges for which the customer is responsible.<\/p>"
+          }
+        },
+        "e46d99e7-303b-46a7-8508-e9a356c2e604": {
+          "type": "text",
+          "settings": {
+            "title": "Why won’t my discount code work?",
+            "content": "<p>Have you entered the code correctly? Our codes are case sensitive, try copying and pasting the code into the promo code box just before checkout. Also, please look at the terms and conditions of the discount code to make sure this offer is still valid.<\/p>"
+          }
+        },
+        "66a08037-556c-4601-9884-63a14b54946e": {
+          "type": "text",
+          "settings": {
+            "title": "What happens if I forget my discount code?",
+            "content": "<p>Once your order has been placed we are unable to manually add the discount. Please note that this discount may be used on your next order; check out the terms and conditions of the code.<\/p>"
+          }
+        },
+        "34c80026-92c9-4134-a8b6-9efa3a39c583": {
+          "type": "text",
+          "settings": {
+            "title": "I bought a pair of shoes at full price, soon after they were discounted,can I be refunded the difference?",
+            "content": "<p>As an online retailer, our prices will occasionally change depending on demand, stock and upcoming sales without prior warning. This being the case, we are not able to refund the difference.<\/p>"
+          }
+        },
+        "337bed02-c535-4e32-9c49-b99b62addfad": {
+          "type": "text",
+          "settings": {
+            "title": "Does LANX abide to the sale of goods acts?",
+            "content": "<p>Yes we do operate under the sale of goods acts. This does not affect your statutory rights.<\/p>"
+          }
+        },
+        "af0debc3-e7e1-47c9-a845-36b3bca09cba": {
+          "type": "text",
+          "settings": {
+            "title": "Why doesn't LANX have a phone number?",
+            "content": "<p>LANX does not have a call centre and we're not set up to handle high volumes of phone calls, so a phone call would prove inefficient and potentially leave you quite frustrated! More than often, we'll need to do a little digging to answer your question efficiently.<\/p>"
+          }
+        },
+        "0f2048ae-0be7-4c37-bd54-3895bddad870": {
+          "type": "text",
+          "settings": {
+            "title": "Can I search for a specific product on your website?",
+            "content": "<p>You can indeed. Use <a href=\"https:\/\/lanxshoes.com\/search?q=\">this link.<\/a><\/p>"
+          }
+        },
+        "5ba806e6-0cfd-40de-b7e5-b1c9b3e15c9a": {
+          "type": "text",
+          "settings": {
+            "title": "Can I wear LANX boots for hiking in and in wet conditions?",
+            "content": "<p>Have a look at our 365 collection...<\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/womens-365-collection?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/womens-365-collection?filter.v.availability=1\">Shop Women's <\/a><\/p><p><a href=\"https:\/\/lanxshoes.com\/collections\/mens-365-collection?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/mens-365-collection?filter.v.availability=1\">Shop Men's<\/a><\/p>"
+          }
+        },
+        "e2d05ce1-6b9b-443d-9f9d-5f3ec430decb": {
+          "type": "text",
+          "settings": {
+            "title": "Are your shoes\/ boots heavy?",
+            "content": "<p>It all depends what you deem to be heavy I guess. Our boots are probably heavier than the average weight, as we use extremely good soles and leather, which tends to be a little thicker than some leathers and therefore a little heavier. We do offer free shipping and U.K. exchanges, so please feel free to try out at home and see what you think.<\/p>"
+          }
+        },
+        "94023c8d-5afd-41b5-9273-01d349860111": {
+          "type": "text",
+          "settings": {
+            "title": "Do your boots contain plastic\/synthetic materials?",
+            "content": "<p>With regards to our women's shoes: the soles are currently made from TPR which is a synthetic rubber. At the moment, this is the construction for all of our women’s soles.<\/p><p>We are working on a new women's range which utilizes full Rubber outsoles, but currently we do not have an official release date for these styles.<\/p><p>With regards to our men's soles, the majority of our styles use full rubber soles. The only exceptions to this are 'Cartmel' and 'Ancoats.'<\/p><p>The only other use of synthetic materials are a small amount of padding we use in between the insock and the insole. We use this for comfort. This is a mix of natural rubber and synthetic rubber. We also use a small amount of PU between the lasting board and the outsole.<\/p>"
+          }
+        },
+        "e0f9c08b-48e7-44a7-8985-4cb41bf55e79": {
+          "type": "text",
+          "settings": {
+            "title": "I have plantar fasciitis so I need a pair of boots with good arch support. Do your boots have a curve in the sole for arch support?",
+            "content": "<p>Our shoes & boots are all made on an industry standard sole profile - this means that the footbed is not completely flat, it is slightly curved to ergonomically fit the profile of a standard foot. So, essentially there is a small amount of arch support, but if more support is needed then perhaps an orthotic insole would be needed. Our insoles technically can be removed from the shoes, however it is not advised. The insoles are glued onto the hard under layer, so removing them will leave this exposed for you to put your orthotics on top of, so comfort may well be compromised. It is also worth mentioning that once they have been removed they are not in a resalable condition and therefore cannot be returned. We have found that with some of our customers that wear orthotic insoles, because our shoes have a little bit of extra room sometimes orthotics can be placed on top of our existing insoles.<\/p>"
+          }
+        },
+        "61b2ddde-89a0-4905-95f2-9d18ae53b035": {
+          "type": "text",
+          "settings": {
+            "title": "I get blisters wearing my new shoes\/ boots. What should I do?",
+            "content": "<p>Firstly, many thanks for purchasing LANX shoes, we appreciate your support. Blistering is, unfortunately, something that is very common, especially in shoes that use very high quality thicker leather, as we do here at LANX.<\/p><p>Our footwear is leather lined, which will take a bit of breaking in, however once broken in they will mould to your foot shape and allow for a comfortable fit.<\/p><p>At this stage I would recommend that you persist with wearing them as much as you can, with thick socks and maybe plasters to cover the affected areas of your feet. This is the fastest way of breaking in leather footwear.<\/p><p>Your friendly and often very helpful local cobblers shop should also be able to stretch your shoes, to allow for a little extra room. This will help make them fit better. To find your local cobblers please visit the Society of Master Shoe Repairers website... <a href=\"https:\/\/www.somsr.com\/home\">https:\/\/www.somsr.com\/home<\/a>.<\/p><p>Shoe String will also be able to assist and advise. We divert all our shoe care enquiries to Shoe String, who are an independent UK business located in Market Harborough, England. They are experts in this field and best equipped to answer all shoe care questions. They can be contacted Monday-Friday, 9am-5pm, on either sales@shoestringuk.com or via 01858 467467. You can also visit their website <a href=\"https:\/\/www.shoestringuk.com\/\">www.shoestringuk.com<\/a>. When you do contact them please make them aware of the style of LANX shoes you have and the leather the shoe is made from, details of which can be found on the specific product page.<\/p>"
+          }
+        },
+        "bf085f0d-2140-49ba-a798-d479d6aa9d09": {
+          "type": "text",
+          "settings": {
+            "title": "Will I have enough space to put my orthotic insole in LANX shoes?",
+            "content": "<p>With regards to our leather brogues and boots - their insoles technically can be removed from the shoes, however it is not advised. The insoles are glued onto the hard under layer, so removing them will leave this exposed for you to put your orthotics on top of, so comfort may well be compromised.<\/p><p>It is also worth mentioning that once they have been removed they are not in a resalable condition and therefore cannot be returned.<\/p><p>We have found that with some of our customers that wear orthotic insoles, because our shoes have a little bit of extra room sometimes orthotics can be placed on top of our existing insoles.<\/p>"
+          }
+        },
+        "c2db4012-5895-4cb5-88c2-a9d2dc0eb0f7": {
+          "type": "text",
+          "settings": {
+            "title": "Why are LANX shoes priced so high?",
+            "content": "<p>Many thanks for the feedback. Price is a very subjective discussion and if you deem our prices outside of your own budget that is completely understandable. However please respect that your own budget is likely outside of others budgets, and so on and so on. What I would point to is our very positive feedback in the other comments and on our website, in which our customers openly state the great value they deem our footwear. We also work with some of the best material suppliers and factories in the world, which as you would expect demands higher overheads, but with that exceptional quality. We strive to make proper shoes that are built to last, which means that if they are looked after they will last for many years, thus creating exceptional value. Maybe an investment in a pair of LANX would see you save money in the long run, something to ponder on and consider. Have a great day. Regards, Marv (LANX Founder)<\/p>"
+          }
+        },
+        "0d2d229f-a64b-478b-bc95-13ade9a3e1e0": {
+          "type": "text",
+          "settings": {
+            "title": "Where are LANX shoes made?",
+            "content": "<p>Many thanks for the comment. The majority of our footwear collections are 100% UK made. All our clothing and socks are UK made. Additional UK made footwear collections launching very soon. All the info is on our website - <a href=\"https:\/\/lanxshoes.com\/pages\/collections\" title=\"https:\/\/lanxshoes.com\/pages\/collections\">click here.<\/a><\/p>"
+          }
+        },
+        "643e646e-30d8-47ab-9884-2f3a7f7d0977": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer goodyear welted shoes?",
+            "content": "<p>Thank you for the comment. Presently… We offer Goodyear welted, blake stitched and cement lasted in mens. In women’s we offer cement lasted, but are hoping to introduce Goodyear welted and blake stitched soon. <\/p><p>You can filter by construction type <a href=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.v.availability=1\" title=\"https:\/\/lanxshoes.com\/collections\/mens-footwear?filter.v.availability=1\">here<\/a>. <\/p><p>We offer a repair service for all our footwear, no matter the construction type. <\/p>"
+          }
+        },
+        "c4ec16a5-4a05-4383-85d9-7f36c9d67f9a": {
+          "type": "text",
+          "settings": {
+            "title": "How long do LANX shoes take to break in?",
+            "content": "<p>We use excellent leather in all our footwear, which means the leather is thicker and will take a little longer to wear in. In most cases it can take 4-5 wears before they soften and wear in. However some customers report this process can be much quicker. Ultimately it depends on the customer and their feet. <\/p>"
+          }
+        },
+        "ad8c9db2-71e3-48c1-a735-7dab48f2865d": {
+          "type": "text",
+          "settings": {
+            "title": "How heavy are LANX shoes?",
+            "content": "<p>With regards to the weight of our shoes, I guess this is subjective to personal thoughts on what it heavy or not heavy. I’d say our footwear is slightly heavier than most as we use exceptional leather, lining and also sole units, which often means thicker and therefore more weight. That being said I know many footwear brands with heavier footwear and many of our customers also comment that they find our styles comfortable to wear out the box. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4e62b8d9-d669-4315-bc22-d068b98a8f7c",
+        "50353cb8-78f0-43b9-9252-209af3dcf5e5",
+        "a16ef49c-8824-4a06-b958-cb200d61113a",
+        "21d52644-b264-43e6-b753-1a3ff42b672d",
+        "b2708e81-7d6c-4277-af71-ac4df009aa27",
+        "3709e103-1c6c-460a-8366-749d3658272c",
+        "51ef4e00-f8d0-45cd-82b0-017320fa9790",
+        "71baa41f-e195-427e-b7c6-d36ec7b46a13",
+        "be2e90e9-5256-4f0c-b86d-3c7d97cc720d",
+        "61403f01-b86b-48ff-a8c4-054b3946ab46",
+        "9b6201c5-74b8-4455-b337-5e1fd9508d6c",
+        "8cecff2a-b4a7-4c76-84df-557d12140df3",
+        "24bde507-802c-4ccd-b445-4082a0e7a710",
+        "29839a5c-879d-440e-9938-8820f2b60adb",
+        "7429fc55-d1ff-4166-a147-95120944753c",
+        "189f06b3-6010-4297-bf55-3798c793cf7e",
+        "b663b21e-2071-4324-af32-8fb8be5ca023",
+        "1c0f6565-8041-4d91-8cda-1590f6192bcd",
+        "9021ac66-5080-422f-9e92-0873c253cd2f",
+        "06226403-ae80-4b63-bcfb-7249d23546dc",
+        "5adba582-0501-489a-8bc5-24f3e7d9bccf",
+        "01f406ec-1b49-4122-81b5-776bef1ebb63",
+        "3c22bc6e-8517-42d1-ae91-dae2538bf83e",
+        "e46d99e7-303b-46a7-8508-e9a356c2e604",
+        "66a08037-556c-4601-9884-63a14b54946e",
+        "34c80026-92c9-4134-a8b6-9efa3a39c583",
+        "337bed02-c535-4e32-9c49-b99b62addfad",
+        "af0debc3-e7e1-47c9-a845-36b3bca09cba",
+        "0f2048ae-0be7-4c37-bd54-3895bddad870",
+        "5ba806e6-0cfd-40de-b7e5-b1c9b3e15c9a",
+        "e2d05ce1-6b9b-443d-9f9d-5f3ec430decb",
+        "94023c8d-5afd-41b5-9273-01d349860111",
+        "e0f9c08b-48e7-44a7-8985-4cb41bf55e79",
+        "61b2ddde-89a0-4905-95f2-9d18ae53b035",
+        "bf085f0d-2140-49ba-a798-d479d6aa9d09",
+        "c2db4012-5895-4cb5-88c2-a9d2dc0eb0f7",
+        "0d2d229f-a64b-478b-bc95-13ade9a3e1e0",
+        "643e646e-30d8-47ab-9884-2f3a7f7d0977",
+        "c4ec16a5-4a05-4383-85d9-7f36c9d67f9a",
+        "ad8c9db2-71e3-48c1-a735-7dab48f2865d"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 3,
+        "heading_size": 3,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "05a3a5ba-a274-4867-9e7e-f0e8e2f7a0d7",
+    "b6d9ca97-ae70-4e3d-b498-6c9b3a7e2940"
+  ]
+}

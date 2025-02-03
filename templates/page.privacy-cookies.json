@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a238a893-bdab-4560-9525-5f1861c8d0bc": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16759396303086__a238a893-bdab-4560-9525-5f1861c8d0bc-167819959132e1617b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>PRIVACY & COOKIE POLICY<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16759396303086__a238a893-bdab-4560-9525-5f1861c8d0bc-167819959132e1617b-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Privacy & Cookie Policy - Download",
+            "link_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/1903\/2073\/files\/Privacy_and_Cookies_Policy_v5_18.4.24.pdf?v=1713523118",
+            "button_size_1": "btn--large btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16759396303086__a238a893-bdab-4560-9525-5f1861c8d0bc-167819959132e1617b-1",
+        "template--16759396303086__a238a893-bdab-4560-9525-5f1861c8d0bc-167819959132e1617b-3"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 90,
+        "padding_bottom": 90
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a238a893-bdab-4560-9525-5f1861c8d0bc"
+  ]
+}

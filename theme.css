@@ -1,0 +1,7 @@
+/* Use CSS containment to improve rendering performance */
+.product-grid {
+  contain: content;
+}
+
+/* Remove unused CSS */
+/* Delete unused selectors and rules */ 

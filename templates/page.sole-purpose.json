@@ -1,0 +1,381 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a7511dae-d1e3-4633-84e7-8adb2281f9a2": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790005973230__a7511dae-d1e3-4633-84e7-8adb2281f9a2-1684340757f8fed7eb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>SOLE PURPOSE<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790005973230__a7511dae-d1e3-4633-84e7-8adb2281f9a2-1684340757f8fed7eb-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>10 countries, 6 months, 1 sole purpose.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790005973230__a7511dae-d1e3-4633-84e7-8adb2281f9a2-1684340757f8fed7eb-1",
+        "template--16790005973230__a7511dae-d1e3-4633-84e7-8adb2281f9a2-1684340757f8fed7eb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-about-sole-purpose.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 60,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1883a2af-d533-476c-bf23-32d1633f7e64": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790005973230__1883a2af-d533-476c-bf23-32d1633f7e64-1684341918e04122a5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-2.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790005973230__1883a2af-d533-476c-bf23-32d1633f7e64-1684341918e04122a5-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "I SHOULDNT BE TELLING YOU THIS...",
+            "text": "<p>but I’m an honest lad, so here it goes... In 2016 I didn't know how to make a shoe. My name is Marv and I am the Founder of LANX. On the 26th July 2016 I received a letter which inspired me to roll up my sleeves, pack my bags and set off on a 6 month adventure. The purpose of the adventure was to have the best time of my life and to learn everything I could about making Proper Shoes.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790005973230__1883a2af-d533-476c-bf23-32d1633f7e64-1684341918e04122a5-1",
+        "template--16790005973230__1883a2af-d533-476c-bf23-32d1633f7e64-1684341918e04122a5-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9ce2b02d-ea6a-44b7-8e39-16057535e548": {
+      "type": "section-double",
+      "blocks": {
+        "b531c422-a500-465b-9621-141078bff230": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "I WRESTLED WITH...",
+            "text": "<p>sumos in Japan, chatted with monks in Cambodia and trekked the Great Wall of China. In all I visited 10 countries, met some fascinating people and picked up countless shoe industry secrets along the way. Most of the shoemakers I visited were still making by hand, a traditional skill I found inspiring and left a lasting impression on me.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "543ea059-66b1-4a5f-a94b-5da63da401b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-3.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "b531c422-a500-465b-9621-141078bff230",
+        "543ea059-66b1-4a5f-a94b-5da63da401b5"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5e07ac23-a67c-44d7-948b-e8160332091d": {
+      "type": "section-double",
+      "blocks": {
+        "c3891215-5b63-4927-9690-9c1147dc25a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-4.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "4c9a9bed-ee63-4920-85eb-e7ee9382f39c": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "I RETURNED HOME...",
+            "text": "<p>in March 2017 and after a swift half with my mates I immediately set about creating my own unique shoes, using the experiences I had learnt from the 10 countries and countless people I met during my time away.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "c3891215-5b63-4927-9690-9c1147dc25a2",
+        "4c9a9bed-ee63-4920-85eb-e7ee9382f39c"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bda9cd06-e588-4d21-a7ae-bbdb56517f89": {
+      "type": "section-double",
+      "blocks": {
+        "e4ffdd45-0eea-426d-8b6e-0bf715e7e578": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "LANX SHOES ARE INSPIRED BY...",
+            "text": "<p>the places and people I meet on my adventures. Our debut collection in 2018 was heavily influenced by the shoe craftsmanship I witnessed whilst travelling around Japan in 2016. I was particularly inspired by the many talented shoemakers located in the Tokyo suburb of Asakusa, traditionally a hub for shoemaking in the Japanese capital. Since then I have been on design excursions to New York, Berlin, Porto and Stockholm.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "c3c6539f-5be6-483b-8be5-1928e576055f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-design-dna.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "e4ffdd45-0eea-426d-8b6e-0bf715e7e578",
+        "c3c6539f-5be6-483b-8be5-1928e576055f"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "83f71df4-4bd9-4da1-b480-848425c668bd": {
+      "type": "section-double",
+      "blocks": {
+        "8f854760-fb07-483e-80b4-46410e489e0d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-shoe-lasts.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "0e8b81e9-5813-41be-b2ff-66d0621d871c": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "WE MAKE...",
+            "text": "<p>shoes, boots and sneakers, for women and men. Business casual styles, with a twist of elegance, in which to work hard, play hard and look good in for any occasion. Each collection has unique embossments, stylish broguing, the finest leather and British sourced textiles. Every shoe is stamped with either the Lancashire rose or our ballsy British White bull.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "8f854760-fb07-483e-80b4-46410e489e0d",
+        "0e8b81e9-5813-41be-b2ff-66d0621d871c"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d6b30974-8d44-409e-9efa-4b4461a09208": {
+      "type": "section-double",
+      "blocks": {
+        "8f8e6aa9-6d74-49e5-abd1-de69ddbb9b21": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "NEWSLETTER",
+            "text": "<p>Join our newsletter for the latest LANX; secret shoes, early product releases and special offers.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SIGN UP",
+            "button_url": "shopify:\/\/pages\/lanx-newsletter",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "1950881d-dbf0-472a-9113-7c73f74c799d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-newsletter-sms-signup.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "8f8e6aa9-6d74-49e5-abd1-de69ddbb9b21",
+        "1950881d-dbf0-472a-9113-7c73f74c799d"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a7511dae-d1e3-4633-84e7-8adb2281f9a2",
+    "1883a2af-d533-476c-bf23-32d1633f7e64",
+    "9ce2b02d-ea6a-44b7-8e39-16057535e548",
+    "5e07ac23-a67c-44d7-948b-e8160332091d",
+    "bda9cd06-e588-4d21-a7ae-bbdb56517f89",
+    "83f71df4-4bd9-4da1-b480-848425c668bd",
+    "d6b30974-8d44-409e-9efa-4b4461a09208"
+  ]
+}

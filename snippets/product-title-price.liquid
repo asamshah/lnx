@@ -1,0 +1,163 @@
+<!-- /snippets/product-title-price.liquid -->
+
+{% liquid
+  assign on_sale = false
+  if product.compare_at_price > product.price
+    assign on_sale = true
+  endif
+%}
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+<div class="product-title" {{ block.shopify_attributes }}>
+
+  {% if block.settings.product_show_vendor and product.vendor %}
+    <div class="product__subheading">
+      <p><a href="{{ product.vendor | url_for_vendor }}" class="border-bottom-link uppercase">{{ product.vendor }}</a></p>
+    </div>
+  {% endif %}
+
+  <div class="flex f-a-start f-j-between f-wrap">
+    
+    {% liquid
+      if product.title contains "//"
+        assign product_title_parts = product.title | split: "//"
+        assign product_title_name = product_title_parts[0]
+        assign product_title_color = product_title_parts[1]
+      elsif product.title contains "/"
+        assign product_title_parts = product.title | split: "/"
+        assign product_title_name = product_title_parts[0]
+        assign product_title_color = product_title_parts[1]
+      endif
+    %}
+
+    {% comment %}
+    {% if product_title_color %}<div class="product__price__color">{{ product_title_color }}</div>{% endif %}
+    {% endcomment %}
+
+    <h1 class="product__title {{ heading_size_class }}">
+      {% if template contains 'product' and block %}
+        {% if product_title_name %}{{ product_title_name }}{% else %}{{ product.title }}{% endif %}
+      {% else %}
+        <a href="{{ product.url }}">{% if product_title_name %}{{ product_title_name }}{% else %}{{ product.title }}{% endif %}</a>
+      {% endif %}
+    </h1>
+
+    {%- if block.settings.show_rating -%}
+      {% if block.settings.rating_type == 'app' %}
+        <div class="rating__wrapper__title" data-scroll-to='
+          {
+            "on": "click",
+            "target": "reviewsio-product-reviews-widget",
+            "preventDefault": true
+          }
+        '>
+          <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
+        </div>
+      {% else %}
+        {% assign collection = section.settings.collection %}
+        {% assign meta_obj = collection.metafields.custom %}
+        {% if meta_obj.manual_customer_review.value != blank %}
+          <div class="product-manual-rating flex f-a-center" data-scroll-to='
+            {
+              "on": "click",
+              "target": "reviewsio-product-reviews-widget",
+              "preventDefault": true
+            }
+          '>
+
+            <div class="review-stars flex f-a-center">
+              {% for i in (1..5) %}
+                {% render 'icon-star' %}
+              {% endfor %}
+            </div>
+            <div class="review-count">
+              {{ meta_obj.manual_customer_review.value.size }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+    {%- endif -%}
+  </div>
+
+  <div class="product-price flex f-j-between f-a-center">    
+    <div class="product-price-main" data-price-wrapper>
+      
+      <span class="price">
+        <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="price-sale"{% endif %}>
+          {%- if settings.currency_code_enable -%}
+            {{ current_variant.price | money_with_currency }}
+          {%- else -%}
+            {{ current_variant.price | money }}
+          {%- endif -%}
+        </span>
+      </span>
+
+      {% if on_sale %}
+        <span class="compare-at">
+          {%- if settings.currency_code_enable -%}
+            {{ product.compare_at_price | money_with_currency }}
+          {%- else -%}
+            {{ product.compare_at_price | money_without_trailing_zeros }}
+          {%- endif -%}
+        </span>
+      {% endif %}
+
+      {% liquid
+        assign units = product.variants | map: 'unit_price' | compact
+        if units[0]
+          assign has_units = true
+        else
+          assign has_units = false
+        endif
+      %}
+      {% if has_units %}
+        {% capture show_units %}
+          {%- unless current_variant.unit_price -%}style="display: none;"{%- endunless -%}
+        {% endcapture %}
+        {% capture unit_price_separator %}
+          <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+        {% endcapture %}
+        {% capture unit_price_base_unit %}
+          <span>
+            {% if current_variant.unit_price_measurement %}
+              {% if current_variant.unit_price_measurement.reference_value != 1 %}
+                {{ current_variant.unit_price_measurement.reference_value }}
+              {%- endif -%}
+              {{ current_variant.unit_price_measurement.reference_unit }}
+            {% endif %}
+          </span>
+        {% endcapture %}
+        <div class="price--unit">
+          <span data-product-unit {{ show_units }}>
+            <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+            <span data-product-unit-price id="unit-price-{{ block.id }}">
+              {%- if settings.currency_code_enable -%}
+                {{ current_variant.unit_price | money_with_currency }}
+              {%- else -%}
+                {{ current_variant.unit_price | money_without_trailing_zeros }}
+              {%- endif -%}
+            </span>
+            {{ unit_price_separator }}
+            <span data-product-base id="unit-price-base-{{ block.id }}">{{ unit_price_base_unit }}</span>
+          </span>
+          <span data-price-each class="hide">
+            {{ 'products.product.each' | t }}
+            <span data-price-each-amount></span>
+          </span>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if product.price < product.compare_at_price %}
+    <ul class="product-badges">
+      <li>
+        {% assign percent_off = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | floor %}
+        SAVE {{ percent_off }}%
+      </li>
+    </ul> 
+    {% endif %}
+
+  </div>
+
+</div>

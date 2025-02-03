@@ -1,0 +1,12 @@
+{% assign collection = ss.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if meta_obj.usps != blank %}
+  <ul class="product-usp flex f-a-start f-wrap">
+    {% for product_usp in meta_obj.usps.value %}
+      <li>
+        <span>{{ product_usp.usp_text }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

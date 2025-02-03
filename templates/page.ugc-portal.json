@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171016983454134c75": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_gxKXzH": {
+          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "VUZcYe9cA9xfeJ-g44BlAg",
+            "form_settings": true,
+            "font_color": "#010203",
+            "size": 13,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#efefef",
+            "input_border_radius": 0,
+            "input_border_color": "#b2b2b2",
+            "input_border_color_focus": "#333333",
+            "input_font_color": "#010203",
+            "input_size": 14,
+            "border_color": "#b2b2b2",
+            "border_radius": 0,
+            "border": 1,
+            "fill_color": "#ffffff",
+            "padding": 60,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#ffffff",
+            "sub_btn_bg_color": "#010203",
+            "sub_btn_font_size": 13,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 0,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Helvetica"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_gxKXzH"
+      ],
+      "custom_css": [
+        ".form_generater_form_div {overflow: hidden;}"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "171016983454134c75"
+  ]
+}

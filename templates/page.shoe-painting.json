@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006563054__e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Shoe Painting<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790006563054__e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b-16843148706ff0ba0c-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>If painted shoes take your fancy, order a <strong>fresh pair of LANX<\/strong> and reach out to us at <strong>hello@lanxshoes.com<\/strong> to arrange. We’d recommend trying on your shoes first, as once they’re painted on, they obviously can’t be returned.  Be sure to share a photo of the finished article - we’d love to see those boots used as an artist’s canvas!<\/p>",
+            "text_size": 3
+          }
+        },
+        "button_bJrYEQ": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "KATE ILLUSTRATE'S BIO",
+            "link_1": "shopify:\/\/blogs\/proper-people-blog-by-lanx\/kate-illustrate",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006563054__e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b-16843148706ff0ba0c-1",
+        "template--16790006563054__e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b-16843148706ff0ba0c-2",
+        "button_bJrYEQ"
+      ],
+      "custom_css": [
+        ".bloop {display: none;}"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/shoe-painting-kate-illustrate.jpg",
+        "height": "use_screen_full",
+        "overlay_opacity": 80,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_gallery_JjWM4w": {
+      "type": "section-gallery",
+      "blocks": {
+        "image_pUKdY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-2.jpg",
+            "link": ""
+          }
+        },
+        "image_jV6ztH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-4.jpg",
+            "link": ""
+          }
+        },
+        "image_HtAe8F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-1.jpg",
+            "link": ""
+          }
+        },
+        "image_DFpXCe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-7.jpg",
+            "link": ""
+          }
+        },
+        "image_xEkzpC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-5.jpg",
+            "link": ""
+          }
+        },
+        "image_VJRtYf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-6.jpg",
+            "link": ""
+          }
+        },
+        "image_FTbTEC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-shoe-boot-tattooing-3.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pUKdY8",
+        "image_jV6ztH",
+        "image_HtAe8F",
+        "image_DFpXCe",
+        "image_xEkzpC",
+        "image_VJRtYf",
+        "image_FTbTEC"
+      ],
+      "settings": {
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "hidden",
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper--none",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e4bab1cd-a8b4-494e-b28b-cd02e1f95f3b",
+    "section_gallery_JjWM4w"
+  ]
+}

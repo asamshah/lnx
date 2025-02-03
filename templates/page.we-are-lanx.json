@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "073529dd-c14d-44fd-ae0b-88a9e4396ea3": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006661358__073529dd-c14d-44fd-ae0b-88a9e4396ea3-1684340757f8fed7eb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>WE ARE LANX<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790006661358__073529dd-c14d-44fd-ae0b-88a9e4396ea3-1684340757f8fed7eb-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>LANX exists to inspire a sense of adventure, big or small. We seek it out in everything we do and create. Whether it be setting up an event, walking up a hill, a trip down the pub, or making progress in the workplace; an “adventure” is what you make of it and it is there for the taking.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006661358__073529dd-c14d-44fd-ae0b-88a9e4396ea3-1684340757f8fed7eb-1",
+        "template--16790006661358__073529dd-c14d-44fd-ae0b-88a9e4396ea3-1684340757f8fed7eb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-team-homepage-about-section.png",
+        "mobile_image": "shopify:\/\/shop_images\/lanx-team-homepage-about-section-mobile.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "96aa077b-63cb-4c9d-878b-53e708fa458a": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006661358__96aa077b-63cb-4c9d-878b-53e708fa458a-1684341918e04122a5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-info-partner-gallery-6.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790006661358__96aa077b-63cb-4c9d-878b-53e708fa458a-1684341918e04122a5-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>We are dedicated to creating proper shoes, handmade and built to last, for men and women. We take pride in designing unique and robust footwear for any occasion, which our customers work hard and play hard in. Our obsessive attention to detail has seen us create our own unique design DNA, with each shoe stamped with the Lancashire rose or our ballsy British White bull.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "DESIGN DNA",
+            "button_url": "shopify:\/\/pages\/design-dna",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006661358__96aa077b-63cb-4c9d-878b-53e708fa458a-1684341918e04122a5-1",
+        "template--16790006661358__96aa077b-63cb-4c9d-878b-53e708fa458a-1684341918e04122a5-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1bc9c0a2-7b40-4789-9390-f202a6c10a13": {
+      "type": "section-double",
+      "blocks": {
+        "57daaade-748e-4400-9479-63e10c343711": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>The start of LANX traces back to 26.07.2016. Marv, LANX founder, received a letter that inspired him to roll up his sleeves and take a six-month adventure, the purpose of which was to have the best time of his life and to learn everything he could about making proper shoes. Fast forward to May 2018 and LANX went live, offering a small collection of footwear.<br\/><br\/>The early days were hard work but fun. Marv promoted LANX on market stalls, around the north-west of England, doing the hard yards, devoted to meeting customers and learning how to refine our shoes and perfect our service. Since then, we have grown steadily and now boast a small but dedicated team who believe that craft, quality and customer service underpin everything we do.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SOLE PURPOSE",
+            "button_url": "shopify:\/\/pages\/sole-purpose",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "5c06d472-dc20-4425-bae2-8d4ae466b507": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-marv-matt.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "57daaade-748e-4400-9479-63e10c343711",
+        "5c06d472-dc20-4425-bae2-8d4ae466b507"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f68cbe33-0b3f-4383-9dc3-5a2be5017431": {
+      "type": "section-double",
+      "blocks": {
+        "3dfc073e-6e19-4579-b133-4abbafde765e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-mens-footwear-outlet-batches.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "7fa27db3-495c-4ed1-87af-8eed111538e0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>We like to challenge the norm, take risks and make a statement. Although we take inspiration from English footwear past, we have a firm eye on the future and are busy forging our own piece of history. We are committed to expanding our British manufacturing and working with some of the finest material suppliers in the UK and around the world. LANX's commitment to British manufacturing extends beyond footwear; with socks made in Leicestershire, clothing sewn in Greater Manchester, and shoe boxes made in Lancashire.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "3dfc073e-6e19-4579-b133-4abbafde765e",
+        "7fa27db3-495c-4ed1-87af-8eed111538e0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4f6a141a-7056-426d-8674-7ca60a9b715a": {
+      "type": "section-double",
+      "blocks": {
+        "443bf31c-e6c8-4b01-82c4-c83e03023d89": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>We are based in the quaint village of Whalley in Lancashire, located in the beautiful Ribble Valley. We are proud to come from this hardworking part of the world, which has a rich footwear history. Round here people are personable, passionate and upbeat. Lancashire is our home, but we still like to venture further afield and now boast a shop in Manchester’s buoyant Northern Quarter. We also attend 40 of the finest UK events each summer, delighted to meet our customers face-to-face.<br\/><\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "VISIT",
+            "button_url": "shopify:\/\/pages\/visit",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "1f6461d5-8a13-40e3-b1f1-45bd52b385cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull-1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "443bf31c-e6c8-4b01-82c4-c83e03023d89",
+        "1f6461d5-8a13-40e3-b1f1-45bd52b385cf"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dc07d9da-75f8-4f9c-879c-802817893c8f": {
+      "type": "section-double",
+      "blocks": {
+        "80a32e6a-b279-4470-860d-e5629502df95": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-collabs-leicester-tigers_d85d0d42-8f32-4d8b-acf7-9e5d419feec8.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "63ee381e-609e-4d8f-9e8c-46880f020c14": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>We are proud that our footwear is worn and trusted by some of Britain’s most respected sports teams, which has seen us develop partnerships over the years with; England Rugby League, Wales Rugby Union, Leicester Tigers, Gloucester Rugby, Sale Sharks, Burnley FC and Wigan Warriors.<\/p><p>If you're looking for a footwear brand that prides itself on quality and being approachable, respectful, proud, confident and ambitious, then look no further than LANX.<br\/><br\/>Welcome to our shoe adventure. Now let’s get ‘em worn…<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "COLLABS",
+            "button_url": "shopify:\/\/pages\/collaborations",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "80a32e6a-b279-4470-860d-e5629502df95",
+        "63ee381e-609e-4d8f-9e8c-46880f020c14"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "073529dd-c14d-44fd-ae0b-88a9e4396ea3",
+    "96aa077b-63cb-4c9d-878b-53e708fa458a",
+    "1bc9c0a2-7b40-4789-9390-f202a6c10a13",
+    "f68cbe33-0b3f-4383-9dc3-5a2be5017431",
+    "4f6a141a-7056-426d-8674-7ca60a9b715a",
+    "dc07d9da-75f8-4f9c-879c-802817893c8f"
+  ]
+}

@@ -1,0 +1,175 @@
+<!-- /snippets/product-siblings.liquid -->
+<!-- ArcherCooper – made edits below to introduce the possibility of using a collection with the same name as the product line -->
+{%- liquid
+  if block.settings.siblings_collection != blank
+    assign sibs_collection = collections[block.settings.siblings_collection].products
+  else
+    assign productGroup = product.title | split: '/' | first | remove: '/' | handleize
+    for collection in product.collections
+      assign collectionHandle = collection.title | handleize
+      if collectionHandle == productGroup
+        assign sibs_collection = collections[collection.handle].products
+      endif
+    endfor
+  endif
+  comment
+  removed the following line because it doesn't fit with our colour naming convention
+  assign cutline_default = block.settings.cutline | default: product.metafields.theme.colour.value
+  endcomment
+  assign cutline_default = product.title | split: '/' | last | remove: '/' | strip
+  -%}
+<div class="product__block__siblings" {{ block.shopify_attributes }}>
+  {%- if sibs_collection.size > 1 -%}
+    {%- assign title_down = product.title | downcase -%}
+    {%- assign cutline_down = cutline_default | downcase -%}
+    {%- unless title_down contains cutline_down -%}
+      {% comment %} Form ID must match value in product-form.liquid {% endcomment %}
+      <input type="hidden" form="{{ uniq_id }}" name="properties[{{ 'general.siblings.label' | t }}]" value="{{ cutline_default }}">
+    {%- endunless -%}
+
+    {%- if sibs_collection -%}
+      <div data-swapper-wrapper>
+        
+        <legend class="radio__legend">
+          <span class="radio__legend__label">{{ 'general.siblings.label' | t }}</span>
+          <span data-swapper-target>{{ cutline_default }}</span>
+        </legend>
+
+        <div class="product__page__siblings desktop-only">
+          {%- for sib_product in sibs_collection limit: 5 -%}
+            {%- assign modifier_class = '' -%}
+            {%- if sib_product.available == false -%}
+              {%- assign modifier_class = modifier_class | append: ' siblings__link--sold-out' -%}
+            {%- endif -%}
+            {%- assign title_safe = sib_product.title | strip_html | escape -%}
+            {%- assign color_name = sib_product.metafields.theme.cutline.value | default: sib_product.title | split: '/' | last | remove: '/' | strip -%}
+
+            <a
+              href="{{ sib_product.url }}"
+              class="siblings__link {{ modifier_class }}"
+              data-swapper-hover="{{ color_name }}"
+              {% if sib_product.handle == product.handle %}aria-current="true"{%- endif -%}
+            >
+              <div class="siblings__swatch">
+                <div class="sibling__image">{%- render 'image-fill', img_object: sib_product.featured_media.preview_image, aspect_ratio: 1.0 -%}</div>
+              </div>
+              <span class="visually-hidden">{{ color_name }}</span>
+            </a>
+          {%- endfor -%}
+
+          {% if sibs_collection.size > 5 %}
+            <div class="siblings__link--more flex f-a-center f-j-center" data-class-change='[
+              {
+                "target": ".product__page__siblings.desktop-only .siblings__link--more",
+                "class": "hide",
+                "method": "add",
+                "on": "click"
+              },
+              {
+                "target": ".product__page__siblings.desktop-only .siblings__link",
+                "class": "hide",
+                "method": "remove",
+                "on": "click"
+              }
+            ]'>
+              <span>+ {{ sibs_collection.size | minus: 5 }}</span>
+            </div>
+
+            {%- for sib_product in sibs_collection limit: 50 -%}
+              {% if forloop.index < 6 %}
+                {% continue %}
+              {% endif %}
+
+              {%- assign modifier_class = '' -%}
+              {%- if sib_product.available == false -%}
+                {%- assign modifier_class = modifier_class | append: ' siblings__link--sold-out' -%}
+              {%- endif -%}
+              {%- assign title_safe = sib_product.title | strip_html | escape -%}
+              {%- assign color_name = sib_product.metafields.theme.cutline.value | default: sib_product.title | split: '/' | last | remove: '/' | strip -%}
+
+              <a
+                href="{{ sib_product.url }}"
+                class="siblings__link {{ modifier_class }} hide"
+                data-swapper-hover="{{ color_name }}"
+                {% if sib_product.handle == product.handle %}aria-current="true"{%- endif -%}
+              >
+                <div class="siblings__swatch">
+                  <div class="sibling__image">{%- render 'image-fill', img_object: sib_product.featured_media.preview_image, aspect_ratio: 1.0 -%}</div>
+                </div>
+                <span class="visually-hidden">{{ color_name }}</span>
+              </a>
+            {%- endfor -%}
+          {% endif %}
+        </div>
+
+        <div class="product__page__siblings tablet-only">
+          {%- for sib_product in sibs_collection limit: 7 -%}
+            {%- assign modifier_class = '' -%}
+            {%- if sib_product.available == false -%}
+              {%- assign modifier_class = modifier_class | append: ' siblings__link--sold-out' -%}
+            {%- endif -%}
+            {%- assign title_safe = sib_product.title | strip_html | escape -%}
+            {%- assign color_name = sib_product.metafields.theme.cutline.value | default: sib_product.title | split: '/' | last | remove: '/' | strip -%}
+
+            <a
+              href="{{ sib_product.url }}"
+              class="siblings__link {{ modifier_class }}"
+              data-swapper-hover="{{ color_name }}"
+              {% if sib_product.handle == product.handle %}aria-current="true"{%- endif -%}
+            >
+              <div class="siblings__swatch">
+                <div class="sibling__image">{%- render 'image-fill', img_object: sib_product.featured_media.preview_image, aspect_ratio: 1.0 -%}</div>
+              </div>
+              <span class="visually-hidden">{{ color_name }}</span>
+            </a>
+          {%- endfor -%}
+
+          {% if sibs_collection.size > 7 %}
+            <div class="siblings__link--more flex f-a-center f-j-center" data-class-change='[
+              {
+                "target": ".product__page__siblings.tablet-only .siblings__link--more",
+                "class": "hide",
+                "method": "add",
+                "on": "click"
+              },
+              {
+                "target": ".product__page__siblings.tablet-only .siblings__link",
+                "class": "hide",
+                "method": "remove",
+                "on": "click"
+              }
+            ]'>
+              <span>+ {{ sibs_collection.size | minus: 7 }}</span>
+            </div>
+
+            {%- for sib_product in sibs_collection limit: 50 -%}
+              {% if forloop.index < 8 %}
+                {% continue %}
+              {% endif %}
+
+              {%- assign modifier_class = '' -%}
+              {%- if sib_product.available == false -%}
+                {%- assign modifier_class = modifier_class | append: ' siblings__link--sold-out' -%}
+              {%- endif -%}
+              {%- assign title_safe = sib_product.title | strip_html | escape -%}
+              {%- assign color_name = sib_product.metafields.theme.cutline.value | default: sib_product.title | split: '/' | last | remove: '/' | strip -%}
+
+              <a
+                href="{{ sib_product.url }}"
+                class="siblings__link {{ modifier_class }} hide"
+                data-swapper-hover="{{ color_name }}"
+                {% if sib_product.handle == product.handle %}aria-current="true"{%- endif -%}
+              >
+                <div class="siblings__swatch">
+                  <div class="sibling__image">{%- render 'image-fill', img_object: sib_product.featured_media.preview_image, aspect_ratio: 1.0 -%}</div>
+                </div>
+                <span class="visually-hidden">{{ color_name }}</span>
+              </a>
+            {%- endfor -%}
+          {% endif %}
+        </div>
+
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+</div>

@@ -1,0 +1,103 @@
+{% assign mainIndex = forloop.index0 %}
+
+<div class="mega-menu mega-menu-{{ mainIndex }} {% if is_open %}open{% endif %}" data-mega-menu>
+  
+  <div class="mega-menu-inner-wrapper" data-mega-menu-inner>
+    <div class="mega-menu-inner">
+      
+      <div class="flex">
+        
+        <ul class="menu-area flex f-grid f-j-start">
+
+          {% for childlink in link.links %}
+            {% assign menu_has_img = false %}
+
+            {% for block in section.blocks %}
+              {% if block.type == 'mega-menu-item' %}
+                {% assign bs = block.settings %}
+                {% assign menu_check = bs.title | downcase | split: '|' %}
+                {% assign title = link.title | downcase %}
+                {% for menu_check_title in menu_check %}
+                  {% if menu_check_title == title and bs.menu__image1 != blank %}
+                    {% assign menu_has_img = true %}
+                    {% assign the_block = block %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+
+            {% unless stack_links %}
+            <li class="menu-block">
+            {% else %}
+            {% assign stack_links = false %}
+            {% endunless %}
+
+              <div class="flex f-j-between f-a-center mega-item-header">
+                <a href="{{ childlink.url }}" class="h3">
+                  {{ childlink.title | remove: '[stack]' | remove: "[" | remove: "]" | strip }}
+                </a>
+              </div>
+              
+              <ul>
+                {% for grandchildlink in childlink.links %}
+                  <li>
+                    {% assign grandchildlink_title = grandchildlink.title | remove: '[h3]' | split: '[colour]' | first %}
+                    {% assign grandchildlink_color =  grandchildlink.title | split: '[colour]' | last | split: '[/colour]' | first %}
+
+                    <a href="{{ grandchildlink.url }}"
+                      {% if grandchildlink.title contains '[h3]' %}class="h3"{% endif %}
+                      {% if grandchildlink.title contains '[colour]' %}style="color: {{ grandchildlink_color }};"{% endif %}
+                      >
+                      {{ grandchildlink_title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              
+            {% unless childlink.title contains '[stack]' %}
+            </li>
+            {% else %}
+              {% assign stack_links = true %}
+            {% endunless %}
+          {% endfor %}
+
+        </ul>
+
+        {% if menu_has_img %}
+          <ul class="mega-menu-images flex f-j-between">
+            {% if the_block.settings.menu__image1 %}
+                <li class="mega-menu-images__item">
+                  <{% if the_block.settings.menu__link1 != blank %}a href="{{ the_block.settings.menu__link1 }}"{% else %}div{% endif %} class="image">
+                    {% render 'picture-element', image: the_block.settings.menu__image1, size: '300x', alt:  the_block.settings.menu__title1 , extra_class: 'object-fit--cover', type: 'url'  %}
+                  </{% if the_block.settings.menu__link1 != blank %}a{% else %}div{% endif %}>
+                  {% if the_block.settings.menu__title1 != blank %}
+                    <p class="title"><a href="{{ the_block.settings.menu__link1 }}">{{ the_block.settings.menu__title1 }}</a></p>
+                  {% endif %}
+                  {% if the_block.settings.menu__link1 != blank and the_block.settings.menu__link1title != blank %}
+                    <a href="{{ the_block.settings.menu__link1 }}" class="link">{{ the_block.settings.menu__link1title }}</a>
+                  {% endif %}
+                </li>
+            {% endif %}
+            {% if the_block.settings.menu__image2 %}
+                <li class="mega-menu-images__item">
+                  <{% if the_block.settings.menu__link2 != blank %}a href="{{ the_block.settings.menu__link2 }}"{% else %}div{% endif %} class="image">
+                    {% render 'picture-element', image: the_block.settings.menu__image2, size: '300x', alt:  the_block.settings.menu__title2 , extra_class: 'object-fit--cover', type: 'url'  %}
+                  </{% if the_block.settings.menu__link2 != blank %}a{% else %}div{% endif %}>
+                  {% if the_block.settings.menu__title2 != blank %}
+                    <p class="title"><a href="{{ the_block.settings.menu__link2 }}">{{ the_block.settings.menu__title2 }}</a></p>
+                  {% endif %}
+                  {% if the_block.settings.menu__link2 != blank and the_block.settings.menu__link2title != blank %}
+                    <a href="{{ the_block.settings.menu__link2 }}" class="link">{{ the_block.settings.menu__link2title }}</a>
+                  {% endif %}
+                </li>
+            {% endif %}
+          </ul> 
+        {% endif %}
+
+      </div>
+
+    </div>
+  </div>
+
+</div>

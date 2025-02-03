@@ -1,0 +1,820 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading-about-block": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>About<\/p>",
+            "text_size": 8
+          }
+        },
+        "f725db24-5e00-4e33-8326-1e9108704308": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>LANX exists to inspire a sense of adventure, big or small. We seek it out in everything we do and create. Whether it be setting up an event, walking up a hill, a trip down the pub, or making progress in the workplace; an “adventure” is what you make of it and it is there for the taking.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading-about-block",
+        "f725db24-5e00-4e33-8326-1e9108704308"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-about-us-page.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6e6e3c3c-46b0-4f1e-8165-2511bf5eda3b": {
+      "type": "section-mosaic",
+      "blocks": {
+        "541d86c7-618a-4639-815c-65af45229959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-careers.png",
+            "overlay_opacity": 10,
+            "title_text": "WE ARE",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/we-are",
+            "link_size": 3
+          }
+        },
+        "6c41e262-56dd-4859-98bc-09f1dea6160a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-goodyear-welted-construction-boots-shoes.png",
+            "overlay_opacity": 10,
+            "title_text": "INTEGRITY",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/integrity",
+            "link_size": 3
+          }
+        },
+        "template--16790007087342__6e6e3c3c-46b0-4f1e-8165-2511bf5eda3b-1683902347b47f0eab-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-sole-purpose.png",
+            "overlay_opacity": 10,
+            "title_text": "SOLE PURPOSE",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/sole-purpose",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "541d86c7-618a-4639-815c-65af45229959",
+        "6c41e262-56dd-4859-98bc-09f1dea6160a",
+        "template--16790007087342__6e6e3c3c-46b0-4f1e-8165-2511bf5eda3b-1683902347b47f0eab-1"
+      ],
+      "settings": {
+        "first_block_height": "tall",
+        "aspect_ratio": 0.5,
+        "split": "right",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "48a49332-a398-4659-97fe-6b27e51cd522": {
+      "type": "section-mosaic",
+      "blocks": {
+        "template--16790007087342__48a49332-a398-4659-97fe-6b27e51cd522-1683902347b47f0eab-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-brand-intro-uk-boots-shoes-brogues.png",
+            "overlay_opacity": 10,
+            "title_text": "COLLECTIONS",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "https:\/\/lanxshoes.com\/pages\/collections",
+            "link_size": 3
+          }
+        },
+        "f3cab5af-b632-4504-a564-f73c3c0e9fb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-partners.png",
+            "overlay_opacity": 15,
+            "title_text": "MANUFACTURING",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/manufacturing",
+            "link_size": 3
+          }
+        },
+        "310d3ec8-65ba-46c5-ad55-9f523e186b0e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-about-design-dna.png",
+            "overlay_opacity": 10,
+            "title_text": "DESIGN DNA",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/design-dna",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007087342__48a49332-a398-4659-97fe-6b27e51cd522-1683902347b47f0eab-1",
+        "f3cab5af-b632-4504-a564-f73c3c0e9fb9",
+        "310d3ec8-65ba-46c5-ad55-9f523e186b0e"
+      ],
+      "settings": {
+        "first_block_height": "short",
+        "aspect_ratio": 0.5,
+        "split": "left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "87b53111-462c-4258-88db-1728a99277e8": {
+      "type": "section-mosaic",
+      "blocks": {
+        "c59545a4-4f6a-4d69-a250-b4ea0c413e8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-events-shop_b0d9c962-184e-49b0-94bd-567ab6bfb7f6.png",
+            "overlay_opacity": 10,
+            "title_text": "EVENTS",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/events",
+            "link_size": 3
+          }
+        },
+        "template--16790007087342__87b53111-462c-4258-88db-1728a99277e8-1683902347b47f0eab-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull.png",
+            "overlay_opacity": 10,
+            "title_text": "BRITISH BULL",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/british-bull",
+            "link_size": 3
+          }
+        },
+        "169c05a3-481a-4e07-90cf-1e468c44b8a4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-collabs-ribero.png",
+            "overlay_opacity": 10,
+            "title_text": "COLLABS",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/collaborations",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "c59545a4-4f6a-4d69-a250-b4ea0c413e8a",
+        "template--16790007087342__87b53111-462c-4258-88db-1728a99277e8-1683902347b47f0eab-1",
+        "169c05a3-481a-4e07-90cf-1e468c44b8a4"
+      ],
+      "settings": {
+        "first_block_height": "tall",
+        "aspect_ratio": 0.5,
+        "split": "right",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "fd896298-6ef4-4fdb-b746-758c366be759": {
+      "type": "section-mosaic",
+      "blocks": {
+        "6ba12775-3aa2-44ce-9e87-60abff75f7f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-4.png",
+            "overlay_opacity": 10,
+            "title_text": "MEET MARV",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/meet-marv",
+            "link_size": 3
+          }
+        },
+        "5a3cdf14-1028-40ea-9304-7627b49be7cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-mens-boots_3b4e8b78-a9cf-4732-856a-99411e126a2b.png",
+            "overlay_opacity": 10,
+            "title_text": "CUSTOMER REVIEWS",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/reviews",
+            "link_size": 3
+          }
+        },
+        "ccbbebd4-203f-4941-aa5d-ee999b22b4a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-newsletter-sms-signup.png",
+            "overlay_opacity": 10,
+            "title_text": "NEWS",
+            "title_size": 7,
+            "text_align": "text-center",
+            "kicker_text": "",
+            "kicker_size": 3,
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/news",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "6ba12775-3aa2-44ce-9e87-60abff75f7f3",
+        "5a3cdf14-1028-40ea-9304-7627b49be7cd",
+        "ccbbebd4-203f-4941-aa5d-ee999b22b4a2"
+      ],
+      "settings": {
+        "first_block_height": "short",
+        "aspect_ratio": 0.5,
+        "split": "left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "c37488e1-223c-4a2e-bf00-43f2434781b9": {
+      "type": "section-blog",
+      "settings": {
+        "title": "",
+        "homepage_blog": "news",
+        "homepage_blog_count": 6,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "aspect_ratio": 1,
+        "show_author": false,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": false,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline uppercase",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "e76a5135-76e7-4eea-be5d-4dbf8b49c0f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_proper_sneakers_trainers_casual_made_in_england_shoes_footwear_7.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "WE ARE",
+            "link": "shopify:\/\/pages\/we-are",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "e36e6ddc-0f9f-42f9-a28e-da32603245a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_CLOTHING_BROGUES_BOOTS_157_d72b61fe-55e3-4c6a-aa87-b8c1c1685cd3.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SOLE  PURPOSE",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "77ed4ba1-343d-4303-ac02-577786c03043": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_Warehouse_Shop_Lancashire_Whalley2_44997898-5a98-4e6c-929e-03706003ed1b.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "VISIT LANX",
+            "link": "shopify:\/\/pages\/visit",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "4b3553b3-fe07-49de-a72a-30fcd7bdb60c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_shoes_mens_trainers_sneakers_lancashire_made_in_england_64.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "NEWS\/BLOG",
+            "link": "shopify:\/\/blogs\/news",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "e76a5135-76e7-4eea-be5d-4dbf8b49c0f6",
+        "e36e6ddc-0f9f-42f9-a28e-da32603245a1",
+        "77ed4ba1-343d-4303-ac02-577786c03043",
+        "4b3553b3-fe07-49de-a72a-30fcd7bdb60c"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "53031c23-c59a-4684-bb74-676d2164fc0f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "68aac729-2430-4293-9647-709655aedd98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_SALE_SHARKS_RUGBY_MENS_SHOES_BROGUES_BOOTS.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "COLLABS",
+            "link": "shopify:\/\/pages\/collaborations",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "7851d500-4d77-4fc4-a263-53b83136f82a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MEN_S_FOOTWEAR_BROGUES_BOOTS_LOAFERS_2_75.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "DESIGN DNA",
+            "link": "shopify:\/\/pages\/design-dna",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "dd222871-f4eb-4de0-a18d-cca96b102fe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLES_F_STEAD_LANX_25.2_1c5a97a9-8acc-4e6d-b47d-9677e9f54a09.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "PARTNERS",
+            "link": "shopify:\/\/pages\/partners",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "a77bc213-9630-45c6-9494-686af9df959a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_LANCASHIRE_ENGLAND_3.1.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "HOW WE DESIGN",
+            "link": "shopify:\/\/pages\/about",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "68aac729-2430-4293-9647-709655aedd98",
+        "7851d500-4d77-4fc4-a263-53b83136f82a",
+        "dd222871-f4eb-4de0-a18d-cca96b102fe4",
+        "a77bc213-9630-45c6-9494-686af9df959a"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f71e76e2-cf02-4d71-b0f5-bd39f504e2f1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "7475d560-3c0f-4361-bd35-95d7129290a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_BOOTS_BROGUES_3_62ddcf56-e4d6-46a1-bf9a-680ee6585781.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "BRITISH BULL",
+            "link": "shopify:\/\/pages\/british-bull",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "1c21587f-8f08-4061-8114-e814fa22bb05": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MADE_IN_LANCASHIRE_ENGLAND_UNITED_KINGDOM_FOOTWEAR_BROGUES_BOOTS_18.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "HOW WE MAKE",
+            "link": "shopify:\/\/pages\/how-we-make",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "f06d308f-cc1d-4502-9df9-4428e7bc0206": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_CLOTHING_BROGUES_BOOTS_2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "ADVENTURE",
+            "link": "shopify:\/\/pages\/about",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "3fe0df6f-8bd2-49a4-a8a5-85ccd2f67502": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_CLOTHING_SOCKS_AW18_11_821f65b3-bc30-4c15-8ed6-1bbd939ee2e7.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "PACKAGING",
+            "link": "shopify:\/\/pages\/packaging",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "7475d560-3c0f-4361-bd35-95d7129290a6",
+        "1c21587f-8f08-4061-8114-e814fa22bb05",
+        "f06d308f-cc1d-4502-9df9-4428e7bc0206",
+        "3fe0df6f-8bd2-49a4-a8a5-85ccd2f67502"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "54c9b296-bc1d-4b92-848f-500f0fc45d62": {
+      "type": "section-custom-content",
+      "blocks": {
+        "6fecbfcf-dd5f-427b-8c99-afedef31ab22": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MEN_S_FOOTWEAR_BROGUES_BOOTS_LOAFERS_9_f99c9c07-43ad-4c46-aa88-c8a4bdc0532f.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "MEET MARV",
+            "link": "shopify:\/\/pages\/meet-marv",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "77a680bb-10aa-4b49-8d78-39d6dce20046": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_SHOES_BROGUES_BOOTS_EVENTS.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "EVENTS",
+            "link": "shopify:\/\/pages\/events",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "1aaed971-25a9-4a6c-8ea3-55341986873a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dad-roasting.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "PROPER PEOPLE BLOG",
+            "link": "shopify:\/\/blogs\/proper-people-blog-by-lanx",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "dd2fc49f-834f-43d2-8121-0b964b9daa81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SOCKS.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "PROPER SOCKS",
+            "link": "shopify:\/\/blogs\/news\/proper-socks-made-in-england",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "6fecbfcf-dd5f-427b-8c99-afedef31ab22",
+        "77a680bb-10aa-4b49-8d78-39d6dce20046",
+        "1aaed971-25a9-4a6c-8ea3-55341986873a",
+        "dd2fc49f-834f-43d2-8121-0b964b9daa81"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "88e90168-8fa4-47ee-960e-e986ce6eb08a": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b3710c14-2fee-4bd6-832f-d697648d8a3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEN-PAIRS-CLUB.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "TEN PAIRS CLUB",
+            "link": "shopify:\/\/pages\/ten-pairs-club",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "314d8619-3201-4791-84e5-15b36e8b43a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/loyalty-credits-square.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Rewards Program",
+            "link": "shopify:\/\/pages\/loyalty-credits",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "a788ae2f-eac5-4124-9935-0d2fdd945bfa": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        },
+        "f86a7626-d784-4dbe-a322-fabba1ca3528": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "b3710c14-2fee-4bd6-832f-d697648d8a3f",
+        "314d8619-3201-4791-84e5-15b36e8b43a6",
+        "a788ae2f-eac5-4124-9935-0d2fdd945bfa",
+        "f86a7626-d784-4dbe-a322-fabba1ca3528"
+      ],
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "6e6e3c3c-46b0-4f1e-8165-2511bf5eda3b",
+    "48a49332-a398-4659-97fe-6b27e51cd522",
+    "87b53111-462c-4258-88db-1728a99277e8",
+    "fd896298-6ef4-4fdb-b746-758c366be759",
+    "c37488e1-223c-4a2e-bf00-43f2434781b9",
+    "main",
+    "custom-content-1",
+    "53031c23-c59a-4684-bb74-676d2164fc0f",
+    "f71e76e2-cf02-4d71-b0f5-bd39f504e2f1",
+    "54c9b296-bc1d-4b92-848f-500f0fc45d62",
+    "88e90168-8fa4-47ee-960e-e986ce6eb08a"
+  ]
+}

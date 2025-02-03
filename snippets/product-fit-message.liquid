@@ -1,0 +1,21 @@
+{% assign collection = section.settings.collection %}
+{% assign meta_obj = collection.metafields.custom %}
+
+{% if meta_obj.fit.value != blank %}
+  <div class="product-fit-message flex f-a-center">
+
+    <div class="icon-area">
+      {% render 'icon-ruler' %}
+    </div>
+
+    {% case meta_obj.fit.value %}
+      {% when 'Smaller Fitting' %}
+        <span>{{ bs.fit_message_smaller }}</span>
+      {% when 'Standard Fitting' %}
+        <span>{{ bs.fit_message_standard }}</span>
+      {% when 'Larger Fitting' %}
+        <span>{{ bs.fit_message_larger }}</span>
+    {% endcase %}
+
+  </div>
+{% endif %}

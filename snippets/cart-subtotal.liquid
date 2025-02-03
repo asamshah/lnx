@@ -1,0 +1,20 @@
+<!-- /snippets/cart-subtotal.liquid -->
+
+<p class="cart__footer__itemtotal">
+  <span class="cart__footer__label">{{ 'cart.general.subtotal' | t | capitalize }}:</span>
+  <span class="cart__footer__value">{{ cart.items_subtotal_price | money_with_currency }}</span>
+</p>
+
+{% assign productSavings = 0 %}
+
+{% for item in cart.items %}
+  {% assign savings = item.variant.compare_at_price | minus: item.variant.price | times: item.quantity %}
+  {% assign productSavings = productSavings | plus: savings %}
+{% endfor %}
+
+{% if productSavings > 0 %}
+  <p class="cart__footer__discount">
+    <span class="cart__footer__label">{{ 'cart.general.discount_title' | t }}:</span>
+    <span class="cart__footer__value">-{{ productSavings | money_with_currency }}</span>
+  </p>
+{% endif %}

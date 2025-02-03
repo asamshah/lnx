@@ -1,0 +1,173 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "073529dd-c14d-44fd-ae0b-88a9e4396ea3": {
+      "type": "section-hero",
+      "blocks": {
+        "487fade6-77cc-4e98-aec0-e46dbb6d3746": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>INTEGRITY<\/p>",
+            "text_size": 7
+          }
+        },
+        "afaf4c3a-7567-42c9-98d3-fa7ee7e6fb09": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>All about the LANX shoes mission.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "487fade6-77cc-4e98-aec0-e46dbb6d3746",
+        "afaf4c3a-7567-42c9-98d3-fa7ee7e6fb09"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-integrity-about.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 50,
+        "overlay_color": "#010203",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2a868283-7578-4167-b307-3795b2aaa7df": {
+      "type": "section-double",
+      "blocks": {
+        "template--16806137037038__2a868283-7578-4167-b307-3795b2aaa7df-168630511834b94aec-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>LANX launched in 2018 and since then we have been on a mission to manufacture proper shoes. Throughout our journey, we have recognized the significance of every decision involved in creating quality footwear and the impact these decisions can have on the environment. The below illustrates some of the good things that we are doing to be proactive about sustainability and making positive business choices.<br\/><br\/>From the outset, our primary focus has been to create shoes with purpose and unwavering commitment to quality. Each pair of LANX shoes is meticulously designed and expertly crafted to deliver exceptional comfort, durability, and style. We believe that shoes should be fashionable, functional and built to last, serving LANX customers for many years to come. Our design, sampling, testing and manufacturing process, for each shoe style, takes no less than 15 months, with no stone left unturned. By the time a LANX shoe reaches your foot at least 20 different people have been involved in the meticulous process.<br\/><br\/>We are thrilled to say that the majority of our footwear collections are 100% UK made. This decision stems from our deep connection with the local community and our customers' values. Between 2018-2020 we sold LANX shoes at markets around the North of England, during this time we engaged with our customers and discovered that local production was a prevalent factor in their purchasing decisions. At LANX, we are passionate about manufacturing practices and supporting local production as much as possible. In addition to our own Lancashire based factory we also work with small family run UK shoe factories, allowing us to maintain close relationships with our manufacturing partners and ensuring exceptional quality control. By choosing UK production, we contribute to the local economy while minimizing our carbon footprint.<br\/><br\/>In addition to our commitment to British manufacturing, we also make a conscious effort to source local materials. We believe in supporting local suppliers and harnessing the unique qualities of materials found in our region. Examples of this are our partnerships with; Charles F Stead in Leeds, British Millerain in Rochdale, and Marton Mills in Otley to name a few. By working with these world renowned suppliers we are able to combine British manufacturing and materials, therefore creating truly unique, quality and inspiring footwear, which resonates with our customers values.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16806137037038__2a868283-7578-4167-b307-3795b2aaa7df-168630511834b94aec-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-uk-popular-leather-boots-shoes-brogues.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16806137037038__2a868283-7578-4167-b307-3795b2aaa7df-168630511834b94aec-0",
+        "template--16806137037038__2a868283-7578-4167-b307-3795b2aaa7df-168630511834b94aec-1"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_half",
+        "brick_gutter": 10,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6db246eb-2116-4a0d-9242-0248c7a8b068": {
+      "type": "section-double",
+      "blocks": {
+        "331a18a0-4634-4e29-b83b-4ff365391717": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-craftsman-boots-shoes-factory_e09d2036-503b-4e00-86ae-1de050f3f85e.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/accessories",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "8910373f-b9bf-4209-b207-a5c7cffcdd05": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>LANX's commitment to British manufacturing extends beyond footwear and encompasses many other products; from socks made in Leicestershire, to clothing sewn in Greater Manchester, and shoe boxes made in Lancashire from recycled cardboard. Some of our partners are even located in the same village as us and pop round when they've run out of milk. We are proud to work with these suppliers, as they share our values of quality and supporting local.<br\/><br\/>Our commitment to sustainability has seen us develop an in-house repair and resoling service for all LANX customers to benefit from. We have a dedicated customer service team and external partners on hand to assist with all your shoe care needs and enquiries. Shoes are similar to cars, if you give them the correct attention and maintenance, they look great, stay on the road and provide you with many years of good service. When the time comes, we are here to advise and help.<br\/><br\/>Whilst we operate our own footwear manufacturing facility in Lancashire, and the majority of our footwear collections are 100% UK made, we also work closely with high quality family run factories overseas. Through hard work and strong relationships, we have ensured that our unique LANX shoe design DNA, manufacturing and material sourcing align with our high standards and values. Furthermore, since the outbreak of Covid-19 in 2020 we have found it imperative to source footwear, leather and components from suppliers both in the UK and also overseas. The reason for this is to maintain supply of materials and footwear all year round. When one of our partners (or a whole country) has to suddenly stop production we can shift sourcing to another location. Without the supply of continuous materials and footwear our business will cease to exist. Working in this manner allows us to maintain production, a steady flow of income and continue to provide and invest in UK employment.<br\/><br\/>LANX is still a young company, having only launched in 2018, however we have aspirations to build our own Lancashire based shoe factory. With the help of our followers, we hope to invest in our own factory and create more jobs in Lancashire. Would you like to support our vision? If so please sign up to our newsletter and we will release further details on how you can support the LANX shoe factory project.<br\/><br\/>Like any company we are not perfect, but we are constantly aspiring to make positive decisions. At this stage we would value the input of our customers and are open to hearing your suggestions. We encourage you to email us with any ideas or feedback you have regarding the decisions and direction our business has taken. We believe that constructive feedback is essential for growth and improvement.<br\/><br\/>Thank you for reading and your support, it is very much appreciated.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "ABOUT COLLECTIONS",
+            "button_url": "shopify:\/\/pages\/collections",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "331a18a0-4634-4e29-b83b-4ff365391717",
+        "8910373f-b9bf-4209-b207-a5c7cffcdd05"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_half",
+        "brick_gutter": 10,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "073529dd-c14d-44fd-ae0b-88a9e4396ea3",
+    "2a868283-7578-4167-b307-3795b2aaa7df",
+    "6db246eb-2116-4a0d-9242-0248c7a8b068"
+  ]
+}

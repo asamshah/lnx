@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0c57d558-0c6c-4c2a-9d0e-45d0bc12a679": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006595822__0c57d558-0c6c-4c2a-9d0e-45d0bc12a679-16841484527d2374e9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>BRITISH BULL<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790006595822__0c57d558-0c6c-4c2a-9d0e-45d0bc12a679-16841484527d2374e9-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>The Balsy LANX Mascot<\/p>",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__0c57d558-0c6c-4c2a-9d0e-45d0bc12a679-16841484527d2374e9-1",
+        "template--16790006595822__0c57d558-0c6c-4c2a-9d0e-45d0bc12a679-16841484527d2374e9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-british-white-bull.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bf231555-a58f-4a41-bbcb-6c965ef75421": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006595822__bf231555-a58f-4a41-bbcb-6c965ef75421-1684150556f15b9d12-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "WHY THE BULL?",
+            "title": "When creating the LANX brand...",
+            "text": "<p>we needed a mascot which would represent us (the LANX team) and our customers, or at least share some similar characteristics.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16790006595822__bf231555-a58f-4a41-bbcb-6c965ef75421-1684150556f15b9d12-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull-1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__bf231555-a58f-4a41-bbcb-6c965ef75421-1684150556f15b9d12-0",
+        "template--16790006595822__bf231555-a58f-4a41-bbcb-6c965ef75421-1684150556f15b9d12-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d5bd8f8b-7bee-467d-98a2-63211e0c6686": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006595822__d5bd8f8b-7bee-467d-98a2-63211e0c6686-1684150556f15b9d12-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull-2.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790006595822__d5bd8f8b-7bee-467d-98a2-63211e0c6686-1684150556f15b9d12-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "AN ANIMAL WHICH...",
+            "text": "<p>originates from Lancashire, likes an adventure, loves a quality steak and has massive balls! Well we found it, the ‘British White’ bull, and we didn’t need to look far.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__d5bd8f8b-7bee-467d-98a2-63211e0c6686-1684150556f15b9d12-1",
+        "template--16790006595822__d5bd8f8b-7bee-467d-98a2-63211e0c6686-1684150556f15b9d12-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d5023ceb-31d4-46a9-9b49-f9291a01c259": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006595822__d5023ceb-31d4-46a9-9b49-f9291a01c259-1684150556f15b9d12-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "THE BULL",
+            "title": "FIRSTLY, THE BRITISH WHITE...",
+            "text": "<p>has the biggest balls in the cattle world, fact. Well, maybe not an actual fact, but check them out. Respect where respect is due. Legend also links this very rare breed back to the 17th century and one location, Whalley in Lancashire, which is the same location as the LANX HQ. The British White also likes an adventure, with UK exports growing every year to countries such as the USA, Australia and Brazil.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16790006595822__d5023ceb-31d4-46a9-9b49-f9291a01c259-1684150556f15b9d12-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull-3.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__d5023ceb-31d4-46a9-9b49-f9291a01c259-1684150556f15b9d12-0",
+        "template--16790006595822__d5023ceb-31d4-46a9-9b49-f9291a01c259-1684150556f15b9d12-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a61d99ee-c65e-4f58-9850-42801cc0b10d": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006595822__a61d99ee-c65e-4f58-9850-42801cc0b10d-1684150556f15b9d12-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790006595822__a61d99ee-c65e-4f58-9850-42801cc0b10d-1684150556f15b9d12-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "OK, SO THE BRITISH WHITE...",
+            "text": "<p>doesn't love a steak, but interestingly… the word “sirloin” (as in the steak) is derived from an occasion when King James I of England, while being entertained in Lancashire, was so impressed by the quality of his steak that he knighted the loin of beef, which was referred to thereafter as “Sir Loin”. The breed of the quality steak he knighted was of course… British White.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__a61d99ee-c65e-4f58-9850-42801cc0b10d-1684150556f15b9d12-1",
+        "template--16790006595822__a61d99ee-c65e-4f58-9850-42801cc0b10d-1684150556f15b9d12-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6ac857a2-bae1-46cc-bd36-536ebd41431f": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790006595822__6ac857a2-bae1-46cc-bd36-536ebd41431f-1684150556f15b9d12-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "MARTIN",
+            "title": "\"THE BULL WHISPERER\"",
+            "text": "<p>Meet Martin. He was on set for the full duration of the LANX AW18 photo shoot. He's known in some circles as \"The Bull Whisperer\" and is a very experienced cattle halter trainer, funny chap and not too shabby in front of the camera either. A very big thank to Martin and also Neil Bowker for allowing us to borrow 1 of his impressive herd for the shoot.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--16790006595822__6ac857a2-bae1-46cc-bd36-536ebd41431f-1684150556f15b9d12-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-british-white-bull-martin.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006595822__6ac857a2-bae1-46cc-bd36-536ebd41431f-1684150556f15b9d12-0",
+        "template--16790006595822__6ac857a2-bae1-46cc-bd36-536ebd41431f-1684150556f15b9d12-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 12,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0c57d558-0c6c-4c2a-9d0e-45d0bc12a679",
+    "bf231555-a58f-4a41-bbcb-6c965ef75421",
+    "d5bd8f8b-7bee-467d-98a2-63211e0c6686",
+    "d5023ceb-31d4-46a9-9b49-f9291a01c259",
+    "a61d99ee-c65e-4f58-9850-42801cc0b10d",
+    "6ac857a2-bae1-46cc-bd36-536ebd41431f"
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_rating": true
+          }
+        },
+        "6b6b9584-15f0-41ba-a3cf-edc164e39bb4": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "truncate_lines": 4
+          }
+        },
+        "3822fd5d-4226-43a3-875c-b68b5e736d72": {
+          "type": "product-meta",
+          "disabled": true,
+          "settings": {}
+        },
+        "f6b37086-9b69-43e1-8ead-e41aa4b2cb0d": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "",
+            "cutline": ""
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": false
+          }
+        },
+        "2ba91a27-1559-4ff0-b968-1cb12f08050f": {
+          "type": "countdown",
+          "settings": {
+            "pre_countdown": "Order in",
+            "post_countdown": "To select UK express shipping",
+            "deliveryhours": "Hours",
+            "deliveryminutes": "Mins",
+            "deliveryseconds": "Secs",
+            "cutoff_time": 14
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_UYhUw4": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SPTmmK"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_VjwaEB": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "Rxs7T6"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_z3Yb6T": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "THDgwF"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_UrzePA": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "R3wcRG"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_NgVYth": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "RxbeU5"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_4BxDhT": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "V9Zpi4"
+          }
+        },
+        "d734debb-55ff-40b3-9fb5-1c7ddd66bdaf": {
+          "type": "general_countdown",
+          "disabled": true,
+          "settings": {
+            "pre_countdown_general": "DOUBLE LOYALTY POINTS, ENDS<br>",
+            "post_countdown_general": "",
+            "generaldays": "DAYS",
+            "generalhours": "HOURS",
+            "generalminutes": "MINS",
+            "generalseconds": "SECS",
+            "cutoff_days_general": 0,
+            "countdown_date": "2023-12-31",
+            "cutoff_time_general": 0
+          }
+        },
+        "c174c093-927a-41a0-99cb-3f1590280543": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p>FREE UK SHIPPING & EXCHANGES<\/p>"
+          }
+        },
+        "text_yRGDTR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p>10% OFF WITH CODE <strong>JUNE10<\/strong><\/p>"
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true
+          }
+        },
+        "46e12ded-1c72-43be-95c2-22c5f45853eb": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "16",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "8dac712b-278b-44a3-b1fe-29058ebbb904": {
+          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
+          "settings": {
+            "text_align": "left",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "#010203",
+            "size": "xs",
+            "intro_text": "Pay in",
+            "show_interest_free": false,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "compact-badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "learn-more-text",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "left",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": false,
+            "show_upper_limit": false,
+            "show_if_outside_limits": false,
+            "product": "{{ product }}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "truncate_lines": 5
+          }
+        },
+        "42a99daf-fd11-4681-b805-462b4a1ad4f9": {
+          "type": "complimentary",
+          "settings": {
+            "title": "MADE IN ENGLAND SOCKS",
+            "complimentary_list_limit": 2
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "6b6b9584-15f0-41ba-a3cf-edc164e39bb4",
+        "3822fd5d-4226-43a3-875c-b68b5e736d72",
+        "f6b37086-9b69-43e1-8ead-e41aa4b2cb0d",
+        "variants",
+        "quantity",
+        "2ba91a27-1559-4ff0-b968-1cb12f08050f",
+        "klaviyo_email_marketing_sms_form_embed_block_UYhUw4",
+        "klaviyo_email_marketing_sms_form_embed_block_VjwaEB",
+        "klaviyo_email_marketing_sms_form_embed_block_z3Yb6T",
+        "klaviyo_email_marketing_sms_form_embed_block_UrzePA",
+        "klaviyo_email_marketing_sms_form_embed_block_NgVYth",
+        "klaviyo_email_marketing_sms_form_embed_block_4BxDhT",
+        "d734debb-55ff-40b3-9fb5-1c7ddd66bdaf",
+        "c174c093-927a-41a0-99cb-3f1590280543",
+        "text_yRGDTR",
+        "buttons",
+        "46e12ded-1c72-43be-95c2-22c5f45853eb",
+        "8dac712b-278b-44a3-b1fe-29058ebbb904",
+        "description",
+        "42a99daf-fd11-4681-b805-462b4a1ad4f9"
+      ],
+      "custom_css": [
+        ".product__block__text {border: 1px solid #cccccc; display: flex; justify-content: center;}",
+        ".product__subheading {display: flex; margin: 0.5rem;}",
+        "#placement-8dac712b-278b-44a3-b1fe-29058ebbb904 {border: 1px solid #eae7e4; display: flex; padding: 0.9rem 1.2rem;}",
+        ".product__block__title + .product__block__description {padding: 0.1rem 1rem;}",
+        "p,.p {font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));}",
+        "ul {font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));}",
+        ".product__block__countdown {margin-bottom: 1rem;}"
+      ],
+      "settings": {}
+    },
+    "16836388986e5090fd": {
+      "type": "apps",
+      "blocks": {
+        "cc6756b1-ab80-4471-8fd9-1786a594401d": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#010203",
+            "review_type": "product_review",
+            "per_page": 4,
+            "primary_btn_bg_color": "#ffffff",
+            "primary_btn_border_color": "#010203",
+            "primary_btn_text_color": "#010203",
+            "secondary_btn_border_color": "#010203",
+            "secondary_btn_text_color": "#010203",
+            "border_color": "#b2b2b2",
+            "heading_text_color": "#010203",
+            "heading_font": "roboto_mono_n1",
+            "body_text_color": "#010203",
+            "badge_icon_color": "#010203",
+            "badge_text_color": "#010203",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": false,
+            "show_avatar": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "show_review_title": false,
+            "default_sort": "highest_rating"
+          }
+        }
+      },
+      "block_order": [
+        "cc6756b1-ab80-4471-8fd9-1786a594401d"
+      ],
+      "custom_css": [
+        ".R-PaginationControls > div:last-child {display: none;}",
+        ".footer__reviewsLogo {display: none;}",
+        ".ElementsWidget__subheader {display: none;}"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.4,
+        "related_products_enable": true,
+        "limit": 5,
+        "product_recommendations_heading": "SUGGESTED",
+        "show_recently_viewed": true,
+        "product_recently_limit": 5,
+        "product_recently_minimum": 2,
+        "product_recently_heading": "VIEWED",
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16836388986e5090fd",
+    "reviews",
+    "related"
+  ]
+}

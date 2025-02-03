@@ -1,0 +1,69 @@
+{% assign ss = section.settings %}
+{% assign main_menu = menus[ss.menu] %}
+{% assign secondary_menu = menus[ss.secondary_menu] %}
+{% assign mobile_menu = menus[ss.menu_mobile] %}
+
+<div class="mobile-nav" data-class-change='
+    [
+        {
+            "target": ".mobile-nav",
+            "class": "open",
+            "method": "remove",
+            "on": "click",
+            "onlyThisElem": true
+        },
+        {
+            "target": ".burger-menu-container",
+            "class": "active",
+            "method": "remove",
+            "on": "click",
+            "onlyThisElem": true
+        },
+        {
+            "target": ".search-dropdown-container",
+            "class": "open",
+            "method": "remove",
+            "on": "click",
+            "onlyThisElem": true
+        }
+    ]
+' 
+
+data-method-call='
+    [
+        {
+            "componentId": "mobileNavigation",
+            "method": "reset",
+            "on": "click",
+            "onlyThisElem": true
+        }
+    ]
+'
+
+data-lock-scroll='
+  [
+      {
+          "target": ".mobile-nav .mobile-nav-inner",
+          "method": "unlockScroll",
+          "on": "click",
+          "onlyThisElem": true
+      }
+  ] 
+'>
+  
+  <div class="mobile-nav-inner" data-toggle-group data-sliding-menu='{
+    "id": "mobileNavigation"
+  }'>
+    
+    <div class="top-menu">
+      {% assign i = 0 %}
+      {% include 'mobile-nav-links', links: mobile_menu.links %}
+    </div>
+
+    <div class="footer-menu">
+      {% include 'mobile-nav-links-footer' %}
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,432 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "94bcaba6-0503-4e58-b476-a2e69b7c2fb7": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "display_on": "",
+        "animation_type": "none",
+        "image": "shopify:\/\/shop_images\/lanx-help-info-shoe-lasts.png",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 40,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_EnVzFU": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_AbtE3C": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHOP BY SiZE<\/p>",
+            "text_size": 8
+          }
+        },
+        "kicker_h4JQKC": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Women's - UK<\/p>",
+            "enable_caps": true,
+            "enable_line": false,
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_AbtE3C",
+        "kicker_h4JQKC"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_TtxpCe": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_XrGB9Q": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "3",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=3UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_j99KTf": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "3.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=3.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_4DgNkq": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "4",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=4UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_XrGB9Q",
+        "text_j99KTf",
+        "text_4DgNkq"
+      ],
+      "custom_css": [
+        ".standard__cta {width: 90%;}",
+        ".brick__block__text {padding: 0px; width: 100%; display: inline;}",
+        ".brick__block__text .text__standard {padding: 0px;}",
+        ".brick__section {min-height: 60px !important;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_AtRKKN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_V7KhUa": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "4.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=4.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_wXKkLF": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_4jWaxC": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "5.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=5.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_V7KhUa",
+        "text_wXKkLF",
+        "text_4jWaxC"
+      ],
+      "custom_css": [
+        ".standard__cta {width: 90%;}",
+        ".brick__block__text {padding: 0px; width: 100%; display: inline;}",
+        ".brick__block__text .text__standard {padding: 0px;}",
+        ".brick__section {min-height: 60px !important;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_aBfL6k": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_B7cNYp": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "6",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=6UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_WwYnmn": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "6.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=6.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_899WXg": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "7",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=7UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_B7cNYp",
+        "text_WwYnmn",
+        "text_899WXg"
+      ],
+      "custom_css": [
+        ".standard__cta {width: 90%;}",
+        ".brick__block__text {padding: 0px; width: 100%; display: inline;}",
+        ".brick__block__text .text__standard {padding: 0px;}",
+        ".brick__section {min-height: 60px !important;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_PhPVix": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_apwDUT": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "7.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=7.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_YhtCKp": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "8",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=8UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_Yjt9td": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "8.5",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=8.5UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_apwDUT",
+        "text_YhtCKp",
+        "text_Yjt9td"
+      ],
+      "custom_css": [
+        ".standard__cta {width: 90%;}",
+        ".brick__block__text {padding: 0px; width: 100%; display: inline;}",
+        ".brick__block__text .text__standard {padding: 0px;}",
+        ".brick__section {min-height: 60px !important;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_FCYRxd": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_k6MURY": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "9",
+            "button_url": "https:\/\/lanxshoes.com\/collections\/womens-footwear?filter.v.option.size=9UK&filter.v.availability=1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_k6MURY"
+      ],
+      "custom_css": [
+        ".standard__cta {width: 90%;}",
+        ".brick__block__text {padding: 0px; width: 100%; display: inline;}",
+        ".brick__block__text .text__standard {padding: 0px;}",
+        ".brick__section {min-height: 60px !important;}"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "94bcaba6-0503-4e58-b476-a2e69b7c2fb7",
+    "section_richtext_EnVzFU",
+    "section_custom_content_TtxpCe",
+    "section_custom_content_AtRKKN",
+    "section_custom_content_aBfL6k",
+    "section_custom_content_PhPVix",
+    "section_custom_content_FCYRxd"
+  ]
+}

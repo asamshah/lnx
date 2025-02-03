@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "section_video_446yri": {
+      "type": "section-video",
+      "blocks": {
+        "heading_wzdrYT": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>WALKING CLUB<\/p>",
+            "text_size": 12
+          }
+        },
+        "spacer_hBK8tA": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 10,
+            "show_line": false
+          }
+        },
+        "kicker_3mLwEU": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>HOW TO SIGN UP<\/p>",
+            "enable_caps": true,
+            "text_size": 4
+          }
+        },
+        "spacer_cGB668": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 30,
+            "show_line": false
+          }
+        },
+        "text_fY6QqB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us on one of our community walks, use the form below to sign up.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_wzdrYT",
+        "spacer_hBK8tA",
+        "kicker_3mLwEU",
+        "spacer_cGB668",
+        "text_fY6QqB"
+      ],
+      "settings": {
+        "animation_type": "none",
+        "height": "use_screen_one_fifth",
+        "color_bg": "palette--light bg--neutral",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c82751e5feb64d40a0a238041b49d2ec.mp4",
+        "video_link_bg_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c82751e5feb64d40a0a238041b49d2ec.mp4",
+        "object_position": "center-center",
+        "image": "shopify:\/\/shop_images\/lanx-walking-club-how-to-signup.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/lanx-walking-club-how-to-signup.jpg",
+        "text_align": "align--bottom-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "animations": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_html_fDEJz3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div class=\"klaviyo-form-YwGYMj\"><\/div>",
+        "width": "wrapper--none",
+        "padding_top": 30,
+        "padding_bottom": 10
+      }
+    },
+    "section_columns_j6WQqQ": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rcU3WV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Walk-Map-1.jpg",
+            "title": "LANX to PENDLE LOOP",
+            "text": "<p><strong>06\/07\/24<\/strong><\/p><p>Distance: 12.4 miles \/ 19 km<\/p><p>Elevation: 1,596 ft \/ 480 m <\/p><p>Bowland Bog Factor: 1-2\/4<\/p><p>Difficulty: Moderate <br\/><br\/>A long but worthwhile undertaking from Lanx HQ to the Nick of Pendle with an optional extension onto Pendle proper.  From Lanx turn right onto the main road and follow this for half a mile before turning right through a small wood and follow the old route of a Roman Road across the railway and past Clitheroe Golf Club.  A hop and a skip takes you across the A59 and into Pendleton (optional pint and bowl of chips at the Swan with Two Necks...) A footpath bears right out of Pendleton and through farmland towards the Nick of Pendle.  An optional loop here can take walkers to the seldom visited Deerstones and down to Churn Clough reservoir.  <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_mgMck3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Walk-Map-2-Full-Bowland.jpg",
+            "title": "FULL BOWLAND",
+            "text": "<p><strong>10\/08\/24<\/strong><\/p><p>Distance: 10.5 miles \/ 17 km<\/p><p>Elevation: 2,100 ft \/ 640 m<\/p><p>Bowland Bog Factor: 3\/4<\/p><p>Difficulty: Difficult<br\/><br\/>A tough route taking in the best of what the Forest of Bowland has to offer. Park at Langden Brook and head north up the Trough of Bowland. A trail on the right winds up Whin Fell before a challenging and exposed descent down Ouster Rake to Brennand Farm. The route then winds its way around Whitendale before bearing right up steep switchbacks into the classic bogginess of the Bowland Fells. At Dunsop Head, follow the fence line along to the trig point and past the site of a WWII Aircraft wreckage before heading back down into the Hodder Valley and back to the car before a well deserved drink at the Inn at Whitewell.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_WpLG4c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Walk_Map_3_Blackpool_Clevelys.jpg",
+            "title": "WALK WITH LANCASHIRE WOMEN",
+            "text": "<p><strong>15\/09\/24<\/strong><\/p><p>Walking With Lancashire Women Walk With Event - Blackpool to Cleveleys.<br\/><br\/>Start at 10am: The Venue, North Promenade, Cleveleys, Thornton-Cleveleys FY5 1LW<br\/><br\/>This year our walk is focusing on wellbeing, nobody should face mental health alone. By walking with us you will help us raise awareness of the importance of breaking mental health stigma.<br\/><br\/>The five ways to wellbeing include, being active, connecting, taking notice of the world and nature around – us our walk will help us all achieve all these and will positively influence your mental health and wellbeing<br\/><br\/>Let’s work together to make positive change in Lancashire for all!<br\/><br\/><a href=\"https:\/\/lancashirewomen.org\/fundraising_events\/walk-with-lancashire-women-2024\/\" title=\"https:\/\/lancashirewomen.org\/fundraising_events\/walk-with-lancashire-women-2024\/\">Find more info on their website here<\/a><\/p><p><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_block_qmHeab": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Walk_Map_Clitheroe_Pendle-Loop.jpg",
+            "title": "CLITHEROE PENDLE LOOP",
+            "text": "<p><strong>12\/10\/24<\/strong><\/p><p>MADWalkers in Lancashire. Collaborative event with youth charity to offer an opportunity to bring the city community to Clitheroe. Hosted by LANX.<br\/><br\/>Distance: 11.7 Miles \/ 18.8 km<\/p><p>Elevation: 1900 ft \/ 580 m<\/p><p>Bowland Bog Factor: 2\/4<\/p><p>Difficulty: Moderate<br\/><br\/>Take a stroll through the historic market town of Clitheroe before striking out through Mearley Hall to the open moorland and sweeping vistas of the iconic Pendle Hill. A short but sharp climb alongside Ashendean Clough brings you to the open expanse of the Pendle massif with a gentle (but, in classic Bowland fashion, boggy) climb to Big End. On a clear day, Pendle's prominence gives way to views to the Yorkshire Three Peaks, and if you are lucky, the Lake District. Down to Downham with an optional stop at the Assheton Arms for a pint. The route then takes you along the valley floor around Worsaw Hill and into Worston, before arriving back in Clitheroe.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rcU3WV",
+        "text_block_mgMck3",
+        "text_block_WpLG4c",
+        "text_block_qmHeab"
+      ],
+      "settings": {
+        "title": "UPCOMING WALKS",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "scale_image": false,
+        "aspect_ratio": 1,
+        "grid_large": 4,
+        "grid_medium": 4,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": true,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_video_446yri",
+    "section_html_fDEJz3",
+    "section_columns_j6WQqQ",
+    "main"
+  ]
+}

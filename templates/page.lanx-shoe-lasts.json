@@ -1,0 +1,415 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "94bcaba6-0503-4e58-b476-a2e69b7c2fb7": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790006169838__94bcaba6-0503-4e58-b476-a2e69b7c2fb7-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>SHOE LASTS<\/p>",
+            "text_size": 8
+          }
+        },
+        "template--16790006169838__94bcaba6-0503-4e58-b476-a2e69b7c2fb7-16843148706ff0ba0c-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Every pair of LANX shoes is manufactured on a 'shoe last', which gives it its distinctive shape and fit. Click on a link below to see which LANX styles are manufactured on each of our unique shoe lasts. Within the collection pages we also provide sizing advice for each shoe last.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--16790006169838__94bcaba6-0503-4e58-b476-a2e69b7c2fb7-16843148706ff0ba0c-1",
+        "template--16790006169838__94bcaba6-0503-4e58-b476-a2e69b7c2fb7-16843148706ff0ba0c-2"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-help-info-shoe-lasts.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "db39e56e-6ed0-4bd3-856c-914ffcd19710": {
+      "type": "section-richtext",
+      "blocks": {
+        "011a85da-9948-421b-a09c-fffb7bd4572a": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": true
+          }
+        }
+      },
+      "block_order": [
+        "011a85da-9948-421b-a09c-fffb7bd4572a"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "735dc8ff-ae23-4174-906f-3063b4c274e5": {
+      "type": "section-icons",
+      "blocks": {
+        "template--16758280126702__735dc8ff-ae23-4174-906f-3063b4c274e5-167810425635f4ce5c-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-A >",
+            "link_url": "shopify:\/\/collections\/lxa-last"
+          }
+        },
+        "ac1ce81d-66b3-43bf-af3e-b0e00c71b349": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-B >",
+            "link_url": "shopify:\/\/collections\/lxb-last"
+          }
+        },
+        "2baf7c3e-3c26-40c2-a736-dfb208467d0e": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-S >",
+            "link_url": "shopify:\/\/collections\/lxs-last"
+          }
+        },
+        "8a0eff77-5e86-49bb-aa72-87663222fa17": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-T >",
+            "link_url": "shopify:\/\/collections\/lxt-last"
+          }
+        },
+        "89c10e2b-f84d-4468-9486-3e83898ee8bd": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-K >",
+            "link_url": "shopify:\/\/collections\/lxk-last"
+          }
+        },
+        "8e5e5bc5-8100-42e2-bd31-37c2de46a499": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-U >",
+            "link_url": "shopify:\/\/collections\/lxu-last"
+          }
+        },
+        "ffe8f38c-d1fa-442a-8c37-41e1f40d7380": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-V >",
+            "link_url": "shopify:\/\/collections\/lxv-last"
+          }
+        },
+        "d9c5c9df-60ce-4dd7-9b19-c15735bd12f4": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-W >",
+            "link_url": "shopify:\/\/collections\/lxw-last"
+          }
+        },
+        "3d622fa8-a98c-4e75-bc04-96cb70cd2db9": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-X >",
+            "link_url": "shopify:\/\/collections\/lxx-last"
+          }
+        },
+        "db36df36-fc1a-43b6-8bc5-a9a8ed2bfb67": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-Y >",
+            "link_url": "shopify:\/\/collections\/lxy-last"
+          }
+        },
+        "196fdb3c-948f-49bf-8249-b819da88cec8": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-Z >",
+            "link_url": "shopify:\/\/collections\/lxz-last"
+          }
+        },
+        "b093b44a-2b48-4cdd-a1b0-49db6be88d51": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2B >",
+            "link_url": "shopify:\/\/collections\/lx2b-last"
+          }
+        },
+        "080d3957-62a4-47d0-a638-e5b78d1f3ee1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2C >",
+            "link_url": "shopify:\/\/collections\/lx2c-last"
+          }
+        },
+        "5e9abc71-baf5-440c-afab-1ae7c57813d0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2E >",
+            "link_url": "shopify:\/\/collections\/lx2e-last"
+          }
+        },
+        "efddcf9f-f0ca-4add-8487-ea25231fa50e": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2F >",
+            "link_url": "shopify:\/\/collections\/lx2f-last"
+          }
+        },
+        "d2f85942-af0d-48e4-a437-c657ada78f3f": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2G >",
+            "link_url": "shopify:\/\/collections\/lx2g-last"
+          }
+        },
+        "5c16b71d-ec61-4577-96ea-696e8c2d30ea": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2H >",
+            "link_url": "shopify:\/\/collections\/lx2h-last"
+          }
+        },
+        "ddd3bfb1-2511-4331-a75b-b144bbfeb668": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2I >",
+            "link_url": "shopify:\/\/collections\/lx2i-last"
+          }
+        },
+        "765d0d90-4784-45ae-a26b-480d5dd4fd47": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2J >",
+            "link_url": "shopify:\/\/collections\/lx2j-last"
+          }
+        },
+        "cf89c335-bdb4-4c0b-9244-b4ec49b0ac1a": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2K >",
+            "link_url": "shopify:\/\/collections\/lx2k-last"
+          }
+        },
+        "6ab18226-4cc0-4fb6-8c86-01ecf8464057": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2M >",
+            "link_url": "shopify:\/\/collections\/lx2m-last"
+          }
+        },
+        "ded7d4bf-cb26-44f6-865b-443d6d879c33": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2N >",
+            "link_url": "shopify:\/\/collections\/lx2n-last"
+          }
+        },
+        "5a388b90-731a-4fe9-a740-397248089ccd": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shoes",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "LX-2O >",
+            "link_url": "shopify:\/\/collections\/lx2o-last"
+          }
+        }
+      },
+      "block_order": [
+        "template--16758280126702__735dc8ff-ae23-4174-906f-3063b4c274e5-167810425635f4ce5c-0",
+        "ac1ce81d-66b3-43bf-af3e-b0e00c71b349",
+        "2baf7c3e-3c26-40c2-a736-dfb208467d0e",
+        "8a0eff77-5e86-49bb-aa72-87663222fa17",
+        "89c10e2b-f84d-4468-9486-3e83898ee8bd",
+        "8e5e5bc5-8100-42e2-bd31-37c2de46a499",
+        "ffe8f38c-d1fa-442a-8c37-41e1f40d7380",
+        "d9c5c9df-60ce-4dd7-9b19-c15735bd12f4",
+        "3d622fa8-a98c-4e75-bc04-96cb70cd2db9",
+        "db36df36-fc1a-43b6-8bc5-a9a8ed2bfb67",
+        "196fdb3c-948f-49bf-8249-b819da88cec8",
+        "b093b44a-2b48-4cdd-a1b0-49db6be88d51",
+        "080d3957-62a4-47d0-a638-e5b78d1f3ee1",
+        "5e9abc71-baf5-440c-afab-1ae7c57813d0",
+        "efddcf9f-f0ca-4add-8487-ea25231fa50e",
+        "d2f85942-af0d-48e4-a437-c657ada78f3f",
+        "5c16b71d-ec61-4577-96ea-696e8c2d30ea",
+        "ddd3bfb1-2511-4331-a75b-b144bbfeb668",
+        "765d0d90-4784-45ae-a26b-480d5dd4fd47",
+        "cf89c335-bdb4-4c0b-9244-b4ec49b0ac1a",
+        "6ab18226-4cc0-4fb6-8c86-01ecf8464057",
+        "ded7d4bf-cb26-44f6-865b-443d6d879c33",
+        "5a388b90-731a-4fe9-a740-397248089ccd"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--small",
+        "icon_alignment": "icon--left",
+        "layout": "grid--stacked",
+        "align_text": "text-left",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "7e66412f-fe8c-4327-8b25-e51b39ab76e9": {
+      "type": "section-richtext",
+      "blocks": {
+        "69cf947a-a3ce-46e4-a23e-021cc5014728": {
+          "type": "spacer",
+          "settings": {
+            "spacer_padding": 40,
+            "spacer_line_height": 1,
+            "show_line": true
+          }
+        }
+      },
+      "block_order": [
+        "69cf947a-a3ce-46e4-a23e-021cc5014728"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "94bcaba6-0503-4e58-b476-a2e69b7c2fb7",
+    "db39e56e-6ed0-4bd3-856c-914ffcd19710",
+    "735dc8ff-ae23-4174-906f-3063b4c274e5",
+    "7e66412f-fe8c-4327-8b25-e51b39ab76e9"
+  ]
+}

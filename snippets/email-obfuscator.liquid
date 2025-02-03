@@ -1,0 +1,37 @@
+<script>
+    /*
+    *
+    * EMAIL OBFUSCATOR
+    * Injects invisible dummy text to obfuscate email addresses
+    *
+    */
+
+    function randomString(length) {
+        var result = '';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Email Regex Pattern
+        var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b/g;
+
+        // Function to obfuscate the email
+        function obfuscateEmail(match) {
+        return match.replace('@', `<span class="dummy">${randomString(5)}</span>@`)
+                    .replace('.', `<span class="dummy">${randomString(5)}</span>.`);
+        }
+
+        // Search and Replace
+        var sections = document.querySelectorAll('section'); // Adjust this selector if needed
+        sections.forEach(function(section) {
+            var content = section.innerHTML;
+            section.innerHTML = content.replace(emailPattern, obfuscateEmail);
+        });
+    });
+
+</script>

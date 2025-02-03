@@ -1,0 +1,692 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "23fd6fcb-5c29-4255-9be1-e3d37043cd8c": {
+      "type": "video-section",
+      "settings": {
+        "vidtitle": "- PARTNERS -",
+        "videourl": "https:\/\/www.youtube.com\/embed\/SfaZP7b8iog",
+        "verticalpadding": 50
+      }
+    },
+    "87f0e3c2-e342-4d1e-ad94-e29d28da8b64": {
+      "type": "section-custom-content",
+      "blocks": {
+        "7db19550-5695-4fe2-bd16-34fc9495eaa1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLES_F_STEAD_LANX_24.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "e9e910f3-b24d-4884-a9db-0a6df6c8674c": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "LANX IS PROUD...",
+            "text": "<p>to work with a fantastic network of small independent partners who supply us with various; components, leathers, footwear, socks and clothing. Most are located in the UK and a few we have to jump on a plane to visit. Some of our partners are even located in the same village as us and pop round when they've run out of milk.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7db19550-5695-4fe2-bd16-34fc9495eaa1",
+        "e9e910f3-b24d-4884-a9db-0a6df6c8674c"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8c018f36-2768-4574-9ed9-63e397269847": {
+      "type": "section-custom-content",
+      "blocks": {
+        "aeef264e-ebba-4e16-a5d6-6ef44963f080": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Below is a selection of photos taken at some of the businesses and of the people we are proud to work in partnership with. Use the links further down this page to learn more about some of our suppliers and partners.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "7b96e14f-34a6-4e03-a46d-e546f80bd02f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MADE_IN_LANCASHIRE_ENGLAND_UNITED_KINGDOM_FOOTWEAR_BROGUES_BOOTS_17.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "aeef264e-ebba-4e16-a5d6-6ef44963f080",
+        "7b96e14f-34a6-4e03-a46d-e546f80bd02f"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c4de4136-58d3-4c2b-b0c4-580d4cf07794": {
+      "type": "section-custom-content",
+      "blocks": {
+        "8047501d-f345-4ccf-8f5b-48fc0d875ffb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_shoes_made_in_england_brogues_boots_trainers_sneakers.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "b3df02cf-905a-449e-8bad-2e701e68744f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_SOCKS_MEN_S_FOOTWEAR_MADE_IN_ENGLAND_4.2_fb9cd2c4-db81-45e5-8938-8d9c9d9362f0.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "5cf0cef2-813b-46b0-bcd7-676f6da5da9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_FACTORY_59.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "dd0cfb53-e659-4a6c-b516-077caaf354b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PROPER_SOCKS_LANX_SHOES_MENS_FOOTWEAR_5_6fe359ab-4e03-459c-a919-cf3d4b1b0c5f.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "8047501d-f345-4ccf-8f5b-48fc0d875ffb",
+        "b3df02cf-905a-449e-8bad-2e701e68744f",
+        "5cf0cef2-813b-46b0-bcd7-676f6da5da9d",
+        "dd0cfb53-e659-4a6c-b516-077caaf354b0"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3ed1c086-7d32-4b5d-ba2d-267efb137725": {
+      "type": "section-custom-content",
+      "blocks": {
+        "107371ca-fc7e-4a32-b65e-40739d533c7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_9.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "0fcd68f2-74b1-4ab1-9a13-aeddd1cb08a4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PROPER_SOCKS_LANX_SHOES_MENS_FOOTWEAR_9210a77c-79ca-40ab-aec2-831b4b2f664a.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "89a83a2b-88b2-4da6-b1bb-accd63bc33a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_socks_made_in_england_14.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "4996c3c0-de84-4fe3-9764-1d456a367263": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_18.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "107371ca-fc7e-4a32-b65e-40739d533c7b",
+        "0fcd68f2-74b1-4ab1-9a13-aeddd1cb08a4",
+        "89a83a2b-88b2-4da6-b1bb-accd63bc33a8",
+        "4996c3c0-de84-4fe3-9764-1d456a367263"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b3247ef3-5eea-4b1b-a9ad-76b9bbddd409": {
+      "type": "section-custom-content",
+      "blocks": {
+        "48606227-1e16-4220-ae7a-6efa3a332514": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx_proper_socks_made_in_england_5.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "3cf4e522-266f-4f7a-aee1-cb4dbef63282": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_CLOTHING_BROGUES_BOOTS_198.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "03c91b6f-6757-4282-bec1-d9d4dba37067": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_16.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "a7a9a3b0-5659-4895-9e64-906b1905ce58": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MES_FOOTWEAR_AW18_PHOTOSHOOT_164.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "48606227-1e16-4220-ae7a-6efa3a332514",
+        "3cf4e522-266f-4f7a-aee1-cb4dbef63282",
+        "03c91b6f-6757-4282-bec1-d9d4dba37067",
+        "a7a9a3b0-5659-4895-9e64-906b1905ce58"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "060494bc-b237-4376-80a9-0714855c6a2e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "98a05f0a-308b-44ca-b15e-22e380a3c199": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_5.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "adeab7d2-5073-42b6-a45a-3ddce8518a37": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_19.2.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "eee1cb05-c25f-4139-9381-359ee1093361": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_2.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "09605fe2-bbe8-4ac7-ba69-05a543ed191f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BENJAMIN_THORBER_AND_SONS_LANX_PROPER_SHOES_TWEED_10.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "98a05f0a-308b-44ca-b15e-22e380a3c199",
+        "adeab7d2-5073-42b6-a45a-3ddce8518a37",
+        "eee1cb05-c25f-4139-9381-359ee1093361",
+        "09605fe2-bbe8-4ac7-ba69-05a543ed191f"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "eacffe0c-e842-44ee-8965-3bc0099635c2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "0990fab0-58a6-4a1f-bd79-ddd4b03fe40a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_FACTORY_SUPPLIERS_PROPER_SHOES_MENS_FOOTWEAR_3.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "b1bd6f30-d894-4966-a78c-097e41eae8b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_24-04-2018_10_49_41_preview.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "bb3921d6-9e53-4b2b-a92f-fd07e816d4e1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PROPER_SOCKS_LANX_SHOES_MENS_FOOTWEAR_5_cf06e084-86e5-4150-be1a-24f1f4ca97ec.jpeg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "SOCKS",
+            "link": "shopify:\/\/pages\/proper-socks",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "0416a7bd-d0a2-4785-9bda-e802977a37fc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BENJAMIN_THORBER_AND_SONS_LANX_PROPER_SHOES_TWEED_3_145f1aba-7f09-4814-a127-4385ebf1c621.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "TWEED",
+            "link": "shopify:\/\/pages\/benjamin-thornber-sons",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "0990fab0-58a6-4a1f-bd79-ddd4b03fe40a",
+        "b1bd6f30-d894-4966-a78c-097e41eae8b2",
+        "bb3921d6-9e53-4b2b-a92f-fd07e816d4e1",
+        "0416a7bd-d0a2-4785-9bda-e802977a37fc"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3e632dc6-f22f-4d3a-a368-72667688b7de": {
+      "type": "section-custom-content",
+      "blocks": {
+        "4eee1f58-53f2-4a7b-b36e-3104fa6f054e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_YARN_DYING_2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "COTTON",
+            "link": "shopify:\/\/pages\/our-cotton",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "ec1ee3a7-3858-4411-82bd-3c032cdcbb03": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_CLOTHING_BROGUES_BOOTS_138.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "HOW WE MAKE SHOES",
+            "link": "shopify:\/\/pages\/how-we-make",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "8676b287-13cb-464b-ae70-9722420bff34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MADE_IN_LANCASHIRE_ENGLAND_UNITED_KINGDOM_FOOTWEAR_BROGUES_BOOTS_22.2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "PARTNER FACTORIES",
+            "link": "shopify:\/\/pages\/manufacturing",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        },
+        "18efafd0-847c-4f7f-84b7-52d45adb877b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LANX_PROPER_SHOES_MENS_FOOTWEAR_CLOTHING_BROGUES_BOOTS_6_219cbd9c-02be-4bb0-aaea-5c73a21c16e0.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "HOW WE DESIGN SHOES",
+            "link": "shopify:\/\/pages\/how-we-design",
+            "button_color": "btn--white",
+            "button_style": "btn--soft uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "4eee1f58-53f2-4a7b-b36e-3104fa6f054e",
+        "ec1ee3a7-3858-4411-82bd-3c032cdcbb03",
+        "8676b287-13cb-464b-ae70-9722420bff34",
+        "18efafd0-847c-4f7f-84b7-52d45adb877b"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "23fd6fcb-5c29-4255-9be1-e3d37043cd8c",
+    "87f0e3c2-e342-4d1e-ad94-e29d28da8b64",
+    "8c018f36-2768-4574-9ed9-63e397269847",
+    "c4de4136-58d3-4c2b-b0c4-580d4cf07794",
+    "3ed1c086-7d32-4b5d-ba2d-267efb137725",
+    "b3247ef3-5eea-4b1b-a9ad-76b9bbddd409",
+    "060494bc-b237-4376-80a9-0714855c6a2e",
+    "eacffe0c-e842-44ee-8965-3bc0099635c2",
+    "3e632dc6-f22f-4d3a-a368-72667688b7de"
+  ]
+}

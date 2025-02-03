@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "blog_show_meta": false,
+        "tags": false,
+        "color_bg": "palette--light bg--neutral",
+        "social": false,
+        "share_label": "Share",
+        "image_height": "use_screen_one_half",
+        "bg_position": "center-center",
+        "sidebar_tags": false,
+        "recent": true,
+        "aspect_ratio": 1,
+        "show_author": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

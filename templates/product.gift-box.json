@@ -1,0 +1,418 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_rating": true,
+            "rating_type": "app"
+          }
+        },
+        "6b6b9584-15f0-41ba-a3cf-edc164e39bb4": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "truncate_lines": 2
+          }
+        },
+        "usp_46UdnK": {
+          "type": "usp",
+          "settings": {}
+        },
+        "3822fd5d-4226-43a3-875c-b68b5e736d72": {
+          "type": "product-meta",
+          "disabled": true,
+          "settings": {}
+        },
+        "f6b37086-9b69-43e1-8ead-e41aa4b2cb0d": {
+          "type": "siblings",
+          "disabled": true,
+          "settings": {
+            "siblings_collection": "",
+            "cutline": ""
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "disabled": true,
+          "settings": {
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": false
+          }
+        },
+        "2ba91a27-1559-4ff0-b968-1cb12f08050f": {
+          "type": "countdown",
+          "settings": {
+            "pre_countdown": "Order in",
+            "post_countdown": "To select UK express shipping",
+            "deliveryhours": "Hours",
+            "deliveryminutes": "Mins",
+            "deliveryseconds": "Secs",
+            "cutoff_time": 14
+          }
+        },
+        "fit_message_xtYRzK": {
+          "type": "fit-message",
+          "settings": {
+            "fit_message_smaller": "Fits slightly smaller than usual, we would suggest going up a size or half size.",
+            "fit_message_standard": "Standard fit, order your usual size.",
+            "fit_message_larger": "Fits slightly larger than usual, we would suggest going down a size or half size."
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true
+          }
+        },
+        "product_usps_gLqKfr": {
+          "type": "product-usps",
+          "settings": {
+            "display_on": "tablet-only"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_tXD969": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SPTmmK"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_ciTfY3": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "Rxs7T6"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_3LCG6X": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "THDgwF"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_RbjR6K": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "R3wcRG"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_rGRmBr": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "RxbeU5"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_XyUtpe": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "V9Zpi4"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_UpnVEU": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "RPk37C"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_kV9phq": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "WYREJS"
+          }
+        },
+        "text_wtkxTh": {
+          "type": "text",
+          "settings": {
+            "title": "<p>FREE UK SHIPPING • FREE EXCHANGES<\/p>"
+          }
+        },
+        "46e12ded-1c72-43be-95c2-22c5f45853eb": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "16",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "8dac712b-278b-44a3-b1fe-29058ebbb904": {
+          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
+          "settings": {
+            "text_align": "left",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "#010203",
+            "size": "xs",
+            "intro_text": "Pay in",
+            "show_interest_free": false,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "compact-badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "learn-more-text",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 30,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": false,
+            "show_upper_limit": false,
+            "show_if_outside_limits": false,
+            "product": "{{ product }}"
+          }
+        },
+        "accordion_tabs_H8BmTY": {
+          "type": "accordion-tabs",
+          "settings": {
+            "style": "accordions",
+            "title_1": "Craftsmanship",
+            "icon_name_1": "",
+            "raw_content_1": "{{ product.metafields.product.information | metafield_tag }}",
+            "title_2": "Sizing",
+            "icon_name_2": "",
+            "raw_content_2": "{{ section.settings.collection.metafields.custom.sizing | metafield_tag }}<p><a href=\"https:\/\/lanxshoes.com\/pages\/sizing-advice\" title=\"https:\/\/lanxshoes.com\/pages\/sizing-advice\">UK \/ EU \/ US - SIZE CONVERSION CHART<\/a><\/p>",
+            "title_3": "Built to Last",
+            "icon_name_3": "",
+            "raw_content_3": "<p>Our commitment to sustainability has seen us develop a shoe repair and resoling service for all LANX customers to benefit from. We have a dedicated customer service team and external partners on hand to assist with all your shoe care needs and enquiries.<br\/><br\/>Shoes are similar to cars, if you give them the correct attention and maintenance, they look great, stay on the road and provide you with many years of good service. When the time comes, we are here to advise and help. For further shoe care information <a href=\"https:\/\/lanxshoes.com\/pages\/lanx-shoe-care\" title=\"SHOE CARE & REPAIR\">click here<\/a>.<\/p>",
+            "title_4": "Shipping & Returns",
+            "icon_name_4": "",
+            "raw_content_4": "<h5><strong>SHIPPING<\/strong><\/h5><p><strong>UK<\/strong><\/p><p>Standard - Royal Mail (4-5 days) - £0<br\/>Express - Royal Mail (1-2 days) - £5.95<br\/>Express - DPD (1-2 days) - £8.00<br\/>Express - DHL (1-2 days) - £12.00<\/p><p><strong>EUROPE<\/strong><\/p><p>Standard - Royal Mail (7-10 days) - £10<br\/>Premium - DHL (5-7 days) - £15<\/p><p><strong>REST OF WORLD<\/strong><\/p><p>Standard - Royal Mail (10-14 days) - £25<br\/>Premium - DHL (5-7 days) - £40<\/p><h5><br\/>RETURNS<\/h5><p>We also offer a very simple returns and exchange service. Orders may be returned provided the product is back at LANX within 14 days of you receiving, has not been worn and is in its original condition and packaging. To return or exchange orders <a href=\"https:\/\/lanxshoes.com\/pages\/returns-exchanges\" title=\"- RETURNS, EXCHANGES & REPAIRS -\">click here<\/a>.<\/p><h5><strong><br\/>CHRISTMAS<\/strong><\/h5><p>Christmas extended exchange period: Items purchased between the 31 October to the 31 December are entitled to an extended exchange period. This extended exchange period ends at midnight on the 15 January. Customers may request an exchange for product or credit on a future order. Please note, the normal 14 days return for refund policy still applies on all orders.<\/p><p><a href=\"https:\/\/lanxshoes.com\/pages\/shipping\" title=\"https:\/\/lanxshoes.com\/pages\/shipping\">CHRISTMAS DELIVERY INFORMATION<\/a><br\/><br\/><\/p>",
+            "title_5": "CONTACT",
+            "icon_name_5": "",
+            "raw_content_5": "<p>Need some help?<br\/><br\/>Email: hello@lanxshoes.com<\/p>"
+          }
+        },
+        "upsell_YFWFWr": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "title": "DON’T FORGET YOUR SOCKS",
+            "upsell_type": "product_single",
+            "product": "",
+            "upsell_product_list": [],
+            "upsell_list_limit": 1
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "6b6b9584-15f0-41ba-a3cf-edc164e39bb4",
+        "usp_46UdnK",
+        "3822fd5d-4226-43a3-875c-b68b5e736d72",
+        "f6b37086-9b69-43e1-8ead-e41aa4b2cb0d",
+        "variants",
+        "quantity",
+        "2ba91a27-1559-4ff0-b968-1cb12f08050f",
+        "fit_message_xtYRzK",
+        "buttons",
+        "product_usps_gLqKfr",
+        "klaviyo_email_marketing_sms_form_embed_block_tXD969",
+        "klaviyo_email_marketing_sms_form_embed_block_ciTfY3",
+        "klaviyo_email_marketing_sms_form_embed_block_3LCG6X",
+        "klaviyo_email_marketing_sms_form_embed_block_RbjR6K",
+        "klaviyo_email_marketing_sms_form_embed_block_rGRmBr",
+        "klaviyo_email_marketing_sms_form_embed_block_XyUtpe",
+        "klaviyo_email_marketing_sms_form_embed_block_UpnVEU",
+        "klaviyo_email_marketing_sms_form_embed_block_kV9phq",
+        "text_wtkxTh",
+        "46e12ded-1c72-43be-95c2-22c5f45853eb",
+        "8dac712b-278b-44a3-b1fe-29058ebbb904",
+        "accordion_tabs_H8BmTY",
+        "upsell_YFWFWr"
+      ],
+      "custom_css": [
+        "p,.p {font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));}",
+        ".product__block__countdown {margin-bottom: 1rem;}",
+        ".product__block__text {text-align: center; border: solid #b2b2b2 1px; padding: 0.7rem;}",
+        "a {text-decoration: underline;}"
+      ],
+      "settings": {
+        "collection": "{{ product.metafields.custom.parent_collection.value }}"
+      }
+    },
+    "product_collection_info_Mqcg74": {
+      "type": "product-collection-info",
+      "custom_css": [],
+      "settings": {
+        "collection": "{{ product.metafields.custom.parent_collection.value }}",
+        "usps_display_on": "desktop-only"
+      }
+    },
+    "section_hero_hjgcFj": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "display_on": "desktop-only",
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/image_1.jpg",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "product_manual_reviews_i3Etnc": {
+      "type": "product-manual-reviews",
+      "custom_css": [
+        "@media screen and (min-width: 768px) {.product-manual-reviews {margin-top: 40px; }}"
+      ],
+      "settings": {
+        "collection": "{{ product.metafields.custom.parent_collection.value }}",
+        "title": "EXCELLENT REVIEWS",
+        "image": "shopify:\/\/shop_images\/customer-reviews.jpg"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 6,
+        "grid_medium": 4,
+        "grid_small": 2.1,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "SUGGESTED",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 6,
+        "product_recently_heading": "VIEWED",
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "product_instagram_7ihzkP": {
+      "type": "product-instagram",
+      "blocks": {
+        "post_4DbdkJ": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/as-worn_58d966a7-c719-41f4-9c7c-19570c8e1755.jpg",
+            "handle": "lloydevansphoto"
+          }
+        },
+        "post_V7cffy": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/as-worn-4.jpg",
+            "handle": "lydia_cooke"
+          }
+        },
+        "post_DJi4BY": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/as-worn-2.jpg",
+            "handle": "ryanholland_adventures"
+          }
+        },
+        "post_TtTaX8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/as-worn-3.jpg",
+            "handle": "dariashew"
+          }
+        }
+      },
+      "block_order": [
+        "post_4DbdkJ",
+        "post_V7cffy",
+        "post_DJi4BY",
+        "post_TtTaX8"
+      ],
+      "settings": {
+        "collection": "{{ product.metafields.custom.parent_collection.value }}",
+        "title": "GET 'EM WORN"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": true,
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1724254286bbd27595": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_bW8mUn": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#010203",
+            "review_type": "product_review,questions",
+            "per_page": 8,
+            "primary_btn_bg_color": "#010203",
+            "primary_btn_border_color": "#010203",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#010203",
+            "secondary_btn_text_color": "#010203",
+            "border_color": "#010203",
+            "heading_text_color": "#010203",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#010203",
+            "badge_icon_color": "#010203",
+            "badge_text_color": "#010203",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "highest_rating"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_bW8mUn"
+      ],
+      "custom_css": [
+        ".R-PaginationControls > div:last-child {display: none;}",
+        ".footer__reviewsLogo {display: none;}",
+        ".ElementsWidget__subheader {display: none;}"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_collection_info_Mqcg74",
+    "section_hero_hjgcFj",
+    "product_manual_reviews_i3Etnc",
+    "related",
+    "product_instagram_7ihzkP",
+    "reviews",
+    "1724254286bbd27595"
+  ]
+}

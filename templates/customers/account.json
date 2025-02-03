@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "d511c531-19f5-4764-8470-af30a7a59224": {
+      "type": "section-richtext",
+      "blocks": {
+        "a5288371-c411-40c3-9a21-7117ba66d268": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/loyalty-points-view.png",
+            "image_max_limit": 250,
+            "link": "shopify:\/\/pages\/loyalty-credits"
+          }
+        },
+        "button_xEhq3A": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SEE LOYALTY CREDITS",
+            "link_1": "shopify:\/\/pages\/loyalty-credits",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "a5288371-c411-40c3-9a21-7117ba66d268",
+        "button_xEhq3A"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "customer-account",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "d511c531-19f5-4764-8470-af30a7a59224",
+    "main"
+  ]
+}

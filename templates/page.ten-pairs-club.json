@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "animation_type": "hero",
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e36e2ffb-51a0-418e-9df0-2d606ccba0f5": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>10 PAIRS CLUB<\/p>",
+            "text_size": 10
+          }
+        },
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>The LANX 10 Pairs Club is our way of thanking our loyal customers for purchasing their 10th pair of LANX shoes. Please email us after purchasing your 10th pair and we will add £250 credit to your LANX loyalty account.<br\/><br\/>To see how many pairs of shoes you have purchased to date please log into your LANX Loyalty account using the link below. Please log in using the same email address with which you place your orders.<br\/><br\/><em>Please note: Only purchases made from 01.01.21 onwards will count towards your 10 pairs total. We don't allow orders from multiple accounts to be combined. The 10 pairs must be purchased by 1 singular account. Discounted sample pairs of shoes purchased at the LANX shop or at events do not count towards the 10 Pairs Club total. <\/em><\/p>",
+            "text_size": 3
+          }
+        },
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "CREATE ACCOUNT",
+            "link_1": "https:\/\/lanxshoes.com\/account\/register",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-1",
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-2",
+        "template--16790005842158__e36e2ffb-51a0-418e-9df0-2d606ccba0f5-1684340757f8fed7eb-3"
+      ],
+      "custom_css": [
+        ".bloop {display: none;}"
+      ],
+      "settings": {
+        "animation_type": "hero",
+        "image": "shopify:\/\/shop_images\/lanx-about-dna-heel-rose.png",
+        "height": "use_screen_full",
+        "overlay_opacity": 90,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e36e2ffb-51a0-418e-9df0-2d606ccba0f5"
+  ]
+}

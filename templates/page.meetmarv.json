@@ -1,0 +1,320 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "53262feb-2c37-4b96-a262-c641badedfcb": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16790007644398__53262feb-2c37-4b96-a262-c641badedfcb-16843148706ff0ba0c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>MEET: MARV<\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007644398__53262feb-2c37-4b96-a262-c641badedfcb-16843148706ff0ba0c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-help-info-sizing-advice.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "404ae84d-8abb-4c4c-b257-0ef3ba67c123": {
+      "type": "section-double",
+      "blocks": {
+        "template--16790007644398__404ae84d-8abb-4c4c-b257-0ef3ba67c123-168431704944405027-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--16790007644398__404ae84d-8abb-4c4c-b257-0ef3ba67c123-168431704944405027-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "MY NAME IS MARV...",
+            "text": "<p>and I am proud to be the Founder of LANX. In a nutshell; I’m thirty-something-years-old, fascinated by sumo wrestling, play rugby (although I can’t tackle), like my peanut butter crunchy, I once lived on a deserted Fijian island and my goal in life is to become Andrea Pirlo.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16790007644398__404ae84d-8abb-4c4c-b257-0ef3ba67c123-168431704944405027-1",
+        "template--16790007644398__404ae84d-8abb-4c4c-b257-0ef3ba67c123-168431704944405027-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "8b42d703-1c2b-4ebe-8f6f-00f3e0968cd2": {
+      "type": "section-double",
+      "blocks": {
+        "ccda3782-8996-4d9a-9a06-4489af6f7e0b": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "LIKE LANX I AM ENGLISH...",
+            "text": "<p>with international influence. I am proud to be a \"Northerner\". My family are from Blackburn, Bolton and Preston, all working class towns in Lancashire, except my grandfather, Alberto, who is from Italy.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "ff37f194-1662-4ad6-93a0-594c8a262359": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-2.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "ccda3782-8996-4d9a-9a06-4489af6f7e0b",
+        "ff37f194-1662-4ad6-93a0-594c8a262359"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "57c20924-b2be-4ccf-a649-d92afc73fa7b": {
+      "type": "section-double",
+      "blocks": {
+        "cdd87e51-a01c-4c8d-968c-181e75a7b164": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-3.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "474e300b-9466-4a54-8695-0850f0ec8598": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "BEING CREATIVE IS IN MY BLOOD...",
+            "text": "<p>My Grandfather was born in a small village called Caprese Michelangelo, the birthplace of the renowned artist Michelangelo. He left Italy after the war in search of work and ended up in Lancashire. In 1971 my grandparents started designing and making furniture in their garden shed and during my school holidays I would help out.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "cdd87e51-a01c-4c8d-968c-181e75a7b164",
+        "474e300b-9466-4a54-8695-0850f0ec8598"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "73ae1889-2608-4920-a452-2b02310a7878": {
+      "type": "section-double",
+      "blocks": {
+        "d2df99c7-ee98-451a-9873-600b318ff87d": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "SO WHY SHOES?",
+            "text": "<p>After Uni I got into events, then marketing. I was approached by a few footwear companies to assist with their own marketing activities, I enjoyed the projects and thought I’d give it a go myself. However, I quickly discovered that creating unique and quality footwear is a lot more difficult than it looked. It required a lot of experience and contacts to bring a project together. So to be very honest I gave the idea up.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "0dbb10de-6222-47bc-adf8-175baead132b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-4.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "d2df99c7-ee98-451a-9873-600b318ff87d",
+        "0dbb10de-6222-47bc-adf8-175baead132b"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4e92a537-b8cb-4390-b35a-c32d9bbdd7bf": {
+      "type": "section-double",
+      "blocks": {
+        "a66246fd-2aec-4d84-b467-78b4b4d45650": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lanx-help-info-meet-marv-5.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "201b4119-a91b-41d7-b676-7a1aa0cf85f6": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "HOWEVER, ON THE 26 JULY 2016...",
+            "text": "<p>I changed my mind and set off on an adventure, the purpose of which was to have the best time of my life and learn everything I could about making Proper Shoes. I needed to learn fast, so I dedicated 6 months of my life to; visiting factories, meeting designers and working alongside craftsmen. To learn more about my trip click on the link below.<\/p>",
+            "font_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SOLE PURPOSE",
+            "button_url": "shopify:\/\/pages\/sole-purpose",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "a66246fd-2aec-4d84-b467-78b4b4d45650",
+        "201b4119-a91b-41d7-b676-7a1aa0cf85f6"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 20,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "53262feb-2c37-4b96-a262-c641badedfcb",
+    "404ae84d-8abb-4c4c-b257-0ef3ba67c123",
+    "8b42d703-1c2b-4ebe-8f6f-00f3e0968cd2",
+    "57c20924-b2be-4ccf-a649-d92afc73fa7b",
+    "73ae1889-2608-4920-a452-2b02310a7878",
+    "4e92a537-b8cb-4390-b35a-c32d9bbdd7bf"
+  ]
+}

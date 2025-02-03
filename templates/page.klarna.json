@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lanx-help-info-klarna_82d6b5ec-792e-483c-9cb6-2069db91db63.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--neutral",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "168504034592e9ac4e": {
+      "type": "apps",
+      "blocks": {
+        "247d7a57-866d-481c-a327-19468ddf4a5f": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "info-page",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        }
+      },
+      "block_order": [
+        "247d7a57-866d-481c-a327-19468ddf4a5f"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "02b5aeba-4a50-4a45-9a1d-4c178ac2ee1b",
+    "168504034592e9ac4e"
+  ]
+}
